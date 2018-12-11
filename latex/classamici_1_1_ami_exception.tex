@@ -1,0 +1,152 @@
+\hypertarget{classamici_1_1_ami_exception}{}\subsection{Ami\+Exception Class Reference}
+\label{classamici_1_1_ami_exception}\index{Ami\+Exception@{Ami\+Exception}}
+
+
+amici exception handler class  
+
+
+
+
+{\ttfamily \#include $<$exception.\+h$>$}
+
+
+
+Inheritance diagram for Ami\+Exception\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_ami_exception__inherit__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_exception_a002ee872acedd472df0550357a67393c}{Ami\+Exception}} (char const $\ast$fmt,...)
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_exception_a0e9ee88cdcbd1965e44d2d94cc6eb16e}{Ami\+Exception}} (const \mbox{\hyperlink{classamici_1_1_ami_exception}{Ami\+Exception}} \&old)
+\item 
+const char $\ast$ \mbox{\hyperlink{classamici_1_1_ami_exception_a79009ed133fa02b942ddce8f0b987f3e}{what}} () const  throw ()
+\item 
+const char $\ast$ \mbox{\hyperlink{classamici_1_1_ami_exception_abd4eec3294e3af56ff54130ca3f2dea9}{get\+Backtrace}} () const
+\item 
+void \mbox{\hyperlink{classamici_1_1_ami_exception_a795d2a9009cbc53d5a602e621a3a6450}{store\+Backtrace}} (const int n\+Max\+Frames)
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+has a printf style interface to allow easy generation of error messages 
+
+Definition at line 29 of file exception.\+h.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_ami_exception_a002ee872acedd472df0550357a67393c}\label{classamici_1_1_ami_exception_a002ee872acedd472df0550357a67393c}} 
+\index{amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}!Ami\+Exception@{Ami\+Exception}}
+\index{Ami\+Exception@{Ami\+Exception}!amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}}
+\paragraph{\texorpdfstring{Ami\+Exception()}{AmiException()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_exception}{Ami\+Exception}} (\begin{DoxyParamCaption}\item[{char const $\ast$}]{fmt,  }\item[{}]{... }\end{DoxyParamCaption})}
+
+constructor with printf style interface 
+\begin{DoxyParams}{Parameters}
+{\em fmt} & error message with printf format \\
+\hline
+{\em ...} & printf formating variables\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file exception.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{classamici_1_1_ami_exception_a002ee872acedd472df0550357a67393c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_ami_exception_a0e9ee88cdcbd1965e44d2d94cc6eb16e}\label{classamici_1_1_ami_exception_a0e9ee88cdcbd1965e44d2d94cc6eb16e}} 
+\index{amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}!Ami\+Exception@{Ami\+Exception}}
+\index{Ami\+Exception@{Ami\+Exception}!amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}}
+\paragraph{\texorpdfstring{Ami\+Exception()}{AmiException()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_exception}{Ami\+Exception}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classamici_1_1_ami_exception}{Ami\+Exception}} \&}]{old }\end{DoxyParamCaption})}
+
+copy constructor 
+\begin{DoxyParams}{Parameters}
+{\em old} & object to copy from\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file exception.\+h.
+
+
+
+\subsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_ami_exception_a79009ed133fa02b942ddce8f0b987f3e}\label{classamici_1_1_ami_exception_a79009ed133fa02b942ddce8f0b987f3e}} 
+\index{amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}!what@{what}}
+\index{what@{what}!amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}}
+\paragraph{\texorpdfstring{what()}{what()}}
+{\footnotesize\ttfamily const char$\ast$ what (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const throw  ) }
+
+override of default error message function \begin{DoxyReturn}{Returns}
+msg error message 
+\end{DoxyReturn}
+
+
+Definition at line 54 of file exception.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_ami_exception_a79009ed133fa02b942ddce8f0b987f3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_ami_exception_abd4eec3294e3af56ff54130ca3f2dea9}\label{classamici_1_1_ami_exception_abd4eec3294e3af56ff54130ca3f2dea9}} 
+\index{amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}!get\+Backtrace@{get\+Backtrace}}
+\index{get\+Backtrace@{get\+Backtrace}!amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}}
+\paragraph{\texorpdfstring{get\+Backtrace()}{getBacktrace()}}
+{\footnotesize\ttfamily const char$\ast$ get\+Backtrace (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+returns the stored backtrace \begin{DoxyReturn}{Returns}
+trace backtrace 
+\end{DoxyReturn}
+
+
+Definition at line 61 of file exception.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_ami_exception_abd4eec3294e3af56ff54130ca3f2dea9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_ami_exception_a795d2a9009cbc53d5a602e621a3a6450}\label{classamici_1_1_ami_exception_a795d2a9009cbc53d5a602e621a3a6450}} 
+\index{amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}!store\+Backtrace@{store\+Backtrace}}
+\index{store\+Backtrace@{store\+Backtrace}!amici\+::\+Ami\+Exception@{amici\+::\+Ami\+Exception}}
+\paragraph{\texorpdfstring{store\+Backtrace()}{storeBacktrace()}}
+{\footnotesize\ttfamily void store\+Backtrace (\begin{DoxyParamCaption}\item[{const int}]{n\+Max\+Frames }\end{DoxyParamCaption})}
+
+stores the current backtrace 
+\begin{DoxyParams}{Parameters}
+{\em n\+Max\+Frames} & number of frams to go back in stacktrace \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 68 of file exception.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{classamici_1_1_ami_exception_a795d2a9009cbc53d5a602e621a3a6450_icgraph}
+\end{center}
+\end{figure}

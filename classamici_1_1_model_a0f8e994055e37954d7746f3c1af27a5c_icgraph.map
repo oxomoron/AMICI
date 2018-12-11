@@ -1,0 +1,27 @@
+<map id="nplist" name="nplist">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a6b1c331013c5947e77129cb4da82713e" title="fsy" alt="" coords="182,5,221,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a6c533c9b3476d81336d1758a817d0746" title="fsz_tf" alt="" coords="175,56,228,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a5fb9c238393913d05fed401af5b7f201" title="fsJy" alt="" coords="179,107,224,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#aa1f1b2d47c20bcf7147cd3b9149109d3" title="fsJz" alt="" coords="179,157,224,185"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a82941b121d9db31d357642092a2cd41d" title="Set the initial state sensitivities. " alt="" coords="115,208,287,235"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a01b01e15d5cac9cec911a30f65e327f8" title="Set the nplist&#45;dependent vectors to their proper sizes. " alt="" coords="145,259,258,286"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#ae977a1364eb91b11b7a1f6f63c0c4547" title="fsz" alt="" coords="182,309,221,337"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#a5ddd801e9951f8057c2cfd8c66a27c42" title="fsrz" alt="" coords="180,360,223,387"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#acd0838d3644e9232cc2e65d7a8c956cf" title="fdsigmaydp" alt="" coords="157,411,246,438"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#a0c9fd2d7e184d44745130d7ffa2a0075" title="fdsigmazdp" alt="" coords="157,461,246,489"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model.html#a2a774934ab3b0a22a706f6328dd95597" title="fsres" alt="" coords="176,512,226,539"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model.html#aba7a1237e503813d9ec7ca56413f1e1d" title="fFIM" alt="" coords="177,563,225,590"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model.html#ae808a142aab292ef1b424bc3a0d924a0" title="getsx" alt="" coords="175,613,228,641"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model.html#a78863f621eda7016ab7136a357dacdaf" title="getsz" alt="" coords="175,664,228,691"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model.html#a49336e5923942fc5b4b26d6facf90b1d" title="getsrz" alt="" coords="172,715,230,742"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model___d_a_e.html#a551dfccd2fb1aa618c644a580639f5b8" title="amici::Model_DAE::fdxdotdp" alt="" coords="107,765,296,793"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model___o_d_e.html#a371aa66b99b1b3b20ed2e533d9b44870" title="amici::Model_ODE::fdxdotdp" alt="" coords="106,816,297,843"/>
+<area shape="rect" id="node26" href="$classamici_1_1_newton_solver.html#a90d4823c7b8373d9aaccba80c930a7c7" title="amici::NewtonSolver\l::computeNewtonSensis" alt="" coords="119,867,284,910"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a2afe974183e4bccaf746f6409941fe8f" title="Set the list of parameters for which sensitivities are computed. " alt="" coords="379,229,501,257"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a9b03cc8dbac85d38ced3f59234ba27d9" title="Require computation of sensitivities for all parameters p [0..np[ in natural order. " alt="" coords="356,280,524,323"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#ac267e6f3e952e5c924047c742bf0c5a7" title="Model" alt="" coords="584,288,642,315"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model___d_a_e.html#a26e76f86f173a718466c9cc19d68550a" title="amici::Model_DAE::fsxdot" alt="" coords="353,715,527,742"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model___d_a_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_DAE::fdxdotdp" alt="" coords="346,765,535,793"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="amici::Model_ODE::fsxdot" alt="" coords="353,816,528,843"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model___o_d_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_ODE::fdxdotdp" alt="" coords="345,867,536,894"/>
+</map>

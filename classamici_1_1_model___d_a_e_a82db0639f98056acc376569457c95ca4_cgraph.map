@@ -1,0 +1,7 @@
+<map id="fM" name="fM">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a0c06c5326bb82ceedba30171c122cb8a" title="computes nonnegative state vector according to stateIsNonNegative if anyStateNonNegative is set to fa..." alt="" coords="92,56,285,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a711281d57e9710226face29151cc4641" title="Get timepoint for given index. " alt="" coords="135,107,242,134"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="amici::AmiVector::getLength" alt="" coords="336,5,523,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#ae62cf934983479ccb255785bdf455a2c" title="amici::AmiVector::at" alt="" coords="360,56,499,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#acf288b105b2fa4520d0d73f828687533" title="amici::AmiVector::getNVector" alt="" coords="333,107,527,134"/>
+</map>

@@ -1,0 +1,63 @@
+<map id="t" name="t">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a382cd2049c70f0dd4aafe483e4a50cff" title="fstau" alt="" coords="151,5,202,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a34f0ec7e922c0817b08d0021dba9c36f" title="fz" alt="" coords="157,56,196,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ae977a1364eb91b11b7a1f6f63c0c4547" title="fsz" alt="" coords="157,107,196,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a8a033ace9618ccc4c72d2956f0bf79ac" title="frz" alt="" coords="157,157,196,185"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a5ddd801e9951f8057c2cfd8c66a27c42" title="fsrz" alt="" coords="155,208,198,235"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a0be0b4d550d53eebd0e35c65f1b1bbc6" title="fdzdp" alt="" coords="149,259,203,286"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#add010f6b76558fb38611b5a79612a547" title="fdzdx" alt="" coords="150,309,203,337"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#ae7dc86ad0c432396fa21ad0f423c531c" title="fdrzdp" alt="" coords="147,360,206,387"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a2e4c45f13fbdf23c764b353ef336f7a3" title="fdrzdx" alt="" coords="148,411,205,438"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a8e0cb4f4dd677822d0c33117e267f661" title="fdeltax" alt="" coords="146,461,207,489"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#a685b7374d29d96f7d40d83c7d92fcf27" title="fdeltasx" alt="" coords="371,1373,439,1401"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#a5542077fa03103e502349d92dc95f33a" title="fdeltaxB" alt="" coords="142,2083,211,2110"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#aef4944ffd8a1b4f9a92ce1f8923af695" title="fdeltaqB" alt="" coords="141,2133,212,2161"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model.html#a55798a44d65a15c907e74f4738efb994" title="fsigmaz" alt="" coords="143,2184,210,2211"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model.html#a0c9fd2d7e184d44745130d7ffa2a0075" title="fdsigmazdp" alt="" coords="132,2235,221,2262"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model.html#a7e63009c65fc1361cc5a6e1fc3d5ff1a" title="Recurring terms in xdot. " alt="" coords="157,1475,196,1502"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model.html#a7a8903313cd31dad4fa580c0e434bb1c" title="Recurring terms in xdot, parameter derivative. " alt="" coords="377,1728,434,1755"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model___d_a_e.html#a551dfccd2fb1aa618c644a580639f5b8" title="amici::Model_DAE::fdxdotdp" alt="" coords="555,1475,745,1502"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model___d_a_e.html#ae3dc4629c9c56a4af01350b8c49f49a8" title="amici::Model_DAE::fqBdot" alt="" coords="562,1728,738,1755"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model___o_d_e.html#a371aa66b99b1b3b20ed2e533d9b44870" title="amici::Model_ODE::fdxdotdp" alt="" coords="554,1963,746,1990"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model___o_d_e.html#a9d0e4612af8d7b3c418d000b5e9ba84f" title="amici::Model_ODE::fqBdot" alt="" coords="561,1779,739,1806"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model.html#a29b16aa0c3fb0254fb248c003473d5f9" title="Recurring terms in xdot, state derivative. " alt="" coords="377,1069,433,1097"/>
+<area shape="rect" id="node32" href="$classamici_1_1_model___d_a_e.html#a58cf5aaa5fbcf6195407e7651f05c218" title="amici::Model_DAE::fJDiag" alt="" coords="562,765,738,793"/>
+<area shape="rect" id="node33" href="$classamici_1_1_model___d_a_e.html#a35c720b42879b9932ea16948053843cf" title="amici::Model_DAE::fJB" alt="" coords="571,816,729,843"/>
+<area shape="rect" id="node34" href="$classamici_1_1_model___d_a_e.html#a389bccc94cc77a18cc1948d592ca7fca" title="amici::Model_DAE::fJSparseB" alt="" coords="550,867,750,894"/>
+<area shape="rect" id="node35" href="$classamici_1_1_model___d_a_e.html#a837e1b2b4f0e13b64180040a9cb8e6b2" title="amici::Model_DAE::fJvB" alt="" coords="568,917,732,945"/>
+<area shape="rect" id="node36" href="$classamici_1_1_model___d_a_e.html#acc0b085abdde1955773d61f3e3bac21b" title="amici::Model_DAE::fxBdot" alt="" coords="562,968,738,995"/>
+<area shape="rect" id="node40" href="$classamici_1_1_model___o_d_e.html#acab6095aacecc64e1a67e984af2475f8" title="amici::Model_ODE::fJB" alt="" coords="570,1171,730,1198"/>
+<area shape="rect" id="node41" href="$classamici_1_1_model___o_d_e.html#a0e8a82c9c78706dddbe191d2ed6540a3" title="amici::Model_ODE::fJSparseB" alt="" coords="549,1221,751,1249"/>
+<area shape="rect" id="node43" href="$classamici_1_1_model___o_d_e.html#a79269ef1a74e1ad9e313dce0e4220291" title="amici::Model_ODE::fJDiag" alt="" coords="799,1449,976,1477"/>
+<area shape="rect" id="node44" href="$classamici_1_1_model___o_d_e.html#af9c1f29040dc3c6c8bca0703676843be" title="amici::Model_ODE::fJvB" alt="" coords="567,1272,733,1299"/>
+<area shape="rect" id="node45" href="$classamici_1_1_model___o_d_e.html#a433a0e1e4330ef433823a61f1fc45a5a" title="amici::Model_ODE::fxBdot" alt="" coords="561,1373,739,1401"/>
+<area shape="rect" id="node48" href="$classamici_1_1_model___d_a_e.html#a99337eaeac6c70528c3464affe13df2e" title="amici::Model_DAE::fJ" alt="" coords="331,664,479,691"/>
+<area shape="rect" id="node49" href="$classamici_1_1_model___d_a_e.html#a3147c7a327fead438efe714f04491c82" title="amici::Model_DAE::fJSparse" alt="" coords="310,613,501,641"/>
+<area shape="rect" id="node50" href="$classamici_1_1_model___d_a_e.html#a1a0549510cbe20e4d3c28bf77fc722ed" title="amici::Model_DAE::fJv" alt="" coords="327,715,483,742"/>
+<area shape="rect" id="node51" href="$classamici_1_1_model___d_a_e.html#a94a623b51fd0ecd7a9a549eb7da2fc04" title="amici::Model_DAE::froot" alt="" coords="94,2285,259,2313"/>
+<area shape="rect" id="node53" href="$classamici_1_1_model___d_a_e.html#a33461bc9bc047e838607d958eb29621a" title="amici::Model_DAE::fxdot" alt="" coords="93,1537,260,1565"/>
+<area shape="rect" id="node54" href="$classamici_1_1_model___d_a_e.html#a82db0639f98056acc376569457c95ca4" title="Mass matrix for DAE systems. " alt="" coords="328,473,482,501"/>
+<area shape="rect" id="node55" href="$classamici_1_1_model___d_a_e.html#a01f84575fd8df46a04fd472bbbc9d821" title="amici::Model_DAE::fsxdot" alt="" coords="318,537,492,565"/>
+<area shape="rect" id="node56" href="$classamici_1_1_model___o_d_e.html#a99337eaeac6c70528c3464affe13df2e" title="amici::Model_ODE::fJ" alt="" coords="330,1019,480,1046"/>
+<area shape="rect" id="node57" href="$classamici_1_1_model___o_d_e.html#a3147c7a327fead438efe714f04491c82" title="amici::Model_ODE::fJSparse" alt="" coords="309,1880,501,1907"/>
+<area shape="rect" id="node58" href="$classamici_1_1_model___o_d_e.html#a1a0549510cbe20e4d3c28bf77fc722ed" title="amici::Model_ODE::fJv" alt="" coords="327,1120,484,1147"/>
+<area shape="rect" id="node59" href="$classamici_1_1_model___o_d_e.html#a94a623b51fd0ecd7a9a549eb7da2fc04" title="amici::Model_ODE::froot" alt="" coords="93,2336,260,2363"/>
+<area shape="rect" id="node61" href="$classamici_1_1_model___o_d_e.html#a33461bc9bc047e838607d958eb29621a" title="amici::Model_ODE::fxdot" alt="" coords="92,1613,261,1641"/>
+<area shape="rect" id="node62" href="$classamici_1_1_model___o_d_e.html#a01f84575fd8df46a04fd472bbbc9d821" title="amici::Model_ODE::fsxdot" alt="" coords="317,2032,493,2059"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model.html#acd37693bbc14eead48d9a40c72f42a89" title="fy" alt="" coords="386,1475,424,1502"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model.html#a884ccb083130cb1af7ebe93f7a6d361a" title="fdydp" alt="" coords="623,1601,677,1629"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model.html#a3ec46e89aed7bd191fb21ac3e501edd2" title="fdydx" alt="" coords="623,1323,677,1350"/>
+<area shape="rect" id="node46" href="$classamici_1_1_model___d_a_e.html#a5c4a9276e3053be8f0ad12cb91761647" title="amici::Model_DAE::fxdot" alt="" coords="321,1576,489,1603"/>
+<area shape="rect" id="node47" href="$classamici_1_1_model___o_d_e.html#aa08f195ec3f1e9ec3d208abfbf27b23a" title="amici::Model_ODE::fxdot" alt="" coords="321,1627,489,1654"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model___d_a_e.html#a26e76f86f173a718466c9cc19d68550a" title="amici::Model_DAE::fsxdot" alt="" coords="801,537,975,565"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="amici::Model_ODE::fsxdot" alt="" coords="800,1963,975,1990"/>
+<area shape="rect" id="node29" href="$classamici_1_1_model___d_a_e.html#ae0cdcd849f238e5ca375253f802e497c" title="amici::Model_DAE::fJ" alt="" coords="576,664,724,691"/>
+<area shape="rect" id="node30" href="$classamici_1_1_model___d_a_e.html#acb8703eaab2bd0da229453af1e6f71e3" title="amici::Model_DAE::fJSparse" alt="" coords="554,613,746,641"/>
+<area shape="rect" id="node31" href="$classamici_1_1_model___d_a_e.html#a7a3565abc7cb0372df38aec43e764275" title="amici::Model_DAE::fJv" alt="" coords="572,715,728,742"/>
+<area shape="rect" id="node37" href="$classamici_1_1_model___o_d_e.html#aa2c40d6808a333eee2a96e6737d85161" title="amici::Model_ODE::fJ" alt="" coords="575,1019,725,1046"/>
+<area shape="rect" id="node38" href="$classamici_1_1_model___o_d_e.html#a741ef44fe870908155c0e59bb1a6c059" title="amici::Model_ODE::fJSparse" alt="" coords="554,1424,746,1451"/>
+<area shape="rect" id="node39" href="$classamici_1_1_model___o_d_e.html#a01252ccb85bec7adbc88d12fce4fde05" title="amici::Model_ODE::fJv" alt="" coords="572,1120,728,1147"/>
+<area shape="rect" id="node42" href="$classamici_1_1_model___o_d_e.html#a894cb7158f20a976348caa9d73520d40" title="amici::Model_ODE::fJDiag" alt="" coords="561,1069,739,1097"/>
+<area shape="rect" id="node52" href="$classamici_1_1_model___d_a_e.html#ae6c3d021c2ba942652b6dbd4355e8968" title="amici::Model_DAE::froot" alt="" coords="323,2285,488,2313"/>
+<area shape="rect" id="node60" href="$classamici_1_1_model___o_d_e.html#ab76d051378cedaaeffa04f18c00e79cb" title="amici::Model_ODE::froot" alt="" coords="322,2336,488,2363"/>
+</map>

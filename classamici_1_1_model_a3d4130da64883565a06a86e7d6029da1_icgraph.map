@@ -1,0 +1,10 @@
+<map id="nk" name="nk">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a964e924a1fe271f88bac4cfa909e2879" title="Reports whether the model has fixed parameter names set. " alt="" coords="92,85,272,113"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#af6cb68d368b1288fa0d7515242bf7a5b" title="Reports whether the model has fixed parameter ids set. " alt="" coords="104,199,260,226"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a99cc00a08b2f2d87d3eac047d00a7c57" title="Get value of fixed parameter with the specified name, if multiple parameters have the same name..." alt="" coords="330,5,516,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#af1225439bd6deceb98b224e75a960800" title="Set value of first fixed parameter with the specified name,. " alt="" coords="330,56,515,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a4802f7d56264e3b592c167da8166cb73" title="Set value of all fixed parameters with name matching the specified regex,. " alt="" coords="327,107,519,150"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#acc647ebbeaf0be737c7c165fa77eeca5" title="Get value of fixed parameter with the specified Id. " alt="" coords="342,173,504,201"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#adc0d24343c6fed2e797fb402f7c2d256" title="Set value of first fixed parameter with the specified id. " alt="" coords="343,224,503,251"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#acda9b9debfd3d6ac77e2d27a48bfb5d6" title="Set values of all fixed parameters with the id matching the specified regex. " alt="" coords="320,275,526,302"/>
+</map>

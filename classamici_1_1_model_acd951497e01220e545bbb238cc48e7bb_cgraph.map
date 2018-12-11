@@ -1,0 +1,5 @@
+<map id="fsx0_fixedParameters" name="fsx0_fixedParameters">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a09f372616ff7bf8073c732801b666f7e" title="get whether initial states depending on fixedParmeters are to be reinitialized after preequilibration..." alt="" coords="204,5,403,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector_array.html#a5c1b7077b31d3a3be1370ea3e42d13a3" title="amici::AmiVectorArray\l::data" alt="" coords="227,72,379,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#aee17a5447b8e03180f89a2a8acbd572f" title="amici::AmiVector::data" alt="" coords="226,138,380,166"/>
+</map>

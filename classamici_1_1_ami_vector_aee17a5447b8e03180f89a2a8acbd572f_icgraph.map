@@ -1,0 +1,25 @@
+<map id="data" name="data">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#aa9a9e12a414d9ac91249b63d01ab7bca" title="amici::Model::fx0" alt="" coords="153,13,274,40"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#ae517574d2a7c504c388438a08a1aed38" title="amici::Model::fx0_fixedParameters" alt="" coords="101,64,326,91"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#acd951497e01220e545bbb238cc48e7bb" title="amici::Model::fsx0\l_fixedParameters" alt="" coords="150,115,278,157"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a6f46a63f0524ad25e4125254b78fdee9" title="amici::Model::fsx0" alt="" coords="150,181,278,208"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a382cd2049c70f0dd4aafe483e4a50cff" title="amici::Model::fstau" alt="" coords="147,232,280,259"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a34f0ec7e922c0817b08d0021dba9c36f" title="amici::Model::fz" alt="" coords="157,282,271,310"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#ae977a1364eb91b11b7a1f6f63c0c4547" title="amici::Model::fsz" alt="" coords="153,333,274,360"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model.html#a8a033ace9618ccc4c72d2956f0bf79ac" title="amici::Model::frz" alt="" coords="154,384,273,411"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model.html#a5ddd801e9951f8057c2cfd8c66a27c42" title="amici::Model::fsrz" alt="" coords="151,434,276,462"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model.html#a0be0b4d550d53eebd0e35c65f1b1bbc6" title="amici::Model::fdzdp" alt="" coords="145,485,282,512"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model.html#add010f6b76558fb38611b5a79612a547" title="amici::Model::fdzdx" alt="" coords="146,536,281,563"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model.html#ae7dc86ad0c432396fa21ad0f423c531c" title="amici::Model::fdrzdp" alt="" coords="143,586,284,614"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model.html#a2e4c45f13fbdf23c764b353ef336f7a3" title="amici::Model::fdrzdx" alt="" coords="144,637,283,664"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model.html#a8e0cb4f4dd677822d0c33117e267f661" title="amici::Model::fdeltax" alt="" coords="142,688,285,715"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model.html#a685b7374d29d96f7d40d83c7d92fcf27" title="amici::Model::fdeltasx" alt="" coords="139,738,288,766"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model.html#a5542077fa03103e502349d92dc95f33a" title="amici::Model::fdeltaxB" alt="" coords="138,789,289,816"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model.html#aef4944ffd8a1b4f9a92ce1f8923af695" title="amici::Model::fdeltaqB" alt="" coords="137,840,290,867"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model___d_a_e.html#a58cf5aaa5fbcf6195407e7651f05c218" title="amici::Model_DAE::fJDiag" alt="" coords="125,890,302,918"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model___o_d_e.html#a79269ef1a74e1ad9e313dce0e4220291" title="amici::Model_ODE::fJDiag" alt="" coords="125,941,302,968"/>
+<area shape="rect" id="node23" href="$classamici_1_1_newton_solver_dense.html#aa4a6695d71f00ec1b46e94b33e55660f" title="amici::NewtonSolverDense\l::solveLinearSystem" alt="" coords="123,992,304,1035"/>
+<area shape="rect" id="node24" href="$classamici_1_1_newton_solver_sparse.html#aa4a6695d71f00ec1b46e94b33e55660f" title="amici::NewtonSolverSparse\l::solveLinearSystem" alt="" coords="121,1059,306,1101"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a73d147a7108479e20833ba816cac0f6b" title="amici::Model::initialize\lStates" alt="" coords="374,5,525,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a4d8f308f15a126dde571f2e26787d3e8" title="amici::Model::initialize" alt="" coords="573,13,724,40"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="getStep" name="getStep">
+<area shape="rect" id="node2" href="$classamici_1_1_newton_solver.html#a4aed46b0343374f171f9b4b51fa009e7" title="prepareLinearSystem" alt="" coords="128,5,277,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a19ad39a609bfc430ed6f7992e841b024" title="amici::AmiVector::minus" alt="" coords="121,56,284,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver.html#a761a5dc9e8cc7adfd4a392421df17c3d" title="solveLinearSystem" alt="" coords="135,107,269,134"/>
+</map>

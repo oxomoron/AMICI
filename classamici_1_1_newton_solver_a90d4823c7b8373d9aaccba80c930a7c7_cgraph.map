@@ -1,0 +1,7 @@
+<map id="computeNewtonSensis" name="computeNewtonSensis">
+<area shape="rect" id="node2" href="$classamici_1_1_newton_solver.html#a4aed46b0343374f171f9b4b51fa009e7" title="prepareLinearSystem" alt="" coords="222,5,371,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a7ce1e14d4137c249bc44e18345b562b8" title="amici::Model::fdxdotdp" alt="" coords="219,56,374,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a0f8e994055e37954d7746f3c1af27a5c" title="number of paramaeters wrt to which sensitivities are computed " alt="" coords="229,107,364,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector_array.html#a214f110ad614eb97ec2c6f3b6a9f2c8c" title="amici::AmiVectorArray::at" alt="" coords="211,157,382,185"/>
+<area shape="rect" id="node6" href="$classamici_1_1_newton_solver.html#a761a5dc9e8cc7adfd4a392421df17c3d" title="solveLinearSystem" alt="" coords="230,208,364,235"/>
+</map>

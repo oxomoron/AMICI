@@ -1,0 +1,30 @@
+\hypertarget{cblas_8cpp}{}\subsection{cblas.\+cpp File Reference}
+\label{cblas_8cpp}\index{cblas.\+cpp@{cblas.\+cpp}}
+
+
+B\+L\+AS routines required by A\+M\+I\+CI.  
+
+
+{\ttfamily \#include \char`\"{}amici/cblas.\+h\char`\"{}}\newline
+Include dependency graph for cblas.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{cblas_8cpp__incl}
+\end{center}
+\end{figure}
+\subsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceamici}{amici}}
+\begin{DoxyCompactList}\small\item\em The A\+M\+I\+CI Python module (in doxygen this will also contain documentation about the C++ library) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespaceamici_a235c0cbd2185cc7351ea9c126e498bd9}{amici\+\_\+dgemm}} (B\+L\+A\+S\+Layout layout, B\+L\+A\+S\+Transpose TransA, B\+L\+A\+S\+Transpose TransB, const int M, const int N, const int K, const double alpha, const double $\ast$A, const int lda, const double $\ast$B, const int ldb, const double beta, double $\ast$C, const int ldc)
+\item 
+void \mbox{\hyperlink{namespaceamici_aaadff5ccb22e546f3590e15f5ee30c1c}{amici\+\_\+dgemv}} (B\+L\+A\+S\+Layout layout, B\+L\+A\+S\+Transpose TransA, const int M, const int N, const double alpha, const double $\ast$A, const int lda, const double $\ast$X, const int incX, const double beta, double $\ast$Y, const int incY)
+\item 
+void \mbox{\hyperlink{namespaceamici_ad4c586891a96a47c0a73f8585d6aabcf}{amici\+\_\+daxpy}} (int n, double alpha, const double $\ast$x, const int incx, double $\ast$y, int incy)
+\begin{DoxyCompactList}\small\item\em Compute y = a$\ast$x + y. \end{DoxyCompactList}\end{DoxyCompactItemize}

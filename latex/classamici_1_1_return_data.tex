@@ -1,0 +1,956 @@
+\hypertarget{classamici_1_1_return_data}{}\subsection{Return\+Data Class Reference}
+\label{classamici_1_1_return_data}\index{Return\+Data@{Return\+Data}}
+
+
+class that stores all data which is later returned by the mex function  
+
+
+
+
+{\ttfamily \#include $<$rdata.\+h$>$}
+
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classamici_1_1_return_data_a4ce4db6c8f0e0ac9f21f708d042c30e5}\label{classamici_1_1_return_data_a4ce4db6c8f0e0ac9f21f708d042c30e5}} 
+\mbox{\hyperlink{classamici_1_1_return_data_a4ce4db6c8f0e0ac9f21f708d042c30e5}{Return\+Data}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classamici_1_1_return_data_a8a1111d7dbceb11f6c6d8aa7bbacfd7d}{Return\+Data}} (std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a2e31600d0be26caeb74b4b47e54d89d8}{ts}}, int \mbox{\hyperlink{classamici_1_1_return_data_a72e833f8ef129cac553feb1167223bc3}{np}}, int \mbox{\hyperlink{classamici_1_1_return_data_a5e273eaccc1df0343f5a1d4d136f2f2c}{nk}}, int \mbox{\hyperlink{classamici_1_1_return_data_a4f88110916f09b2adef33396203ff015}{nx}}, int \mbox{\hyperlink{classamici_1_1_return_data_acf5766cc8560edbdcec5b8ef79459239}{nxtrue}}, int \mbox{\hyperlink{classamici_1_1_return_data_a811734e12750524808dba01c57e92c66}{ny}}, int \mbox{\hyperlink{classamici_1_1_return_data_a54bcfe56ad0df183516d096adf4e0b26}{nytrue}}, int \mbox{\hyperlink{classamici_1_1_return_data_aa406c307f97060d218bc1fe594dfd08f}{nz}}, int \mbox{\hyperlink{classamici_1_1_return_data_a9a451378ba5572ef7a3fd4dd89e1c227}{nztrue}}, int \mbox{\hyperlink{classamici_1_1_return_data_a07d5274358ec39bfec473cd212a3cb78}{ne}}, int \mbox{\hyperlink{classamici_1_1_return_data_a0d2f49d2b15b08628451261e52f56e4f}{nJ}}, int \mbox{\hyperlink{classamici_1_1_return_data_a2375af1667e955ed7a61ade0868f735a}{nplist}}, int \mbox{\hyperlink{classamici_1_1_return_data_a48832d4f3a37c4fd75cc7f4ef578d1b1}{nmaxevent}}, int \mbox{\hyperlink{classamici_1_1_return_data_a21dcbe77c07eeefce79fcacdbe5f1262}{nt}}, int \mbox{\hyperlink{classamici_1_1_return_data_a871e64bbfbd5881a86f21aaff42c3dec}{newton\+\_\+maxsteps}}, std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a42f062082226e9284c201d9eab71a3a0}{Parameter\+Scaling}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a5d1c7237dc998202fe1b3393b50f77ce}{pscale}}, \mbox{\hyperlink{namespaceamici_a2d77779286167d5603a870bf9f6c21ba}{Second\+Order\+Mode}} \mbox{\hyperlink{classamici_1_1_return_data_acc235cad50283f7891e2d834f1cbeb90}{o2mode}}, \mbox{\hyperlink{namespaceamici_aaa03ec2f8c4d5323b98d71134a462fda}{Sensitivity\+Order}} \mbox{\hyperlink{classamici_1_1_return_data_ae273fd99697cf0308e7471d822c22d7f}{sensi}}, \mbox{\hyperlink{namespaceamici_aa0fa493529f6872e7e776b91fbbf38f9}{Sensitivity\+Method}} \mbox{\hyperlink{classamici_1_1_return_data_ab761d3023398d7f741a0cfc342dc29f5}{sensi\+\_\+meth}})
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classamici_1_1_return_data_a9fa947e466f4c7f55d36d1e81722abdc}{Return\+Data}} (\mbox{\hyperlink{classamici_1_1_solver}{Solver}} const \&solver, const \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model)
+\item 
+\mbox{\Hypertarget{classamici_1_1_return_data_a014198f2b584ac5b1a2b8a5dea13e411}\label{classamici_1_1_return_data_a014198f2b584ac5b1a2b8a5dea13e411}} 
+void \mbox{\hyperlink{classamici_1_1_return_data_a014198f2b584ac5b1a2b8a5dea13e411}{initialize\+Objective\+Function}} ()
+\begin{DoxyCompactList}\small\item\em initialize\+Objective\+Function \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classamici_1_1_return_data_ab320e46748c17908f0bd4bba240b8e92}{invalidate}} (const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} t)
+\item 
+void \mbox{\hyperlink{classamici_1_1_return_data_a03e88745280c032d3b59fd7235665e17}{invalidate\+L\+LH}} ()
+\item 
+void \mbox{\hyperlink{classamici_1_1_return_data_adce202dc864a1e65d8453f597de271f5}{apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results}} (const \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$model)
+\end{DoxyCompactItemize}
+\subsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a2e31600d0be26caeb74b4b47e54d89d8}{ts}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a40cb7399c56187d0b119e89a82d9f4ac}{xdot}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a6eee8c09315a85f7213d679fcb2aef85}{J}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a8ed223273385c1e7fff94cfa8ca81d45}{z}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_adc3c5ee1620b079cd34137010873f500}{sigmaz}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a6588db55743b7fdebe807b52387d6b37}{sz}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a23c0635afe68ab5c73095fa1e4d61055}{ssigmaz}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a1f65c4ec9c07d353d79f54d4c96365ca}{rz}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_ada7991b82464e52bcdc20c69175fe1e9}{srz}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_ade4be6e8e3e8cc9eb4642904e3e9ce56}{s2rz}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a7ca297ad69affe8b20e8f81b9eb38cd1}{x}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_ac3288cc7f649605938f1fd1b459d3d8c}{sx}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_accf479492e699cb5e931c2a698148924}{y}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a7dc280c0479f4a1fffe67fea251c26d2}{sigmay}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_afae9aa5147266c51f0ac5004f1cdfbe0}{sy}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a7a8085d13686e18d9575fabf3a289e10}{ssigmay}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_ac3a3eb1d5c3af27a82a144086eafc832}{res}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a799ab0ed6276a81d6c3afd20654f8193}{sres}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_ac7b78ca07fbf54e5dd558d5fdf520cf0}{F\+IM}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_acde98b0742196966453b28674762f58f}{numsteps}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_ae0fffbefbc18d93f2ceecc4547a70566}{numstepsB}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_a22235e961356f32e211f9b5d8499ad3b}{numrhsevals}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_aa0eda2ffc8979d9e46d8fb2d8d3a1622}{numrhsevalsB}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_aea0bfe23fb5971a5348a3d017a859488}{numerrtestfails}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_a894f4cf4dbdd38dda12c5730fb04482d}{numerrtestfailsB}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_a67818adc34db21fb3d78731c0e60462a}{numnonlinsolvconvfails}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_a9150501f058304e49bb6a52152cc9550}{numnonlinsolvconvfailsB}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_a75a1634d2dab77d47af4eb58e6dc965e}{order}}
+\item 
+int \mbox{\hyperlink{classamici_1_1_return_data_a7a12031049f81ccdd4496bd4506c6d28}{newton\+\_\+status}} = 0
+\item 
+double \mbox{\hyperlink{classamici_1_1_return_data_a848d9dd3e74e2a55652ae304ac18687c}{newton\+\_\+cpu\+\_\+time}} = 0.\+0
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_ae8d9136bb7510303556f9935a15b9318}{newton\+\_\+numsteps}}
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_return_data_a08ca5d9be9ff8f50955327334e5e87bb}{newton\+\_\+numlinsteps}}
+\item 
+\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_return_data_ae6c276c43addc2845ce72e7188924cc4}{t\+\_\+steadystate}} = N\+AN
+\item 
+\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_return_data_ad044a0dd6c510ee74c8122767c25d6cb}{wrms\+\_\+steadystate}} = N\+AN
+\item 
+\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_return_data_ae10f7eece540838884f18b379083fc8f}{wrms\+\_\+sensi\+\_\+steadystate}} = N\+AN
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a9089beccffa9671a052e3065166dce53}{x0}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a83cf74df5a7fee8ee66f882b898e7b63}{sx0}}
+\item 
+\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_return_data_a35c3d895b14746807521fa6ba8ead52b}{llh}} = 0.\+0
+\item 
+\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_return_data_a473f438e422f5fbf6c5753a95b3324fe}{chi2}} = 0.\+0
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a1696cb94c7712b468ee3e021c6df0c89}{sllh}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a4087bea95b64c7ecc21bb4c487b255d9}{s2llh}}
+\item 
+int \mbox{\hyperlink{classamici_1_1_return_data_a6e27f49150e9a14580fb313cc2777e00}{status}} = 0
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a72e833f8ef129cac553feb1167223bc3}{np}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a5e273eaccc1df0343f5a1d4d136f2f2c}{nk}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a4f88110916f09b2adef33396203ff015}{nx}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_acf5766cc8560edbdcec5b8ef79459239}{nxtrue}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a811734e12750524808dba01c57e92c66}{ny}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a54bcfe56ad0df183516d096adf4e0b26}{nytrue}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_aa406c307f97060d218bc1fe594dfd08f}{nz}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a9a451378ba5572ef7a3fd4dd89e1c227}{nztrue}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a07d5274358ec39bfec473cd212a3cb78}{ne}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a0d2f49d2b15b08628451261e52f56e4f}{nJ}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a2375af1667e955ed7a61ade0868f735a}{nplist}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a48832d4f3a37c4fd75cc7f4ef578d1b1}{nmaxevent}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a21dcbe77c07eeefce79fcacdbe5f1262}{nt}}
+\item 
+const int \mbox{\hyperlink{classamici_1_1_return_data_a871e64bbfbd5881a86f21aaff42c3dec}{newton\+\_\+maxsteps}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a42f062082226e9284c201d9eab71a3a0}{Parameter\+Scaling}} $>$ \mbox{\hyperlink{classamici_1_1_return_data_a5d1c7237dc998202fe1b3393b50f77ce}{pscale}}
+\item 
+const \mbox{\hyperlink{namespaceamici_a2d77779286167d5603a870bf9f6c21ba}{Second\+Order\+Mode}} \mbox{\hyperlink{classamici_1_1_return_data_acc235cad50283f7891e2d834f1cbeb90}{o2mode}}
+\item 
+const \mbox{\hyperlink{namespaceamici_aaa03ec2f8c4d5323b98d71134a462fda}{Sensitivity\+Order}} \mbox{\hyperlink{classamici_1_1_return_data_ae273fd99697cf0308e7471d822c22d7f}{sensi}}
+\item 
+const \mbox{\hyperlink{namespaceamici_aa0fa493529f6872e7e776b91fbbf38f9}{Sensitivity\+Method}} \mbox{\hyperlink{classamici_1_1_return_data_ab761d3023398d7f741a0cfc342dc29f5}{sensi\+\_\+meth}}
+\end{DoxyCompactItemize}
+\subsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class Archive $>$ }\\void \mbox{\hyperlink{classamici_1_1_return_data_af3646925990e46131d1bc92b5a7c0dc4}{boost\+::serialization\+::serialize}} (Archive \&ar, \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} \&r, const unsigned int version)
+\begin{DoxyCompactList}\small\item\em Serialize \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} (see boost\+::serialization\+::serialize) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+N\+O\+TE\+: multidimensional arrays are stored in row-\/major order (F\+O\+R\+T\+R\+A\+N-\/style) 
+
+Definition at line 28 of file rdata.\+h.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_return_data_a8a1111d7dbceb11f6c6d8aa7bbacfd7d}\label{classamici_1_1_return_data_a8a1111d7dbceb11f6c6d8aa7bbacfd7d}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!Return\+Data@{Return\+Data}}
+\index{Return\+Data@{Return\+Data}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{Return\+Data()}{ReturnData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$}]{ts,  }\item[{int}]{np,  }\item[{int}]{nk,  }\item[{int}]{nx,  }\item[{int}]{nxtrue,  }\item[{int}]{ny,  }\item[{int}]{nytrue,  }\item[{int}]{nz,  }\item[{int}]{nztrue,  }\item[{int}]{ne,  }\item[{int}]{nJ,  }\item[{int}]{nplist,  }\item[{int}]{nmaxevent,  }\item[{int}]{nt,  }\item[{int}]{newton\+\_\+maxsteps,  }\item[{std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a42f062082226e9284c201d9eab71a3a0}{Parameter\+Scaling}} $>$}]{pscale,  }\item[{\mbox{\hyperlink{namespaceamici_a2d77779286167d5603a870bf9f6c21ba}{Second\+Order\+Mode}}}]{o2mode,  }\item[{\mbox{\hyperlink{namespaceamici_aaa03ec2f8c4d5323b98d71134a462fda}{Sensitivity\+Order}}}]{sensi,  }\item[{\mbox{\hyperlink{namespaceamici_aa0fa493529f6872e7e776b91fbbf38f9}{Sensitivity\+Method}}}]{sensi\+\_\+meth }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ts} & see \mbox{\hyperlink{classamici_1_1_model_aa7014a80e7b102f85a10e3b9a480e8e5}{amici\+::\+Model\+::ts}} \\
+\hline
+{\em np} & see \mbox{\hyperlink{classamici_1_1_model_ae296546c9fd4d7c4ad3b7000aa9e22ef}{amici\+::\+Model\+::np}} \\
+\hline
+{\em nk} & see \mbox{\hyperlink{classamici_1_1_model_a3d4130da64883565a06a86e7d6029da1}{amici\+::\+Model\+::nk}} \\
+\hline
+{\em nx} & see \mbox{\hyperlink{classamici_1_1_model_a4f88110916f09b2adef33396203ff015}{amici\+::\+Model\+::nx}} \\
+\hline
+{\em nxtrue} & see \mbox{\hyperlink{classamici_1_1_model_acf5766cc8560edbdcec5b8ef79459239}{amici\+::\+Model\+::nxtrue}} \\
+\hline
+{\em ny} & see \mbox{\hyperlink{classamici_1_1_model_a811734e12750524808dba01c57e92c66}{amici\+::\+Model\+::ny}} \\
+\hline
+{\em nytrue} & see \mbox{\hyperlink{classamici_1_1_model_a54bcfe56ad0df183516d096adf4e0b26}{amici\+::\+Model\+::nytrue}} \\
+\hline
+{\em nz} & see \mbox{\hyperlink{classamici_1_1_model_aa406c307f97060d218bc1fe594dfd08f}{amici\+::\+Model\+::nz}} \\
+\hline
+{\em nztrue} & see \mbox{\hyperlink{classamici_1_1_model_a9a451378ba5572ef7a3fd4dd89e1c227}{amici\+::\+Model\+::nztrue}} \\
+\hline
+{\em ne} & see \mbox{\hyperlink{classamici_1_1_model_a07d5274358ec39bfec473cd212a3cb78}{amici\+::\+Model\+::ne}} \\
+\hline
+{\em nJ} & see \mbox{\hyperlink{classamici_1_1_model_a0d2f49d2b15b08628451261e52f56e4f}{amici\+::\+Model\+::nJ}} \\
+\hline
+{\em nplist} & see \mbox{\hyperlink{classamici_1_1_model_a0f8e994055e37954d7746f3c1af27a5c}{amici\+::\+Model\+::nplist}} \\
+\hline
+{\em nmaxevent} & see \mbox{\hyperlink{classamici_1_1_model_aff0f3f25d886279a90dbf0571956885c}{amici\+::\+Model\+::nmaxevent}} \\
+\hline
+{\em nt} & see \mbox{\hyperlink{classamici_1_1_model_a4c23d300cbe15b0afb1ee3731d47cc93}{amici\+::\+Model\+::nt}} \\
+\hline
+{\em newton\+\_\+maxsteps} & see amici\+::\+Solver\+::newton\+\_\+maxsteps \\
+\hline
+{\em pscale} & see \mbox{\hyperlink{classamici_1_1_model_a5d1c7237dc998202fe1b3393b50f77ce}{amici\+::\+Model\+::pscale}} \\
+\hline
+{\em o2mode} & see \mbox{\hyperlink{classamici_1_1_model_acc235cad50283f7891e2d834f1cbeb90}{amici\+::\+Model\+::o2mode}} \\
+\hline
+{\em sensi} & see amici\+::\+Solver\+::sensi \\
+\hline
+{\em sensi\+\_\+meth} & see amici\+::\+Solver\+::sensi\+\_\+meth \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 40 of file rdata.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classamici_1_1_return_data_a8a1111d7dbceb11f6c6d8aa7bbacfd7d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_return_data_a9fa947e466f4c7f55d36d1e81722abdc}\label{classamici_1_1_return_data_a9fa947e466f4c7f55d36d1e81722abdc}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!Return\+Data@{Return\+Data}}
+\index{Return\+Data@{Return\+Data}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{Return\+Data()}{ReturnData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_solver}{Solver}} const \&}]{solver,  }\item[{const \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model }\end{DoxyParamCaption})}
+
+constructor that uses information from model and solver to appropriately initialize fields 
+\begin{DoxyParams}{Parameters}
+{\em solver} & solver \\
+\hline
+{\em model} & pointer to model specification object bool\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 22 of file rdata.\+cpp.
+
+
+
+\subsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_return_data_ab320e46748c17908f0bd4bba240b8e92}\label{classamici_1_1_return_data_ab320e46748c17908f0bd4bba240b8e92}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!invalidate@{invalidate}}
+\index{invalidate@{invalidate}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{invalidate()}{invalidate()}}
+{\footnotesize\ttfamily void invalidate (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t }\end{DoxyParamCaption})}
+
+routine to set likelihood, state variables, outputs and respective sensitivities to NaN (typically after integration failure) 
+\begin{DoxyParams}{Parameters}
+{\em t} & time of integration failure\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 117 of file rdata.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_return_data_ab320e46748c17908f0bd4bba240b8e92_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_return_data_ab320e46748c17908f0bd4bba240b8e92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_return_data_a03e88745280c032d3b59fd7235665e17}\label{classamici_1_1_return_data_a03e88745280c032d3b59fd7235665e17}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!invalidate\+L\+LH@{invalidate\+L\+LH}}
+\index{invalidate\+L\+LH@{invalidate\+L\+LH}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{invalidate\+L\+L\+H()}{invalidateLLH()}}
+{\footnotesize\ttfamily void invalidate\+L\+LH (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+routine to set likelihood and respective sensitivities to NaN (typically after integration failure)
+
+Definition at line 156 of file rdata.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{classamici_1_1_return_data_a03e88745280c032d3b59fd7235665e17_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_return_data_a03e88745280c032d3b59fd7235665e17_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_return_data_adce202dc864a1e65d8453f597de271f5}\label{classamici_1_1_return_data_adce202dc864a1e65d8453f597de271f5}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results@{apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results}}
+\index{apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results@{apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results()}{applyChainRuleFactorToSimulationResults()}}
+{\footnotesize\ttfamily void apply\+Chain\+Rule\+Factor\+To\+Simulation\+Results (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model }\end{DoxyParamCaption})}
+
+applies the chain rule to account for parameter transformation in the sensitivities of simulation results 
+\begin{DoxyParams}{Parameters}
+{\em model} & \mbox{\hyperlink{classamici_1_1_model}{Model}} from which the \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} was obtained\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 168 of file rdata.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_return_data_adce202dc864a1e65d8453f597de271f5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_return_data_adce202dc864a1e65d8453f597de271f5_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_return_data_af3646925990e46131d1bc92b5a7c0dc4}\label{classamici_1_1_return_data_af3646925990e46131d1bc92b5a7c0dc4}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!boost\+::serialization\+::serialize@{boost\+::serialization\+::serialize}}
+\index{boost\+::serialization\+::serialize@{boost\+::serialization\+::serialize}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{boost\+::serialization\+::serialize}{boost::serialization::serialize}}
+{\footnotesize\ttfamily void boost\+::serialization\+::serialize (\begin{DoxyParamCaption}\item[{Archive \&}]{ar,  }\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} \&}]{r,  }\item[{const unsigned int}]{version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ar} & Archive to serialize to \\
+\hline
+{\em r} & Data to serialize \\
+\hline
+{\em version} & Version number \\
+\hline
+\end{DoxyParams}
+
+
+\subsubsection{Member Data Documentation}
+\mbox{\Hypertarget{classamici_1_1_return_data_a2e31600d0be26caeb74b4b47e54d89d8}\label{classamici_1_1_return_data_a2e31600d0be26caeb74b4b47e54d89d8}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!ts@{ts}}
+\index{ts@{ts}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{ts}{ts}}
+{\footnotesize\ttfamily const std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ ts}
+
+timepoints (dimension\+: nt) 
+
+Definition at line 77 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a40cb7399c56187d0b119e89a82d9f4ac}\label{classamici_1_1_return_data_a40cb7399c56187d0b119e89a82d9f4ac}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!xdot@{xdot}}
+\index{xdot@{xdot}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{xdot}{xdot}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ xdot}
+
+time derivative (dimension\+: nx) 
+
+Definition at line 80 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a6eee8c09315a85f7213d679fcb2aef85}\label{classamici_1_1_return_data_a6eee8c09315a85f7213d679fcb2aef85}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!J@{J}}
+\index{J@{J}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{J}{J}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ J}
+
+Jacobian of differential equation right hand side (dimension\+: nx x nx, row-\/major) 
+
+Definition at line 84 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a8ed223273385c1e7fff94cfa8ca81d45}\label{classamici_1_1_return_data_a8ed223273385c1e7fff94cfa8ca81d45}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!z@{z}}
+\index{z@{z}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{z}{z}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ z}
+
+event output (dimension\+: nmaxevent x nz, row-\/major) 
+
+Definition at line 87 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_adc3c5ee1620b079cd34137010873f500}\label{classamici_1_1_return_data_adc3c5ee1620b079cd34137010873f500}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sigmaz@{sigmaz}}
+\index{sigmaz@{sigmaz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sigmaz}{sigmaz}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sigmaz}
+
+event output sigma standard deviation (dimension\+: nmaxevent x nz, row-\/major) 
+
+Definition at line 91 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a6588db55743b7fdebe807b52387d6b37}\label{classamici_1_1_return_data_a6588db55743b7fdebe807b52387d6b37}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sz@{sz}}
+\index{sz@{sz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sz}{sz}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sz}
+
+parameter derivative of event output (dimension\+: nmaxevent x nz, row-\/major) 
+
+Definition at line 95 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a23c0635afe68ab5c73095fa1e4d61055}\label{classamici_1_1_return_data_a23c0635afe68ab5c73095fa1e4d61055}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!ssigmaz@{ssigmaz}}
+\index{ssigmaz@{ssigmaz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{ssigmaz}{ssigmaz}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ ssigmaz}
+
+parameter derivative of event output standard deviation (dimension\+: nmaxevent x nz, row-\/major) 
+
+Definition at line 99 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a1f65c4ec9c07d353d79f54d4c96365ca}\label{classamici_1_1_return_data_a1f65c4ec9c07d353d79f54d4c96365ca}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!rz@{rz}}
+\index{rz@{rz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{rz}{rz}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ rz}
+
+event trigger output (dimension\+: nmaxevent x nz, row-\/major) 
+
+Definition at line 102 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ada7991b82464e52bcdc20c69175fe1e9}\label{classamici_1_1_return_data_ada7991b82464e52bcdc20c69175fe1e9}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!srz@{srz}}
+\index{srz@{srz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{srz}{srz}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ srz}
+
+parameter derivative of event trigger output (dimension\+: nmaxevent x nz x nplist, row-\/major) 
+
+Definition at line 106 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ade4be6e8e3e8cc9eb4642904e3e9ce56}\label{classamici_1_1_return_data_ade4be6e8e3e8cc9eb4642904e3e9ce56}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!s2rz@{s2rz}}
+\index{s2rz@{s2rz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{s2rz}{s2rz}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ s2rz}
+
+second order parameter derivative of event trigger output (dimension\+: nmaxevent x nztrue x nplist x nplist, row-\/major) 
+
+Definition at line 110 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a7ca297ad69affe8b20e8f81b9eb38cd1}\label{classamici_1_1_return_data_a7ca297ad69affe8b20e8f81b9eb38cd1}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!x@{x}}
+\index{x@{x}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ x}
+
+state (dimension\+: nt x nx, row-\/major) 
+
+Definition at line 113 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ac3288cc7f649605938f1fd1b459d3d8c}\label{classamici_1_1_return_data_ac3288cc7f649605938f1fd1b459d3d8c}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sx@{sx}}
+\index{sx@{sx}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sx}{sx}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sx}
+
+parameter derivative of state (dimension\+: nt x nplist x nx, row-\/major) 
+
+Definition at line 117 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_accf479492e699cb5e931c2a698148924}\label{classamici_1_1_return_data_accf479492e699cb5e931c2a698148924}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!y@{y}}
+\index{y@{y}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ y}
+
+observable (dimension\+: nt x ny, row-\/major) 
+
+Definition at line 120 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a7dc280c0479f4a1fffe67fea251c26d2}\label{classamici_1_1_return_data_a7dc280c0479f4a1fffe67fea251c26d2}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sigmay@{sigmay}}
+\index{sigmay@{sigmay}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sigmay}{sigmay}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sigmay}
+
+observable standard deviation (dimension\+: nt x ny, row-\/major) 
+
+Definition at line 123 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_afae9aa5147266c51f0ac5004f1cdfbe0}\label{classamici_1_1_return_data_afae9aa5147266c51f0ac5004f1cdfbe0}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sy@{sy}}
+\index{sy@{sy}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sy}{sy}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sy}
+
+parameter derivative of observable (dimension\+: nt x nplist x ny, row-\/major) 
+
+Definition at line 127 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a7a8085d13686e18d9575fabf3a289e10}\label{classamici_1_1_return_data_a7a8085d13686e18d9575fabf3a289e10}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!ssigmay@{ssigmay}}
+\index{ssigmay@{ssigmay}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{ssigmay}{ssigmay}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ ssigmay}
+
+parameter derivative of observable standard deviation (dimension\+: nt x nplist x ny, row-\/major) 
+
+Definition at line 131 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ac3a3eb1d5c3af27a82a144086eafc832}\label{classamici_1_1_return_data_ac3a3eb1d5c3af27a82a144086eafc832}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!res@{res}}
+\index{res@{res}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{res}{res}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ res}
+
+observable (dimension\+: nt$\ast$ny, row-\/major) 
+
+Definition at line 134 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a799ab0ed6276a81d6c3afd20654f8193}\label{classamici_1_1_return_data_a799ab0ed6276a81d6c3afd20654f8193}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sres@{sres}}
+\index{sres@{sres}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sres}{sres}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sres}
+
+parameter derivative of residual (dimension\+: nt$\ast$ny x nplist, row-\/major) 
+
+Definition at line 138 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ac7b78ca07fbf54e5dd558d5fdf520cf0}\label{classamici_1_1_return_data_ac7b78ca07fbf54e5dd558d5fdf520cf0}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!F\+IM@{F\+IM}}
+\index{F\+IM@{F\+IM}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{F\+IM}{FIM}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ F\+IM}
+
+fisher information matrix (dimension\+: nplist x nplist, row-\/major) 
+
+Definition at line 142 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_acde98b0742196966453b28674762f58f}\label{classamici_1_1_return_data_acde98b0742196966453b28674762f58f}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numsteps@{numsteps}}
+\index{numsteps@{numsteps}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numsteps}{numsteps}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numsteps}
+
+number of integration steps forward problem (dimension\+: nt) 
+
+Definition at line 145 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ae0fffbefbc18d93f2ceecc4547a70566}\label{classamici_1_1_return_data_ae0fffbefbc18d93f2ceecc4547a70566}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numstepsB@{numstepsB}}
+\index{numstepsB@{numstepsB}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numstepsB}{numstepsB}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numstepsB}
+
+number of integration steps backward problem (dimension\+: nt) 
+
+Definition at line 148 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a22235e961356f32e211f9b5d8499ad3b}\label{classamici_1_1_return_data_a22235e961356f32e211f9b5d8499ad3b}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numrhsevals@{numrhsevals}}
+\index{numrhsevals@{numrhsevals}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numrhsevals}{numrhsevals}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numrhsevals}
+
+number of right hand side evaluations forward problem (dimension\+: nt) 
+
+Definition at line 151 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_aa0eda2ffc8979d9e46d8fb2d8d3a1622}\label{classamici_1_1_return_data_aa0eda2ffc8979d9e46d8fb2d8d3a1622}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numrhsevalsB@{numrhsevalsB}}
+\index{numrhsevalsB@{numrhsevalsB}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numrhsevalsB}{numrhsevalsB}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numrhsevalsB}
+
+number of right hand side evaluations backwad problem (dimension\+: nt) 
+
+Definition at line 154 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_aea0bfe23fb5971a5348a3d017a859488}\label{classamici_1_1_return_data_aea0bfe23fb5971a5348a3d017a859488}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numerrtestfails@{numerrtestfails}}
+\index{numerrtestfails@{numerrtestfails}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numerrtestfails}{numerrtestfails}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numerrtestfails}
+
+number of error test failures forward problem (dimension\+: nt) 
+
+Definition at line 157 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a894f4cf4dbdd38dda12c5730fb04482d}\label{classamici_1_1_return_data_a894f4cf4dbdd38dda12c5730fb04482d}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numerrtestfailsB@{numerrtestfailsB}}
+\index{numerrtestfailsB@{numerrtestfailsB}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numerrtestfailsB}{numerrtestfailsB}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numerrtestfailsB}
+
+number of error test failures backwad problem (dimension\+: nt) 
+
+Definition at line 160 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a67818adc34db21fb3d78731c0e60462a}\label{classamici_1_1_return_data_a67818adc34db21fb3d78731c0e60462a}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numnonlinsolvconvfails@{numnonlinsolvconvfails}}
+\index{numnonlinsolvconvfails@{numnonlinsolvconvfails}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numnonlinsolvconvfails}{numnonlinsolvconvfails}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numnonlinsolvconvfails}
+
+number of linear solver convergence failures forward problem (dimension\+: nt) 
+
+Definition at line 164 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a9150501f058304e49bb6a52152cc9550}\label{classamici_1_1_return_data_a9150501f058304e49bb6a52152cc9550}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!numnonlinsolvconvfailsB@{numnonlinsolvconvfailsB}}
+\index{numnonlinsolvconvfailsB@{numnonlinsolvconvfailsB}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{numnonlinsolvconvfailsB}{numnonlinsolvconvfailsB}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ numnonlinsolvconvfailsB}
+
+number of linear solver convergence failures backwad problem (dimension\+: nt) 
+
+Definition at line 168 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a75a1634d2dab77d47af4eb58e6dc965e}\label{classamici_1_1_return_data_a75a1634d2dab77d47af4eb58e6dc965e}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!order@{order}}
+\index{order@{order}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{order}{order}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ order}
+
+employed order forward problem (dimension\+: nt) 
+
+Definition at line 171 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a7a12031049f81ccdd4496bd4506c6d28}\label{classamici_1_1_return_data_a7a12031049f81ccdd4496bd4506c6d28}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!newton\+\_\+status@{newton\+\_\+status}}
+\index{newton\+\_\+status@{newton\+\_\+status}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{newton\+\_\+status}{newton\_status}}
+{\footnotesize\ttfamily int newton\+\_\+status = 0}
+
+flag indicating success of Newton solver 
+
+Definition at line 174 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a848d9dd3e74e2a55652ae304ac18687c}\label{classamici_1_1_return_data_a848d9dd3e74e2a55652ae304ac18687c}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!newton\+\_\+cpu\+\_\+time@{newton\+\_\+cpu\+\_\+time}}
+\index{newton\+\_\+cpu\+\_\+time@{newton\+\_\+cpu\+\_\+time}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{newton\+\_\+cpu\+\_\+time}{newton\_cpu\_time}}
+{\footnotesize\ttfamily double newton\+\_\+cpu\+\_\+time = 0.\+0}
+
+computation time of the Newton solver \mbox{[}s\mbox{]} 
+
+Definition at line 177 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ae8d9136bb7510303556f9935a15b9318}\label{classamici_1_1_return_data_ae8d9136bb7510303556f9935a15b9318}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!newton\+\_\+numsteps@{newton\+\_\+numsteps}}
+\index{newton\+\_\+numsteps@{newton\+\_\+numsteps}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{newton\+\_\+numsteps}{newton\_numsteps}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ newton\+\_\+numsteps}
+
+number of Newton steps for steady state problem (length = 2) 
+
+Definition at line 180 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a08ca5d9be9ff8f50955327334e5e87bb}\label{classamici_1_1_return_data_a08ca5d9be9ff8f50955327334e5e87bb}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!newton\+\_\+numlinsteps@{newton\+\_\+numlinsteps}}
+\index{newton\+\_\+numlinsteps@{newton\+\_\+numlinsteps}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{newton\+\_\+numlinsteps}{newton\_numlinsteps}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ newton\+\_\+numlinsteps}
+
+number of linear steps by Newton step for steady state problem (length = newton\+\_\+maxsteps $\ast$ 2) 
+
+Definition at line 183 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ae6c276c43addc2845ce72e7188924cc4}\label{classamici_1_1_return_data_ae6c276c43addc2845ce72e7188924cc4}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!t\+\_\+steadystate@{t\+\_\+steadystate}}
+\index{t\+\_\+steadystate@{t\+\_\+steadystate}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{t\+\_\+steadystate}{t\_steadystate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} t\+\_\+steadystate = N\+AN}
+
+time at which steadystate was reached in the simulation based approach 
+
+Definition at line 186 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ad044a0dd6c510ee74c8122767c25d6cb}\label{classamici_1_1_return_data_ad044a0dd6c510ee74c8122767c25d6cb}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!wrms\+\_\+steadystate@{wrms\+\_\+steadystate}}
+\index{wrms\+\_\+steadystate@{wrms\+\_\+steadystate}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{wrms\+\_\+steadystate}{wrms\_steadystate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} wrms\+\_\+steadystate = N\+AN}
+
+weighted root-\/mean-\/square of the rhs when steadystate was reached 
+
+Definition at line 190 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ae10f7eece540838884f18b379083fc8f}\label{classamici_1_1_return_data_ae10f7eece540838884f18b379083fc8f}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!wrms\+\_\+sensi\+\_\+steadystate@{wrms\+\_\+sensi\+\_\+steadystate}}
+\index{wrms\+\_\+sensi\+\_\+steadystate@{wrms\+\_\+sensi\+\_\+steadystate}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{wrms\+\_\+sensi\+\_\+steadystate}{wrms\_sensi\_steadystate}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} wrms\+\_\+sensi\+\_\+steadystate = N\+AN}
+
+weighted root-\/mean-\/square of the rhs when steadystate was reached 
+
+Definition at line 194 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a9089beccffa9671a052e3065166dce53}\label{classamici_1_1_return_data_a9089beccffa9671a052e3065166dce53}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!x0@{x0}}
+\index{x0@{x0}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{x0}{x0}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ x0}
+
+preequilibration steady state found be Newton solver (dimension\+: nx) 
+
+Definition at line 197 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a83cf74df5a7fee8ee66f882b898e7b63}\label{classamici_1_1_return_data_a83cf74df5a7fee8ee66f882b898e7b63}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sx0@{sx0}}
+\index{sx0@{sx0}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sx0}{sx0}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sx0}
+
+preequilibration sensitivities found be Newton solver (dimension\+: nplist x nx, row-\/major) 
+
+Definition at line 200 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a35c3d895b14746807521fa6ba8ead52b}\label{classamici_1_1_return_data_a35c3d895b14746807521fa6ba8ead52b}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!llh@{llh}}
+\index{llh@{llh}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{llh}{llh}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} llh = 0.\+0}
+
+loglikelihood value 
+
+Definition at line 203 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a473f438e422f5fbf6c5753a95b3324fe}\label{classamici_1_1_return_data_a473f438e422f5fbf6c5753a95b3324fe}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!chi2@{chi2}}
+\index{chi2@{chi2}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{chi2}{chi2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} chi2 = 0.\+0}
+
+chi2 value 
+
+Definition at line 206 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a1696cb94c7712b468ee3e021c6df0c89}\label{classamici_1_1_return_data_a1696cb94c7712b468ee3e021c6df0c89}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sllh@{sllh}}
+\index{sllh@{sllh}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sllh}{sllh}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ sllh}
+
+parameter derivative of loglikelihood (dimension\+: nplist) 
+
+Definition at line 209 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a4087bea95b64c7ecc21bb4c487b255d9}\label{classamici_1_1_return_data_a4087bea95b64c7ecc21bb4c487b255d9}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!s2llh@{s2llh}}
+\index{s2llh@{s2llh}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{s2llh}{s2llh}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ s2llh}
+
+second order parameter derivative of loglikelihood (dimension\+: (n\+J-\/1) x nplist, row-\/major) 
+
+Definition at line 213 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a6e27f49150e9a14580fb313cc2777e00}\label{classamici_1_1_return_data_a6e27f49150e9a14580fb313cc2777e00}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!status@{status}}
+\index{status@{status}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{status}{status}}
+{\footnotesize\ttfamily int status = 0}
+
+status code 
+
+Definition at line 216 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a72e833f8ef129cac553feb1167223bc3}\label{classamici_1_1_return_data_a72e833f8ef129cac553feb1167223bc3}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!np@{np}}
+\index{np@{np}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{np}{np}}
+{\footnotesize\ttfamily const int np}
+
+total number of model parameters 
+
+Definition at line 219 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a5e273eaccc1df0343f5a1d4d136f2f2c}\label{classamici_1_1_return_data_a5e273eaccc1df0343f5a1d4d136f2f2c}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nk@{nk}}
+\index{nk@{nk}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nk}{nk}}
+{\footnotesize\ttfamily const int nk}
+
+number of fixed parameters 
+
+Definition at line 221 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a4f88110916f09b2adef33396203ff015}\label{classamici_1_1_return_data_a4f88110916f09b2adef33396203ff015}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nx@{nx}}
+\index{nx@{nx}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nx}{nx}}
+{\footnotesize\ttfamily const int nx}
+
+number of states 
+
+Definition at line 223 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_acf5766cc8560edbdcec5b8ef79459239}\label{classamici_1_1_return_data_acf5766cc8560edbdcec5b8ef79459239}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nxtrue@{nxtrue}}
+\index{nxtrue@{nxtrue}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nxtrue}{nxtrue}}
+{\footnotesize\ttfamily const int nxtrue}
+
+number of states in the unaugmented system 
+
+Definition at line 225 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a811734e12750524808dba01c57e92c66}\label{classamici_1_1_return_data_a811734e12750524808dba01c57e92c66}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!ny@{ny}}
+\index{ny@{ny}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{ny}{ny}}
+{\footnotesize\ttfamily const int ny}
+
+number of observables 
+
+Definition at line 227 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a54bcfe56ad0df183516d096adf4e0b26}\label{classamici_1_1_return_data_a54bcfe56ad0df183516d096adf4e0b26}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nytrue@{nytrue}}
+\index{nytrue@{nytrue}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nytrue}{nytrue}}
+{\footnotesize\ttfamily const int nytrue}
+
+number of observables in the unaugmented system 
+
+Definition at line 229 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_aa406c307f97060d218bc1fe594dfd08f}\label{classamici_1_1_return_data_aa406c307f97060d218bc1fe594dfd08f}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nz@{nz}}
+\index{nz@{nz}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nz}{nz}}
+{\footnotesize\ttfamily const int nz}
+
+number of event outputs 
+
+Definition at line 231 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a9a451378ba5572ef7a3fd4dd89e1c227}\label{classamici_1_1_return_data_a9a451378ba5572ef7a3fd4dd89e1c227}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nztrue@{nztrue}}
+\index{nztrue@{nztrue}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nztrue}{nztrue}}
+{\footnotesize\ttfamily const int nztrue}
+
+number of event outputs in the unaugmented system 
+
+Definition at line 233 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a07d5274358ec39bfec473cd212a3cb78}\label{classamici_1_1_return_data_a07d5274358ec39bfec473cd212a3cb78}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!ne@{ne}}
+\index{ne@{ne}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{ne}{ne}}
+{\footnotesize\ttfamily const int ne}
+
+number of events 
+
+Definition at line 235 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a0d2f49d2b15b08628451261e52f56e4f}\label{classamici_1_1_return_data_a0d2f49d2b15b08628451261e52f56e4f}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nJ@{nJ}}
+\index{nJ@{nJ}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nJ}{nJ}}
+{\footnotesize\ttfamily const int nJ}
+
+dimension of the augmented objective function for 2nd order A\+SA 
+
+Definition at line 237 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a2375af1667e955ed7a61ade0868f735a}\label{classamici_1_1_return_data_a2375af1667e955ed7a61ade0868f735a}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nplist@{nplist}}
+\index{nplist@{nplist}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nplist}{nplist}}
+{\footnotesize\ttfamily const int nplist}
+
+number of parameter for which sensitivities were requested 
+
+Definition at line 240 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a48832d4f3a37c4fd75cc7f4ef578d1b1}\label{classamici_1_1_return_data_a48832d4f3a37c4fd75cc7f4ef578d1b1}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nmaxevent@{nmaxevent}}
+\index{nmaxevent@{nmaxevent}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nmaxevent}{nmaxevent}}
+{\footnotesize\ttfamily const int nmaxevent}
+
+maximal number of occuring events (for every event type) 
+
+Definition at line 242 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a21dcbe77c07eeefce79fcacdbe5f1262}\label{classamici_1_1_return_data_a21dcbe77c07eeefce79fcacdbe5f1262}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!nt@{nt}}
+\index{nt@{nt}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{nt}{nt}}
+{\footnotesize\ttfamily const int nt}
+
+number of considered timepoints 
+
+Definition at line 244 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a871e64bbfbd5881a86f21aaff42c3dec}\label{classamici_1_1_return_data_a871e64bbfbd5881a86f21aaff42c3dec}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!newton\+\_\+maxsteps@{newton\+\_\+maxsteps}}
+\index{newton\+\_\+maxsteps@{newton\+\_\+maxsteps}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{newton\+\_\+maxsteps}{newton\_maxsteps}}
+{\footnotesize\ttfamily const int newton\+\_\+maxsteps}
+
+maximal number of newton iterations for steady state calculation 
+
+Definition at line 246 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_a5d1c7237dc998202fe1b3393b50f77ce}\label{classamici_1_1_return_data_a5d1c7237dc998202fe1b3393b50f77ce}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!pscale@{pscale}}
+\index{pscale@{pscale}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{pscale}{pscale}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a42f062082226e9284c201d9eab71a3a0}{Parameter\+Scaling}}$>$ pscale}
+
+scaling of parameterization (lin,log,log10) 
+
+Definition at line 248 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_acc235cad50283f7891e2d834f1cbeb90}\label{classamici_1_1_return_data_acc235cad50283f7891e2d834f1cbeb90}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!o2mode@{o2mode}}
+\index{o2mode@{o2mode}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{o2mode}{o2mode}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{namespaceamici_a2d77779286167d5603a870bf9f6c21ba}{Second\+Order\+Mode}} o2mode}
+
+flag indicating whether second order sensitivities were requested 
+
+Definition at line 250 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ae273fd99697cf0308e7471d822c22d7f}\label{classamici_1_1_return_data_ae273fd99697cf0308e7471d822c22d7f}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sensi@{sensi}}
+\index{sensi@{sensi}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sensi}{sensi}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{namespaceamici_aaa03ec2f8c4d5323b98d71134a462fda}{Sensitivity\+Order}} sensi}
+
+sensitivity order 
+
+Definition at line 252 of file rdata.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_return_data_ab761d3023398d7f741a0cfc342dc29f5}\label{classamici_1_1_return_data_ab761d3023398d7f741a0cfc342dc29f5}} 
+\index{amici\+::\+Return\+Data@{amici\+::\+Return\+Data}!sensi\+\_\+meth@{sensi\+\_\+meth}}
+\index{sensi\+\_\+meth@{sensi\+\_\+meth}!amici\+::\+Return\+Data@{amici\+::\+Return\+Data}}
+\paragraph{\texorpdfstring{sensi\+\_\+meth}{sensi\_meth}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{namespaceamici_aa0fa493529f6872e7e776b91fbbf38f9}{Sensitivity\+Method}} sensi\+\_\+meth}
+
+sensitivity method 
+
+Definition at line 254 of file rdata.\+h.
+

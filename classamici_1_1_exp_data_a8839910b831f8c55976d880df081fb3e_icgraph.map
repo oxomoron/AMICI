@@ -1,0 +1,9 @@
+<map id="getObservedDataPtr" name="getObservedDataPtr">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a991a9aab9f325625a35179fa601fa426" title="amici::Model::fres" alt="" coords="203,56,329,83"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#aa01d5361cf972cce5eaddca05985f745" title="amici::Model::getmy" alt="" coords="196,107,336,134"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a6aaa9335fd78ec5e450665bc70de3196" title="amici::Model::fdJydp" alt="" coords="398,5,541,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a7f392b9e7de5dff5082768c465a1d753" title="amici::Model::fdJydx" alt="" coords="399,56,541,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#ad8fd49506b1d288ded2c036318f3ca51" title="amici::Model::fJy" alt="" coords="409,107,530,134"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a182dd2b4c7ad2fcfdc1987e0dfb8d5a4" title="amici::Model::fdJydy" alt="" coords="399,157,541,185"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#aa683851edd9a578fda8e3f29465c313f" title="amici::Model::fdJydsigma" alt="" coords="384,208,555,235"/>
+</map>

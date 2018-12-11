@@ -1,0 +1,201 @@
+\hypertarget{namespaceamici_1_1sbml__import}{}\subsection{amici.\+sbml\+\_\+import Namespace Reference}
+\label{namespaceamici_1_1sbml__import}\index{amici.\+sbml\+\_\+import@{amici.\+sbml\+\_\+import}}
+
+
+The python sbml import module for python.  
+
+
+\subsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classamici_1_1sbml__import_1_1_s_b_m_l_exception}{S\+B\+M\+L\+Exception}}
+\item 
+class \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer}{Sbml\+Importer}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer}{Sbml\+Importer}} class generates A\+M\+I\+CI C++ files for a model provided in the Systems Biology Markup Language (S\+B\+ML). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespaceamici_1_1sbml__import_a64a5d0187cb4b3f69bceceb7d5638691}{get\+Rule\+Vars}} (rules)
+\begin{DoxyCompactList}\small\item\em Extract free symbols in S\+B\+ML rule formulas. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1sbml__import_aaba72ac8b7d363e7720f36495ccc3285}{assignment\+Rules2observables}} (sbml\+\_\+model, filter\+\_\+function=lambda $\ast$\+\_\+\+:\+True)
+\begin{DoxyCompactList}\small\item\em Turn assignment rules into observables. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1sbml__import_a9cee719122a45a0ac8590514a19ed5cc}{constant\+Species\+To\+Parameters}} (sbml\+\_\+model)
+\begin{DoxyCompactList}\small\item\em Convert constant species in the S\+B\+ML model to constant parameters. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1sbml__import_a178c633ce1bc7f2af378ce56bd404541}{replace\+Log\+AB}} (x)
+\begin{DoxyCompactList}\small\item\em Replace log(a, b) in the given string by ln(b)/ln(a) \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1sbml__import_a6bff3fedaa877c35e5ea7bc112ec4adf}{l2s}} (inputs)
+\begin{DoxyCompactList}\small\item\em transforms an list into list of strings \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+dictionary \mbox{\hyperlink{namespaceamici_1_1sbml__import_abfb00dffe8d5c524c2916febc9b3810b}{default\+\_\+symbols}}
+\begin{DoxyCompactList}\small\item\em default dict for symbols \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+!/usr/bin/env python3 
+
+\subsubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceamici_1_1sbml__import_a64a5d0187cb4b3f69bceceb7d5638691}\label{namespaceamici_1_1sbml__import_a64a5d0187cb4b3f69bceceb7d5638691}} 
+\index{amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}!get\+Rule\+Vars@{get\+Rule\+Vars}}
+\index{get\+Rule\+Vars@{get\+Rule\+Vars}!amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}}
+\paragraph{\texorpdfstring{get\+Rule\+Vars()}{getRuleVars()}}
+{\footnotesize\ttfamily def amici.\+sbml\+\_\+import.\+get\+Rule\+Vars (\begin{DoxyParamCaption}\item[{}]{rules }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em rules} & sbml definitions of rules ~\newline
+{\bfseries Type}\+: list\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Tuple of free symbolic variables in the formulas all provided rules 
+\end{DoxyReturn}
+
+
+Definition at line 1004 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{namespaceamici_1_1sbml__import_a64a5d0187cb4b3f69bceceb7d5638691_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1sbml__import_a64a5d0187cb4b3f69bceceb7d5638691_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1sbml__import_aaba72ac8b7d363e7720f36495ccc3285}\label{namespaceamici_1_1sbml__import_aaba72ac8b7d363e7720f36495ccc3285}} 
+\index{amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}!assignment\+Rules2observables@{assignment\+Rules2observables}}
+\index{assignment\+Rules2observables@{assignment\+Rules2observables}!amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}}
+\paragraph{\texorpdfstring{assignment\+Rules2observables()}{assignmentRules2observables()}}
+{\footnotesize\ttfamily def amici.\+sbml\+\_\+import.\+assignment\+Rules2observables (\begin{DoxyParamCaption}\item[{}]{sbml\+\_\+model,  }\item[{}]{filter\+\_\+function = {\ttfamily lambda~$\ast$\+\_\+\+:~True} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em sbml\+\_\+model} & an sbml \mbox{\hyperlink{classamici_1_1_model}{Model}} instance\\
+\hline
+{\em filter\+\_\+function} & callback function taking assignment variable as input and returning True/\+False to indicate if the respective rule should be turned into an observable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A dictionary(observable\+Id\+:\{ \textquotesingle{}name\textquotesingle{}\+: observable\+Name, \textquotesingle{}formula\textquotesingle{}\+: formula\+String \}) 
+\end{DoxyReturn}
+
+
+Definition at line 1030 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1sbml__import_aaba72ac8b7d363e7720f36495ccc3285_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1sbml__import_a9cee719122a45a0ac8590514a19ed5cc}\label{namespaceamici_1_1sbml__import_a9cee719122a45a0ac8590514a19ed5cc}} 
+\index{amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}!constant\+Species\+To\+Parameters@{constant\+Species\+To\+Parameters}}
+\index{constant\+Species\+To\+Parameters@{constant\+Species\+To\+Parameters}!amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}}
+\paragraph{\texorpdfstring{constant\+Species\+To\+Parameters()}{constantSpeciesToParameters()}}
+{\footnotesize\ttfamily def amici.\+sbml\+\_\+import.\+constant\+Species\+To\+Parameters (\begin{DoxyParamCaption}\item[{}]{sbml\+\_\+model }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em sbml\+\_\+model} & libsbml model instance\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+species I\+Ds that have been turned into constants 
+\end{DoxyReturn}
+
+
+Definition at line 1061 of file sbml\+\_\+import.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1sbml__import_a178c633ce1bc7f2af378ce56bd404541}\label{namespaceamici_1_1sbml__import_a178c633ce1bc7f2af378ce56bd404541}} 
+\index{amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}!replace\+Log\+AB@{replace\+Log\+AB}}
+\index{replace\+Log\+AB@{replace\+Log\+AB}!amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}}
+\paragraph{\texorpdfstring{replace\+Log\+A\+B()}{replaceLogAB()}}
+{\footnotesize\ttfamily def amici.\+sbml\+\_\+import.\+replace\+Log\+AB (\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})}
+
+Works for nested parentheses and nested \textquotesingle{}log\textquotesingle{}s. This can be used to circumvent the incompatible argument order between symengine (log(x, basis)) and libsbml (log(basis, x)).
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & string to replace ~\newline
+{\bfseries Type}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string with replaced \textquotesingle{}log\textquotesingle{}s 
+\end{DoxyReturn}
+
+
+Definition at line 1109 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1sbml__import_a178c633ce1bc7f2af378ce56bd404541_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1sbml__import_a6bff3fedaa877c35e5ea7bc112ec4adf}\label{namespaceamici_1_1sbml__import_a6bff3fedaa877c35e5ea7bc112ec4adf}} 
+\index{amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}!l2s@{l2s}}
+\index{l2s@{l2s}!amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}}
+\paragraph{\texorpdfstring{l2s()}{l2s()}}
+{\footnotesize\ttfamily def amici.\+sbml\+\_\+import.\+l2s (\begin{DoxyParamCaption}\item[{}]{inputs }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em inputs} & objects ~\newline
+{\bfseries Type}\+: list\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of str(object) 
+\end{DoxyReturn}
+
+
+Definition at line 1155 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1sbml__import_a6bff3fedaa877c35e5ea7bc112ec4adf_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceamici_1_1sbml__import_abfb00dffe8d5c524c2916febc9b3810b}\label{namespaceamici_1_1sbml__import_abfb00dffe8d5c524c2916febc9b3810b}} 
+\index{amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}!default\+\_\+symbols@{default\+\_\+symbols}}
+\index{default\+\_\+symbols@{default\+\_\+symbols}!amici\+::sbml\+\_\+import@{amici\+::sbml\+\_\+import}}
+\paragraph{\texorpdfstring{default\+\_\+symbols}{default\_symbols}}
+{\footnotesize\ttfamily dictionary default\+\_\+symbols}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  \{
+2     \textcolor{stringliteral}{'species'}: \{\},
+3     \textcolor{stringliteral}{'parameter'}: \{\},
+4     \textcolor{stringliteral}{'fixed\_parameter'}: \{\},
+5     \textcolor{stringliteral}{'observable'}: \{\},
+6     \textcolor{stringliteral}{'expression'}: \{\},
+7     \textcolor{stringliteral}{'sigmay'}: \{\},
+8     \textcolor{stringliteral}{'my'}: \{\},
+9     \textcolor{stringliteral}{'llhy'}: \{\},
+10 \}
+\end{DoxyCode}
+
+
+Definition at line 17 of file sbml\+\_\+import.\+py.
+

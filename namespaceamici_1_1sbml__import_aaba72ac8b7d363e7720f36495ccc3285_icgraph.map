@@ -1,0 +1,5 @@
+<map id="assignmentRules2observables" name="assignmentRules2observables">
+<area shape="rect" id="node2" href="$namespaceamici_1_1sbml__import.html#a64a5d0187cb4b3f69bceceb7d5638691" title="Extract free symbols in SBML rule formulas. " alt="" coords="256,13,350,40"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7df6b4ae4e3e757bc8de5e0cc54fe16b" title="Process Rules defined in the SBML model. " alt="" coords="398,5,660,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ac188693ab1d9fc500d55748dbde9bf89" title="Read parameters, species, reactions, and so on from SBML model. " alt="" coords="708,13,1007,40"/>
+</map>

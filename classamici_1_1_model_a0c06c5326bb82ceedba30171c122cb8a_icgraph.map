@@ -1,0 +1,32 @@
+<map id="computeX_pos" name="computeX_pos">
+<area shape="rect" id="node2" href="$classamici_1_1_model___d_a_e.html#ae0cdcd849f238e5ca375253f802e497c" title="amici::Model_DAE::fJ" alt="" coords="190,5,339,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___d_a_e.html#acb8703eaab2bd0da229453af1e6f71e3" title="amici::Model_DAE::fJSparse" alt="" coords="169,56,360,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model___d_a_e.html#a7a3565abc7cb0372df38aec43e764275" title="amici::Model_DAE::fJv" alt="" coords="187,107,342,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model___d_a_e.html#ae6c3d021c2ba942652b6dbd4355e8968" title="amici::Model_DAE::froot" alt="" coords="182,157,347,185"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model___d_a_e.html#a5c4a9276e3053be8f0ad12cb91761647" title="amici::Model_DAE::fxdot" alt="" coords="181,208,348,235"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model___d_a_e.html#a58cf5aaa5fbcf6195407e7651f05c218" title="amici::Model_DAE::fJDiag" alt="" coords="176,259,352,286"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model___d_a_e.html#a551dfccd2fb1aa618c644a580639f5b8" title="amici::Model_DAE::fdxdotdp" alt="" coords="170,411,359,438"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model___d_a_e.html#a26e76f86f173a718466c9cc19d68550a" title="amici::Model_DAE::fsxdot" alt="" coords="422,360,596,387"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model___d_a_e.html#a82db0639f98056acc376569457c95ca4" title="Mass matrix for DAE systems. " alt="" coords="188,360,341,387"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model___d_a_e.html#a35c720b42879b9932ea16948053843cf" title="amici::Model_DAE::fJB" alt="" coords="185,461,343,489"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model___d_a_e.html#a389bccc94cc77a18cc1948d592ca7fca" title="amici::Model_DAE::fJSparseB" alt="" coords="164,512,364,539"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model___d_a_e.html#a837e1b2b4f0e13b64180040a9cb8e6b2" title="amici::Model_DAE::fJvB" alt="" coords="182,563,346,590"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model___d_a_e.html#acc0b085abdde1955773d61f3e3bac21b" title="amici::Model_DAE::fxBdot" alt="" coords="176,613,352,641"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model___d_a_e.html#ae3dc4629c9c56a4af01350b8c49f49a8" title="amici::Model_DAE::fqBdot" alt="" coords="176,664,353,691"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model___o_d_e.html#aa2c40d6808a333eee2a96e6737d85161" title="amici::Model_ODE::fJ" alt="" coords="189,715,339,742"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model___o_d_e.html#a741ef44fe870908155c0e59bb1a6c059" title="amici::Model_ODE::fJSparse" alt="" coords="168,765,361,793"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model___o_d_e.html#a01252ccb85bec7adbc88d12fce4fde05" title="amici::Model_ODE::fJv" alt="" coords="186,816,343,843"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model___o_d_e.html#ab76d051378cedaaeffa04f18c00e79cb" title="amici::Model_ODE::froot" alt="" coords="181,867,348,894"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model___o_d_e.html#aa08f195ec3f1e9ec3d208abfbf27b23a" title="amici::Model_ODE::fxdot" alt="" coords="180,917,349,945"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model___o_d_e.html#a371aa66b99b1b3b20ed2e533d9b44870" title="amici::Model_ODE::fdxdotdp" alt="" coords="169,1019,360,1046"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="amici::Model_ODE::fsxdot" alt="" coords="421,968,596,995"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model___o_d_e.html#acab6095aacecc64e1a67e984af2475f8" title="amici::Model_ODE::fJB" alt="" coords="185,1069,344,1097"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model___o_d_e.html#a0e8a82c9c78706dddbe191d2ed6540a3" title="amici::Model_ODE::fJSparseB" alt="" coords="164,1120,365,1147"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model___o_d_e.html#a894cb7158f20a976348caa9d73520d40" title="amici::Model_ODE::fJDiag" alt="" coords="175,1171,353,1198"/>
+<area shape="rect" id="node29" href="$classamici_1_1_model___o_d_e.html#af9c1f29040dc3c6c8bca0703676843be" title="amici::Model_ODE::fJvB" alt="" coords="181,1221,347,1249"/>
+<area shape="rect" id="node30" href="$classamici_1_1_model___o_d_e.html#a433a0e1e4330ef433823a61f1fc45a5a" title="amici::Model_ODE::fxBdot" alt="" coords="175,1272,353,1299"/>
+<area shape="rect" id="node31" href="$classamici_1_1_model___o_d_e.html#a9d0e4612af8d7b3c418d000b5e9ba84f" title="amici::Model_ODE::fqBdot" alt="" coords="175,1323,354,1350"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model___d_a_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_DAE::fdxdotdp" alt="" coords="414,411,603,438"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model___o_d_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_ODE::fdxdotdp" alt="" coords="413,1019,604,1046"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model___o_d_e.html#a79269ef1a74e1ad9e313dce0e4220291" title="amici::Model_ODE::fJDiag" alt="" coords="420,1171,597,1198"/>
+</map>

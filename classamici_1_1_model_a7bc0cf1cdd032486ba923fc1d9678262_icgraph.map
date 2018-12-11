@@ -1,0 +1,6 @@
+<map id="getParameterNames" name="getParameterNames">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a19b349ca9793d45fda7ef8ea7422747a" title="Get value of first model parameter with the specified name,. " alt="" coords="415,5,568,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a6c5ceb2ba684cf68a7f21ad865091200" title="Set value of first model parameter with the specified name. " alt="" coords="416,68,568,95"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a1307ed45ccda80e84174d6b495c85d8d" title="Set all values of all model parameters with names matching the specified regex. " alt="" coords="393,131,591,158"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a87eb819581d1ca627e5d5ab35ae8add9" title="Reports whether the model has parameter names set. " alt="" coords="198,43,345,70"/>
+</map>

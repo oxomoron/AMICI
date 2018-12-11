@@ -1,0 +1,615 @@
+\hypertarget{classamici_1_1sbml__import_1_1_sbml_importer}{}\subsection{Sbml\+Importer Class Reference}
+\label{classamici_1_1sbml__import_1_1_sbml_importer}\index{Sbml\+Importer@{Sbml\+Importer}}
+
+
+The \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer}{Sbml\+Importer}} class generates A\+M\+I\+CI C++ files for a model provided in the Systems Biology Markup Language (S\+B\+ML).  
+
+
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a43883fb7d114020827d890422ebd25b0}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, S\+B\+M\+L\+File, \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a0081a154645011de07914e7be47eba32}{check\+\_\+validity}}=True)
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classamici_1_1_model}{Model}} instance. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a17147ce5084526fa003563813c1be230}{reset\+\_\+symbols}} (self)
+\begin{DoxyCompactList}\small\item\em Reset the symbols attribute to default values. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a16147666bbc66b3573fd6d49c4023af1}{load\+S\+B\+M\+L\+File}} (self, S\+B\+M\+L\+File)
+\begin{DoxyCompactList}\small\item\em Parse the provided S\+B\+ML file. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a0dcfa882a6a14f2d4b83e11552aae318}{check\+Lib\+S\+B\+M\+L\+Errors}} (self)
+\begin{DoxyCompactList}\small\item\em Checks the error log in the current self.\+sbml\+\_\+doc. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ae5cdd2444bac89e61e6f717f7736acb6}{sbml2amici}} (self, model\+Name, output\+\_\+dir=None, observables=None, constant\+Parameters=None, sigmas=None, verbose=False, assume\+\_\+pow\+\_\+positivity=False, compiler=None, allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond=True)
+\begin{DoxyCompactList}\small\item\em Generate A\+M\+I\+CI C++ files for the model provided to the constructor. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ac188693ab1d9fc500d55748dbde9bf89}{process\+S\+B\+ML}} (self, constant\+Parameters=None)
+\begin{DoxyCompactList}\small\item\em Read parameters, species, reactions, and so on from S\+B\+ML model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ae9585f937c02f0618abeb06dd48bcd54}{check\+Support}} (self)
+\begin{DoxyCompactList}\small\item\em Check whether all required S\+B\+ML features are supported. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a4912a89bf86ec8e0c1d9758b8090e327}{process\+Species}} (self)
+\begin{DoxyCompactList}\small\item\em Get species information from S\+B\+ML model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a26d072114efe1fec695cc4030c64e1ea}{process\+Parameters}} (self, constant\+Parameters=None)
+\begin{DoxyCompactList}\small\item\em Get parameter information from S\+B\+ML model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a526afc71a857e7fdefb4754fc2f93882}{process\+Compartments}} (self)
+\begin{DoxyCompactList}\small\item\em Get compartment information, stoichiometric matrix and fluxes from S\+B\+ML model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_adbdd8e9af99679633109829d94b3fd3e}{process\+Reactions}} (self)
+\begin{DoxyCompactList}\small\item\em Get reactions from S\+B\+ML model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a7df6b4ae4e3e757bc8de5e0cc54fe16b}{process\+Rules}} (self)
+\begin{DoxyCompactList}\small\item\em Process Rules defined in the S\+B\+ML model. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_af2a2cbf8550d30fc0e95a875758b8262}{process\+Volume\+Conversion}} (self)
+\begin{DoxyCompactList}\small\item\em Convert equations from amount to volume. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a2819c6ad1b541e49e728aa172e57208e}{process\+Time}} (self)
+\begin{DoxyCompactList}\small\item\em Convert time\+\_\+symbol into cpp variable. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a903b87aa6c483832424fa2cc76adc4d5}{process\+Observables}} (self, observables, sigmas)
+\begin{DoxyCompactList}\small\item\em Perform symbolic computations required for objective function evaluation. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a1579faf8b188de11ed58ddbebc3c20a7}{replace\+In\+All\+Expressions}} (self, old, new)
+\begin{DoxyCompactList}\small\item\em Replace \textquotesingle{}old\textquotesingle{} by \textquotesingle{}new\textquotesingle{} in all symbolic expressions. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a122b9921e2fb5bd0fc75310c47413dd1}{clean\+Reserved\+Symbols}} (self)
+\begin{DoxyCompactList}\small\item\em Remove all reserved symbols from self.\+symbols. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a5348e7b5041334f8c54b45c5c928dea0}{replace\+Special\+Constants}} (self)
+\begin{DoxyCompactList}\small\item\em Replace all special constants by their respective S\+B\+ML csymbol definition. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a0081a154645011de07914e7be47eba32}\label{classamici_1_1sbml__import_1_1_sbml_importer_a0081a154645011de07914e7be47eba32}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a0081a154645011de07914e7be47eba32}{check\+\_\+validity}}
+\begin{DoxyCompactList}\small\item\em indicates whether the validity of the S\+B\+ML document \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a591fb19f856c8faff2c302734ad80cc0}\label{classamici_1_1sbml__import_1_1_sbml_importer_a591fb19f856c8faff2c302734ad80cc0}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a591fb19f856c8faff2c302734ad80cc0}{symbols}}
+\begin{DoxyCompactList}\small\item\em dict carrying symbolic definitions ~\newline
+{\bfseries Type}\+: dict \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a41c7300c6ec425f5b69356e0273cfac3}\label{classamici_1_1sbml__import_1_1_sbml_importer_a41c7300c6ec425f5b69356e0273cfac3}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a41c7300c6ec425f5b69356e0273cfac3}{S\+B\+M\+Lreader}}
+\begin{DoxyCompactList}\small\item\em the lib\+S\+B\+ML sbml reader \mbox{[}!not storing this will result \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a9526d93eea89065515a47d67fe8936de}\label{classamici_1_1sbml__import_1_1_sbml_importer_a9526d93eea89065515a47d67fe8936de}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a9526d93eea89065515a47d67fe8936de}{sbml\+\_\+doc}}
+\begin{DoxyCompactList}\small\item\em document carrying the sbml defintion \mbox{[}!not storing this \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ac1e9dd522f751032fb0142ef8a78c3f4}\label{classamici_1_1sbml__import_1_1_sbml_importer_ac1e9dd522f751032fb0142ef8a78c3f4}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ac1e9dd522f751032fb0142ef8a78c3f4}{sbml}}
+\begin{DoxyCompactList}\small\item\em sbml definition \mbox{[}!not storing this will result in a segfault!\mbox{]} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a88d39dffecd3ff40fea335bc82fdee06}\label{classamici_1_1sbml__import_1_1_sbml_importer_a88d39dffecd3ff40fea335bc82fdee06}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a88d39dffecd3ff40fea335bc82fdee06}{species\+Index}}
+\begin{DoxyCompactList}\small\item\em maps species names to indices ~\newline
+{\bfseries Type}\+: dict \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_aeebf394715386e2d46b381aec705e7cd}\label{classamici_1_1sbml__import_1_1_sbml_importer_aeebf394715386e2d46b381aec705e7cd}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_aeebf394715386e2d46b381aec705e7cd}{species\+Compartment}}
+\begin{DoxyCompactList}\small\item\em compartment for each species ~\newline
+{\bfseries Type}\+: \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a64859da7ab190d44c8d03e004e5712fc}\label{classamici_1_1sbml__import_1_1_sbml_importer_a64859da7ab190d44c8d03e004e5712fc}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a64859da7ab190d44c8d03e004e5712fc}{constant\+Species}}
+\begin{DoxyCompactList}\small\item\em ids of species that are marked as constant ~\newline
+{\bfseries Type}\+: list \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ac58d33fa62dff054a1f5b77f62b90d51}\label{classamici_1_1sbml__import_1_1_sbml_importer_ac58d33fa62dff054a1f5b77f62b90d51}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ac58d33fa62dff054a1f5b77f62b90d51}{boundary\+Condition\+Species}}
+\begin{DoxyCompactList}\small\item\em ids of species that are marked as boundary \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a8453f8454195f14ffc556a6c44628ff5}\label{classamici_1_1sbml__import_1_1_sbml_importer_a8453f8454195f14ffc556a6c44628ff5}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a8453f8454195f14ffc556a6c44628ff5}{species\+Has\+Only\+Substance\+Units}}
+\begin{DoxyCompactList}\small\item\em flags indicating whether a species has \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ab44229958ef30724d7d8f0db13cfe46c}\label{classamici_1_1sbml__import_1_1_sbml_importer_ab44229958ef30724d7d8f0db13cfe46c}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ab44229958ef30724d7d8f0db13cfe46c}{species\+Conversion\+Factor}}
+\begin{DoxyCompactList}\small\item\em conversion factors for every species ~\newline
+{\bfseries Type}\+: \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a2aff5108febc22bf2d9981ecd7ed6101}\label{classamici_1_1sbml__import_1_1_sbml_importer_a2aff5108febc22bf2d9981ecd7ed6101}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a2aff5108febc22bf2d9981ecd7ed6101}{compartment\+Symbols}}
+\begin{DoxyCompactList}\small\item\em compartment ids ~\newline
+{\bfseries Type}\+: sympy.\+Matrix \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a3e59ec3eb7dfa84613784e0d24dc3e4b}\label{classamici_1_1sbml__import_1_1_sbml_importer_a3e59ec3eb7dfa84613784e0d24dc3e4b}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_a3e59ec3eb7dfa84613784e0d24dc3e4b}{compartment\+Volume}}
+\begin{DoxyCompactList}\small\item\em numeric/symbnolic compartment volumes ~\newline
+{\bfseries Type}\+: \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ad30bd1a098329211e7618dd1065d7067}\label{classamici_1_1sbml__import_1_1_sbml_importer_ad30bd1a098329211e7618dd1065d7067}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ad30bd1a098329211e7618dd1065d7067}{stoichiometric\+Matrix}}
+\begin{DoxyCompactList}\small\item\em stoichiometrix matrix of the model ~\newline
+{\bfseries Type}\+: \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_aa7c12a1cbbde8c960bfaae2ac64f8845}\label{classamici_1_1sbml__import_1_1_sbml_importer_aa7c12a1cbbde8c960bfaae2ac64f8845}} 
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_aa7c12a1cbbde8c960bfaae2ac64f8845}{flux\+Vector}}
+\begin{DoxyCompactList}\small\item\em reaction kinetic laws ~\newline
+{\bfseries Type}\+: sympy.\+Matrix \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+
+
+Definition at line 35 of file sbml\+\_\+import.\+py.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a43883fb7d114020827d890422ebd25b0}\label{classamici_1_1sbml__import_1_1_sbml_importer_a43883fb7d114020827d890422ebd25b0}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{S\+B\+M\+L\+File,  }\item[{}]{check\+\_\+validity = {\ttfamily True} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em S\+B\+M\+L\+File} & Path to S\+B\+ML file where the model is specified ~\newline
+{\bfseries Type}\+: string\\
+\hline
+{\em check\+\_\+validity} & Flag indicating whether the validity of the S\+B\+ML document should be checked ~\newline
+{\bfseries Type}\+: bool\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer}{Sbml\+Importer}} instance with attached S\+B\+ML document 
+\end{DoxyReturn}
+
+
+Definition at line 143 of file sbml\+\_\+import.\+py.
+
+
+
+\subsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a17147ce5084526fa003563813c1be230}\label{classamici_1_1sbml__import_1_1_sbml_importer_a17147ce5084526fa003563813c1be230}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!reset\+\_\+symbols@{reset\+\_\+symbols}}
+\index{reset\+\_\+symbols@{reset\+\_\+symbols}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{reset\+\_\+symbols()}{reset\_symbols()}}
+{\footnotesize\ttfamily def reset\+\_\+symbols (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 162 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a17147ce5084526fa003563813c1be230_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a16147666bbc66b3573fd6d49c4023af1}\label{classamici_1_1sbml__import_1_1_sbml_importer_a16147666bbc66b3573fd6d49c4023af1}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!load\+S\+B\+M\+L\+File@{load\+S\+B\+M\+L\+File}}
+\index{load\+S\+B\+M\+L\+File@{load\+S\+B\+M\+L\+File}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{load\+S\+B\+M\+L\+File()}{loadSBMLFile()}}
+{\footnotesize\ttfamily def load\+S\+B\+M\+L\+File (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{S\+B\+M\+L\+File }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em S\+B\+M\+L\+File} & path to S\+B\+ML file ~\newline
+{\bfseries Type}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 175 of file sbml\+\_\+import.\+py.
+
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a0dcfa882a6a14f2d4b83e11552aae318}\label{classamici_1_1sbml__import_1_1_sbml_importer_a0dcfa882a6a14f2d4b83e11552aae318}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!check\+Lib\+S\+B\+M\+L\+Errors@{check\+Lib\+S\+B\+M\+L\+Errors}}
+\index{check\+Lib\+S\+B\+M\+L\+Errors@{check\+Lib\+S\+B\+M\+L\+Errors}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{check\+Lib\+S\+B\+M\+L\+Errors()}{checkLibSBMLErrors()}}
+{\footnotesize\ttfamily def check\+Lib\+S\+B\+M\+L\+Errors (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\begin{DoxyVerb}    raises SBMLException if errors with severity ERROR or FATAL have
+\end{DoxyVerb}
+ 
+\begin{DoxyExceptions}{Exceptions}
+{\em occured} & \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 216 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a0dcfa882a6a14f2d4b83e11552aae318_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ae5cdd2444bac89e61e6f717f7736acb6}\label{classamici_1_1sbml__import_1_1_sbml_importer_ae5cdd2444bac89e61e6f717f7736acb6}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!sbml2amici@{sbml2amici}}
+\index{sbml2amici@{sbml2amici}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{sbml2amici()}{sbml2amici()}}
+{\footnotesize\ttfamily def sbml2amici (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{model\+Name,  }\item[{}]{output\+\_\+dir = {\ttfamily None},  }\item[{}]{observables = {\ttfamily None},  }\item[{}]{constant\+Parameters = {\ttfamily None},  }\item[{}]{sigmas = {\ttfamily None},  }\item[{}]{verbose = {\ttfamily False},  }\item[{}]{assume\+\_\+pow\+\_\+positivity = {\ttfamily False},  }\item[{}]{compiler = {\ttfamily None},  }\item[{}]{allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond = {\ttfamily True} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em model\+Name} & name of the model/model directory ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em output\+\_\+dir} & see sbml\+\_\+import.\+set\+Paths() ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em observables} & dictionary( observable\+Id\+:\{\textquotesingle{}name\textquotesingle{}\+:observable\+Name (optional), \textquotesingle{}formula\textquotesingle{}\+:formula\+String)\}) to be added to the model ~\newline
+{\bfseries Type}\+: dict\\
+\hline
+{\em sigmas} & dictionary(observable\+Id\+: sigma value or (existing) parameter name) ~\newline
+{\bfseries Type}\+: dict\\
+\hline
+{\em constant\+Parameters} & list of S\+B\+ML Ids identifying constant parameters ~\newline
+{\bfseries Type}\+: dict\\
+\hline
+{\em verbose} & more verbose output if True ~\newline
+{\bfseries Type}\+: bool\\
+\hline
+{\em assume\+\_\+pow\+\_\+positivity} & if set to true, a special pow function is used to avoid problems with state variables that may become negative due to numerical errors ~\newline
+{\bfseries Type}\+: bool\\
+\hline
+{\em compiler} & distutils/setuptools compiler selection to build the python extension ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em allow\+\_\+reinit\+\_\+fixpar\+\_\+initcond} & see \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{ode\+\_\+export.\+O\+D\+E\+Exporter}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 277 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_ae5cdd2444bac89e61e6f717f7736acb6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classamici_1_1sbml__import_1_1_sbml_importer_ae5cdd2444bac89e61e6f717f7736acb6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ac188693ab1d9fc500d55748dbde9bf89}\label{classamici_1_1sbml__import_1_1_sbml_importer_ac188693ab1d9fc500d55748dbde9bf89}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+S\+B\+ML@{process\+S\+B\+ML}}
+\index{process\+S\+B\+ML@{process\+S\+B\+ML}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+S\+B\+M\+L()}{processSBML()}}
+{\footnotesize\ttfamily def process\+S\+B\+ML (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{constant\+Parameters = {\ttfamily None} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em constant\+Parameters} & S\+B\+ML Ids identifying constant parameters ~\newline
+{\bfseries Type}\+: list\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 316 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_ac188693ab1d9fc500d55748dbde9bf89_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_ac188693ab1d9fc500d55748dbde9bf89_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_ae9585f937c02f0618abeb06dd48bcd54}\label{classamici_1_1sbml__import_1_1_sbml_importer_ae9585f937c02f0618abeb06dd48bcd54}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!check\+Support@{check\+Support}}
+\index{check\+Support@{check\+Support}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{check\+Support()}{checkSupport()}}
+{\footnotesize\ttfamily def check\+Support (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 341 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_ae9585f937c02f0618abeb06dd48bcd54_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a4912a89bf86ec8e0c1d9758b8090e327}\label{classamici_1_1sbml__import_1_1_sbml_importer_a4912a89bf86ec8e0c1d9758b8090e327}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Species@{process\+Species}}
+\index{process\+Species@{process\+Species}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Species()}{processSpecies()}}
+{\footnotesize\ttfamily def process\+Species (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 378 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a4912a89bf86ec8e0c1d9758b8090e327_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a26d072114efe1fec695cc4030c64e1ea}\label{classamici_1_1sbml__import_1_1_sbml_importer_a26d072114efe1fec695cc4030c64e1ea}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Parameters@{process\+Parameters}}
+\index{process\+Parameters@{process\+Parameters}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Parameters()}{processParameters()}}
+{\footnotesize\ttfamily def process\+Parameters (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{constant\+Parameters = {\ttfamily None} }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em constant\+Parameters} & S\+B\+ML Ids identifying constant parameters ~\newline
+{\bfseries Type}\+: list\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 470 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a26d072114efe1fec695cc4030c64e1ea_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a526afc71a857e7fdefb4754fc2f93882}\label{classamici_1_1sbml__import_1_1_sbml_importer_a526afc71a857e7fdefb4754fc2f93882}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Compartments@{process\+Compartments}}
+\index{process\+Compartments@{process\+Compartments}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Compartments()}{processCompartments()}}
+{\footnotesize\ttfamily def process\+Compartments (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 547 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a526afc71a857e7fdefb4754fc2f93882_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_adbdd8e9af99679633109829d94b3fd3e}\label{classamici_1_1sbml__import_1_1_sbml_importer_adbdd8e9af99679633109829d94b3fd3e}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Reactions@{process\+Reactions}}
+\index{process\+Reactions@{process\+Reactions}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Reactions()}{processReactions()}}
+{\footnotesize\ttfamily def process\+Reactions (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 582 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_adbdd8e9af99679633109829d94b3fd3e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a7df6b4ae4e3e757bc8de5e0cc54fe16b}\label{classamici_1_1sbml__import_1_1_sbml_importer_a7df6b4ae4e3e757bc8de5e0cc54fe16b}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Rules@{process\+Rules}}
+\index{process\+Rules@{process\+Rules}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Rules()}{processRules()}}
+{\footnotesize\ttfamily def process\+Rules (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 694 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a7df6b4ae4e3e757bc8de5e0cc54fe16b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a7df6b4ae4e3e757bc8de5e0cc54fe16b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_af2a2cbf8550d30fc0e95a875758b8262}\label{classamici_1_1sbml__import_1_1_sbml_importer_af2a2cbf8550d30fc0e95a875758b8262}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Volume\+Conversion@{process\+Volume\+Conversion}}
+\index{process\+Volume\+Conversion@{process\+Volume\+Conversion}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Volume\+Conversion()}{processVolumeConversion()}}
+{\footnotesize\ttfamily def process\+Volume\+Conversion (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 771 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_af2a2cbf8550d30fc0e95a875758b8262_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a2819c6ad1b541e49e728aa172e57208e}\label{classamici_1_1sbml__import_1_1_sbml_importer_a2819c6ad1b541e49e728aa172e57208e}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Time@{process\+Time}}
+\index{process\+Time@{process\+Time}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Time()}{processTime()}}
+{\footnotesize\ttfamily def process\+Time (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 793 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{classamici_1_1sbml__import_1_1_sbml_importer_a2819c6ad1b541e49e728aa172e57208e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a2819c6ad1b541e49e728aa172e57208e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a903b87aa6c483832424fa2cc76adc4d5}\label{classamici_1_1sbml__import_1_1_sbml_importer_a903b87aa6c483832424fa2cc76adc4d5}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!process\+Observables@{process\+Observables}}
+\index{process\+Observables@{process\+Observables}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{process\+Observables()}{processObservables()}}
+{\footnotesize\ttfamily def process\+Observables (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{observables,  }\item[{}]{sigmas }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em observables} & dictionary( observable\+Id\+:\{\textquotesingle{}name\textquotesingle{}\+:observable\+Name (optional), \textquotesingle{}formula\textquotesingle{}\+:formula\+String)\}) to be added to the model ~\newline
+{\bfseries Type}\+: dict\\
+\hline
+{\em sigmas} & dictionary(observable\+Id\+: sigma value or (existing) parameter name) ~\newline
+{\bfseries Type}\+: dict\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 815 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a903b87aa6c483832424fa2cc76adc4d5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a903b87aa6c483832424fa2cc76adc4d5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a1579faf8b188de11ed58ddbebc3c20a7}\label{classamici_1_1sbml__import_1_1_sbml_importer_a1579faf8b188de11ed58ddbebc3c20a7}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!replace\+In\+All\+Expressions@{replace\+In\+All\+Expressions}}
+\index{replace\+In\+All\+Expressions@{replace\+In\+All\+Expressions}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{replace\+In\+All\+Expressions()}{replaceInAllExpressions()}}
+{\footnotesize\ttfamily def replace\+In\+All\+Expressions (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{old,  }\item[{}]{new }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em old} & symbolic variables to be replaced ~\newline
+{\bfseries Type}\+: symengine.\+Symbol\\
+\hline
+{\em new} & replacement symbolic variables ~\newline
+{\bfseries Type}\+: symengine.\+Symbol\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 927 of file sbml\+\_\+import.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a1579faf8b188de11ed58ddbebc3c20a7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a122b9921e2fb5bd0fc75310c47413dd1}\label{classamici_1_1sbml__import_1_1_sbml_importer_a122b9921e2fb5bd0fc75310c47413dd1}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!clean\+Reserved\+Symbols@{clean\+Reserved\+Symbols}}
+\index{clean\+Reserved\+Symbols@{clean\+Reserved\+Symbols}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{clean\+Reserved\+Symbols()}{cleanReservedSymbols()}}
+{\footnotesize\ttfamily def clean\+Reserved\+Symbols (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 954 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a122b9921e2fb5bd0fc75310c47413dd1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a122b9921e2fb5bd0fc75310c47413dd1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1sbml__import_1_1_sbml_importer_a5348e7b5041334f8c54b45c5c928dea0}\label{classamici_1_1sbml__import_1_1_sbml_importer_a5348e7b5041334f8c54b45c5c928dea0}} 
+\index{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}!replace\+Special\+Constants@{replace\+Special\+Constants}}
+\index{replace\+Special\+Constants@{replace\+Special\+Constants}!amici\+::sbml\+\_\+import\+::\+Sbml\+Importer@{amici\+::sbml\+\_\+import\+::\+Sbml\+Importer}}
+\paragraph{\texorpdfstring{replace\+Special\+Constants()}{replaceSpecialConstants()}}
+{\footnotesize\ttfamily def replace\+Special\+Constants (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 975 of file sbml\+\_\+import.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a5348e7b5041334f8c54b45c5c928dea0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1sbml__import_1_1_sbml_importer_a5348e7b5041334f8c54b45c5c928dea0_icgraph}
+\end{center}
+\end{figure}

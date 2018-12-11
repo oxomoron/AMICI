@@ -1,0 +1,10 @@
+<map id="ExpData" name="ExpData">
+<area shape="rect" id="node2" href="$classamici_1_1_exp_data.html#a85ca23791c279fe94e5d9f8e528ca63e" title="setObservedData" alt="" coords="154,24,279,51"/>
+<area shape="rect" id="node5" href="$classamici_1_1_exp_data.html#a5d84a162eb705e032820acd004603f29" title="setObservedDataStdDev" alt="" coords="132,75,301,102"/>
+<area shape="rect" id="node7" href="$classamici_1_1_exp_data.html#ae621c2d67f85f390d01a97658c956098" title="setObservedEvents" alt="" coords="148,176,285,203"/>
+<area shape="rect" id="node9" href="$classamici_1_1_exp_data.html#af55c1775810031cd4b6e283f6dd220be" title="setObservedEventsStdDev" alt="" coords="126,125,307,153"/>
+<area shape="rect" id="node3" href="$classamici_1_1_exp_data.html#acad115e928a8b0bc8e90ebf9553d3eed" title="checkDataDimension" alt="" coords="362,24,509,51"/>
+<area shape="rect" id="node4" href="$classamici_1_1_exp_data.html#a4c23d300cbe15b0afb1ee3731d47cc93" title="nt" alt="" coords="563,24,602,51"/>
+<area shape="rect" id="node6" href="$classamici_1_1_exp_data.html#a30d756faaf9ea395446fbc5c65a7b125" title="checkSigmaPositivity" alt="" coords="362,125,508,153"/>
+<area shape="rect" id="node8" href="$classamici_1_1_exp_data.html#adcf5587f972fdef595fff78123f5118a" title="checkEventsDimension" alt="" coords="355,176,515,203"/>
+</map>

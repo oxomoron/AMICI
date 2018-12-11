@@ -1,0 +1,12 @@
+<map id="runAmiciSimulations" name="runAmiciSimulations">
+<area shape="rect" id="node2" href="$namespaceamici.html#a76e08fb9dd88a6b5352ae53d7afedc1e" title="runAmiciSimulations" alt="" coords="195,148,338,175"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#ad40c0e06f5ee35afc1dd60e9f80ac5be" title="Clone this instance. " alt="" coords="386,123,522,150"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a46331a204e7511587acc2cc0b1ce7ed0" title="runAmiciSimulation" alt="" coords="386,173,522,201"/>
+<area shape="rect" id="node5" href="$classamici_1_1_exp_data.html#a4c23d300cbe15b0afb1ee3731d47cc93" title="amici::ExpData::nt" alt="" coords="621,5,750,33"/>
+<area shape="rect" id="node6" href="$classamici_1_1_exp_data.html#a50ea5198d117f8f4ad1e34bb279975c8" title="amici::ExpData::getTimepoints" alt="" coords="584,56,786,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_return_data.html#ab320e46748c17908f0bd4bba240b8e92" title="amici::ReturnData::\linvalidate" alt="" coords="618,107,753,150"/>
+<area shape="rect" id="node8" href="$classamici_1_1_return_data.html#a03e88745280c032d3b59fd7235665e17" title="amici::ReturnData::\linvalidateLLH" alt="" coords="848,136,984,179"/>
+<area shape="rect" id="node9" href="$classamici_1_1_ami_exception.html#a79009ed133fa02b942ddce8f0b987f3e" title="amici::AmiException\l::what" alt="" coords="615,224,756,267"/>
+<area shape="rect" id="node10" href="$classamici_1_1_ami_exception.html#abd4eec3294e3af56ff54130ca3f2dea9" title="amici::AmiException\l::getBacktrace" alt="" coords="615,291,756,334"/>
+<area shape="rect" id="node11" href="$classamici_1_1_return_data.html#adce202dc864a1e65d8453f597de271f5" title="amici::ReturnData::\lapplyChainRuleFactorToSimulation\lResults" alt="" coords="570,358,800,416"/>
+</map>

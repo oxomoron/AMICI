@@ -1,0 +1,6 @@
+<map id="initializeLinearSolverB" name="initializeLinearSolverB">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#aaa1ecd357b3facae2f2d12784563ad25" title="denseB" alt="" coords="234,5,301,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a1081b1ac835a2bf9221552a07d04ef4d" title="setDenseJacFnB" alt="" coords="206,56,329,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a635908e6d209f02160e791f3ee9d0660" title="bandB" alt="" coords="237,107,297,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a1040308561e87b1e2d24c3ab9581e14d" title="setBandJacFnB" alt="" coords="210,157,325,185"/>
+</map>

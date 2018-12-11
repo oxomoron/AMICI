@@ -1,0 +1,1432 @@
+\hypertarget{classamici_1_1_model___d_a_e}{}\subsection{Model\+\_\+\+D\+AE Class Reference}
+\label{classamici_1_1_model___d_a_e}\index{Model\+\_\+\+D\+AE@{Model\+\_\+\+D\+AE}}
+
+
+The \mbox{\hyperlink{classamici_1_1_model}{Model}} class represents an A\+M\+I\+CI D\+AE model. The model does not contain any data, but represents the state of the model at a specific time t. The states must not always be in sync, but may be updated asynchroneously.  
+
+
+
+
+{\ttfamily \#include $<$model\+\_\+dae.\+h$>$}
+
+
+
+Inheritance diagram for Model\+\_\+\+D\+AE\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{classamici_1_1_model___d_a_e__inherit__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1_model___d_a_e_a7d20f16a3b4deb14a32fc24b2552f493}{Model\+\_\+\+D\+AE}} ()
+\item 
+\mbox{\hyperlink{classamici_1_1_model___d_a_e_a73ee4d9a34f901884b8b72a1245dfa47}{Model\+\_\+\+D\+AE}} (const int \mbox{\hyperlink{classamici_1_1_model_a4f88110916f09b2adef33396203ff015}{nx}}, const int \mbox{\hyperlink{classamici_1_1_model_acf5766cc8560edbdcec5b8ef79459239}{nxtrue}}, const int \mbox{\hyperlink{classamici_1_1_model_a811734e12750524808dba01c57e92c66}{ny}}, const int \mbox{\hyperlink{classamici_1_1_model_a54bcfe56ad0df183516d096adf4e0b26}{nytrue}}, const int \mbox{\hyperlink{classamici_1_1_model_aa406c307f97060d218bc1fe594dfd08f}{nz}}, const int \mbox{\hyperlink{classamici_1_1_model_a9a451378ba5572ef7a3fd4dd89e1c227}{nztrue}}, const int \mbox{\hyperlink{classamici_1_1_model_a07d5274358ec39bfec473cd212a3cb78}{ne}}, const int \mbox{\hyperlink{classamici_1_1_model_a0d2f49d2b15b08628451261e52f56e4f}{nJ}}, const int \mbox{\hyperlink{classamici_1_1_model_a196986a3a7c4a7dff1c90ae254db7795}{nw}}, const int \mbox{\hyperlink{classamici_1_1_model_a761315b22459d5ca307556f210aece6b}{ndwdx}}, const int \mbox{\hyperlink{classamici_1_1_model_a1bd453ba21c508c3687f641d49430829}{ndwdp}}, const int \mbox{\hyperlink{classamici_1_1_model_aab84622e454402438efd61cc36645abe}{nnz}}, const int \mbox{\hyperlink{classamici_1_1_model_a8aac2b651892bb766a3cb79868944d81}{ubw}}, const int \mbox{\hyperlink{classamici_1_1_model_aa19cd03fcaffb7a0cebd666081c5a868}{lbw}}, const \mbox{\hyperlink{namespaceamici_a2d77779286167d5603a870bf9f6c21ba}{Second\+Order\+Mode}} \mbox{\hyperlink{classamici_1_1_model_acc235cad50283f7891e2d834f1cbeb90}{o2mode}}, const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ p, const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_model_a6ac0de1b7dfddbb4a480657f62573563}{plist}}, const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ \mbox{\hyperlink{classamici_1_1_model_a3eadbed11a3c95f9d046633151414420}{idlist}}, const std\+::vector$<$ int $>$ \mbox{\hyperlink{classamici_1_1_model_af3343032542edf755502ca03f125a3e4}{z2event}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a99337eaeac6c70528c3464affe13df2e}{fJ}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$xdot, Dls\+Mat \mbox{\hyperlink{classamici_1_1_model_a71cc1d93543998249a172328e1a4dbcd}{J}}) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_ae0cdcd849f238e5ca375253f802e497c}{fJ}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xdot, Dls\+Mat \mbox{\hyperlink{classamici_1_1_model_a71cc1d93543998249a172328e1a4dbcd}{J}})
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a35c720b42879b9932ea16948053843cf}{f\+JB}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xB, N\+\_\+\+Vector dxB, Dls\+Mat JB)
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a3147c7a327fead438efe714f04491c82}{f\+J\+Sparse}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$xdot, Sls\+Mat \mbox{\hyperlink{classamici_1_1_model_a71cc1d93543998249a172328e1a4dbcd}{J}}) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_acb8703eaab2bd0da229453af1e6f71e3}{f\+J\+Sparse}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, Sls\+Mat \mbox{\hyperlink{classamici_1_1_model_a71cc1d93543998249a172328e1a4dbcd}{J}})
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a389bccc94cc77a18cc1948d592ca7fca}{f\+J\+SparseB}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xB, N\+\_\+\+Vector dxB, Sls\+Mat JB)
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a58cf5aaa5fbcf6195407e7651f05c218}{f\+J\+Diag}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$J\+Diag, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx) override
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a1a0549510cbe20e4d3c28bf77fc722ed}{f\+Jv}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$xdot, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$v, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$n\+Jv, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a7a3565abc7cb0372df38aec43e764275}{f\+Jv}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector v, N\+\_\+\+Vector Jv, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj)
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a837e1b2b4f0e13b64180040a9cb8e6b2}{f\+JvB}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xB, N\+\_\+\+Vector dxB, N\+\_\+\+Vector vB, N\+\_\+\+Vector JvB, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj)
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a94a623b51fd0ecd7a9a549eb7da2fc04}{froot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$root) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_ae6c3d021c2ba942652b6dbd4355e8968}{froot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$root)
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a33461bc9bc047e838607d958eb29621a}{fxdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$xdot) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a5c4a9276e3053be8f0ad12cb91761647}{fxdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xdot)
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_acc0b085abdde1955773d61f3e3bac21b}{fx\+Bdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xB, N\+\_\+\+Vector dxB, N\+\_\+\+Vector x\+Bdot)
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_ae3dc4629c9c56a4af01350b8c49f49a8}{fq\+Bdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, N\+\_\+\+Vector xB, N\+\_\+\+Vector dxB, N\+\_\+\+Vector q\+Bdot)
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a551dfccd2fb1aa618c644a580639f5b8}{fdxdotdp}} (const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const N\+\_\+\+Vector x, const N\+\_\+\+Vector dx)
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_afd60580b84c72713288796453f6da33a}{fdxdotdp}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a01f84575fd8df46a04fd472bbbc9d821}{fsxdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$x, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$dx, int ip, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$sx, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$sdx, \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$sxdot) override
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a26e76f86f173a718466c9cc19d68550a}{fsxdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, N\+\_\+\+Vector x, N\+\_\+\+Vector dx, int ip, N\+\_\+\+Vector sx, N\+\_\+\+Vector sdx, N\+\_\+\+Vector sxdot)
+\item 
+void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a82db0639f98056acc376569457c95ca4}{fM}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const N\+\_\+\+Vector x)
+\begin{DoxyCompactList}\small\item\em Mass matrix for D\+AE systems. \end{DoxyCompactList}\item 
+virtual std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $>$ \mbox{\hyperlink{classamici_1_1_model___d_a_e_aee7564098e889917627afd3c00772f81}{get\+Solver}} () override
+\end{DoxyCompactItemize}
+\subsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a81b48d60fb3d3d5cc8d27bf95311ac7d}{fJ}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a71cc1d93543998249a172328e1a4dbcd}{J}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})=0
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a4d0e342e2590b84bd6c26f2365781e2d}{f\+JB}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$JB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$xB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dxB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a7f4418e086c3edbc8cda50b7afeadcb3}{f\+J\+Sparse}} (Sls\+Mat J\+Sparse, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})=0
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a3a45e006ce44b7472d382073ef7fdb09}{f\+J\+SparseB}} (Sls\+Mat J\+SparseB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$xB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dxB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_ac8f0d24e57e0fcd02578aef74e3dd437}{f\+J\+Diag}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$J\+Diag, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$p, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a3b6a27845f466b9ed268780d22fc277a}{f\+Jv}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$Jv, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$v, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a2d8d52c4f3e521d7af7a8a438d1c8c0c}{f\+JvB}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$JvB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} cj, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$xB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dxB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$vB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_afd77f2a2ccc1c3907b102785a06ad198}{froot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$root, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx)
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a90827595be9066214f459f9dba9f660f}{fxdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$xdot, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}})=0
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a975fbfd04a76bf92eb10ab89ae8b1e60}{fx\+Bdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x\+Bdot, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$xB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dxB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_ab2dbd96ca65305b63f76b166a9a1c20a}{fq\+Bdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$q\+Bdot, const int ip, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const double $\ast$p, const double $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$xB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dxB, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_ae0be4b469deded11a9b2569a4da9edea}{dwdp}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_a772b6fc2bd362707fe547466f0462278}{fdxdotdp}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_adba071f2419937047304600d4dad9b04}{dxdotdp}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$p, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const int ip, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_ae0be4b469deded11a9b2569a4da9edea}{dwdp}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_abfb82a529095712d73907f96610f6694}{fsxdot}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$sxdot, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$p, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0e4df9c10406b35bd54f6f839322ca87}{h}}, const int ip, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$dx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$sx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$sdx, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a6b305431617db7966c726f756e819843}{w}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a58b93c923b4fd9c0322c969954696210}{dwdx}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0a114d4a6ddc9469fe5e5b4a31317d89}{M}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a71cc1d93543998249a172328e1a4dbcd}{J}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_adba071f2419937047304600d4dad9b04}{dxdotdp}})
+\item 
+virtual void \mbox{\hyperlink{classamici_1_1_model___d_a_e_ae29c11385a5d319a8be2126432046046}{fM}} (\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_a0a114d4a6ddc9469fe5e5b4a31317d89}{M}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_model_a711281d57e9710226face29151cc4641}{t}}, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$x, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$p, const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$\mbox{\hyperlink{classamici_1_1_model_adde50e0d8a99d20354c8403bf93fab6f}{k}})
+\end{DoxyCompactItemize}
+\subsubsection*{Additional Inherited Members}
+
+
+\subsubsection{Detailed Description}
+
+
+Definition at line 24 of file model\+\_\+dae.\+h.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a7d20f16a3b4deb14a32fc24b2552f493}\label{classamici_1_1_model___d_a_e_a7d20f16a3b4deb14a32fc24b2552f493}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!Model\+\_\+\+D\+AE@{Model\+\_\+\+D\+AE}}
+\index{Model\+\_\+\+D\+AE@{Model\+\_\+\+D\+AE}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{Model\+\_\+\+D\+A\+E()}{Model\_DAE()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_model___d_a_e}{Model\+\_\+\+D\+AE}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+default constructor 
+
+Definition at line 27 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a73ee4d9a34f901884b8b72a1245dfa47}\label{classamici_1_1_model___d_a_e_a73ee4d9a34f901884b8b72a1245dfa47}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!Model\+\_\+\+D\+AE@{Model\+\_\+\+D\+AE}}
+\index{Model\+\_\+\+D\+AE@{Model\+\_\+\+D\+AE}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{Model\+\_\+\+D\+A\+E()}{Model\_DAE()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_model___d_a_e}{Model\+\_\+\+D\+AE}} (\begin{DoxyParamCaption}\item[{const int}]{nx,  }\item[{const int}]{nxtrue,  }\item[{const int}]{ny,  }\item[{const int}]{nytrue,  }\item[{const int}]{nz,  }\item[{const int}]{nztrue,  }\item[{const int}]{ne,  }\item[{const int}]{nJ,  }\item[{const int}]{nw,  }\item[{const int}]{ndwdx,  }\item[{const int}]{ndwdp,  }\item[{const int}]{nnz,  }\item[{const int}]{ubw,  }\item[{const int}]{lbw,  }\item[{const \mbox{\hyperlink{namespaceamici_a2d77779286167d5603a870bf9f6c21ba}{Second\+Order\+Mode}}}]{o2mode,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$}]{p,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$}]{k,  }\item[{const std\+::vector$<$ int $>$}]{plist,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$}]{idlist,  }\item[{const std\+::vector$<$ int $>$}]{z2event }\end{DoxyParamCaption})}
+
+constructor with model dimensions 
+\begin{DoxyParams}{Parameters}
+{\em nx} & number of state variables \\
+\hline
+{\em nxtrue} & number of state variables of the non-\/augmented model \\
+\hline
+{\em ny} & number of observables \\
+\hline
+{\em nytrue} & number of observables of the non-\/augmented model \\
+\hline
+{\em nz} & number of event observables \\
+\hline
+{\em nztrue} & number of event observables of the non-\/augmented model \\
+\hline
+{\em ne} & number of events \\
+\hline
+{\em nJ} & number of objective functions \\
+\hline
+{\em nw} & number of repeating elements \\
+\hline
+{\em ndwdx} & number of nonzero elements in the x derivative of the repeating elements \\
+\hline
+{\em ndwdp} & number of nonzero elements in the p derivative of the repeating elements \\
+\hline
+{\em nnz} & number of nonzero elements in Jacobian \\
+\hline
+{\em ubw} & upper matrix bandwidth in the Jacobian \\
+\hline
+{\em lbw} & lower matrix bandwidth in the Jacobian \\
+\hline
+{\em o2mode} & second order sensitivity mode \\
+\hline
+{\em p} & parameters \\
+\hline
+{\em k} & constants \\
+\hline
+{\em plist} & indexes wrt to which sensitivities are to be computed \\
+\hline
+{\em idlist} & indexes indicating algebraic components (D\+AE only) \\
+\hline
+{\em z2event} & mapping of event outputs to events \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 53 of file model\+\_\+dae.\+h.
+
+
+
+\subsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a99337eaeac6c70528c3464affe13df2e}\label{classamici_1_1_model___d_a_e_a99337eaeac6c70528c3464affe13df2e}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fJ@{fJ}}
+\index{fJ@{fJ}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J()}{fJ()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void fJ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{xdot,  }\item[{Dls\+Mat}]{J }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Dense Jacobian function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em cj} & scaling factor (inverse of timestep, D\+AE only) \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+{\em xdot} & values of residual function (unused) \\
+\hline
+{\em J} & dense matrix to which values of the jacobian will be written \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a7df960e9bdb8245155e53e5fbb6d2c6a}{Model}}.
+
+
+
+Definition at line 6 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classamici_1_1_model___d_a_e_a99337eaeac6c70528c3464affe13df2e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{classamici_1_1_model___d_a_e_a99337eaeac6c70528c3464affe13df2e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_ae0cdcd849f238e5ca375253f802e497c}\label{classamici_1_1_model___d_a_e_ae0cdcd849f238e5ca375253f802e497c}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fJ@{fJ}}
+\index{fJ@{fJ}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J()}{fJ()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void fJ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xdot,  }\item[{Dls\+Mat}]{J }\end{DoxyParamCaption})}
+
+Jacobian of xdot with respect to states x 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xdot} & Vector with the right hand side \\
+\hline
+{\em J} & Matrix to which the Jacobian will be written \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_ae0cdcd849f238e5ca375253f802e497c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a35c720b42879b9932ea16948053843cf}\label{classamici_1_1_model___d_a_e_a35c720b42879b9932ea16948053843cf}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+JB@{f\+JB}}
+\index{f\+JB@{f\+JB}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+B()}{fJB()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void f\+JB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xB,  }\item[{N\+\_\+\+Vector}]{dxB,  }\item[{Dls\+Mat}]{JB }\end{DoxyParamCaption})}
+
+Jacobian of x\+Bdot with respect to adjoint state xB 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em JB} & Matrix to which the Jacobian will be written \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 166 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a35c720b42879b9932ea16948053843cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a3147c7a327fead438efe714f04491c82}\label{classamici_1_1_model___d_a_e_a3147c7a327fead438efe714f04491c82}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+Sparse@{f\+J\+Sparse}}
+\index{f\+J\+Sparse@{f\+J\+Sparse}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Sparse()}{fJSparse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void f\+J\+Sparse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{xdot,  }\item[{Sls\+Mat}]{J }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Sparse Jacobian function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em cj} & scaling factor (inverse of timestep, D\+AE only) \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+{\em xdot} & values of residual function (unused) \\
+\hline
+{\em J} & sparse matrix to which values of the Jacobian will be written \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a4b499d01a3e0504bcd8eda681b8da277}{Model}}.
+
+
+
+Definition at line 29 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{classamici_1_1_model___d_a_e_a3147c7a327fead438efe714f04491c82_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{classamici_1_1_model___d_a_e_a3147c7a327fead438efe714f04491c82_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_acb8703eaab2bd0da229453af1e6f71e3}\label{classamici_1_1_model___d_a_e_acb8703eaab2bd0da229453af1e6f71e3}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+Sparse@{f\+J\+Sparse}}
+\index{f\+J\+Sparse@{f\+J\+Sparse}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Sparse()}{fJSparse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void f\+J\+Sparse (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{Sls\+Mat}]{J }\end{DoxyParamCaption})}
+
+J in sparse form (for sparse solvers from the Suite\+Sparse Package) 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em cj} & scalar in Jacobian (inverse stepsize) \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em J} & Matrix to which the Jacobian will be written \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 41 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_acb8703eaab2bd0da229453af1e6f71e3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a389bccc94cc77a18cc1948d592ca7fca}\label{classamici_1_1_model___d_a_e_a389bccc94cc77a18cc1948d592ca7fca}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+SparseB@{f\+J\+SparseB}}
+\index{f\+J\+SparseB@{f\+J\+SparseB}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Sparse\+B()}{fJSparseB()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void f\+J\+SparseB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xB,  }\item[{N\+\_\+\+Vector}]{dxB,  }\item[{Sls\+Mat}]{JB }\end{DoxyParamCaption})}
+
+JB in sparse form (for sparse solvers from the Suite\+Sparse Package) 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em cj} & scalar in Jacobian \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em JB} & Matrix to which the Jacobian will be written \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 184 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a389bccc94cc77a18cc1948d592ca7fca_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a58cf5aaa5fbcf6195407e7651f05c218}\label{classamici_1_1_model___d_a_e_a58cf5aaa5fbcf6195407e7651f05c218}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+Diag@{f\+J\+Diag}}
+\index{f\+J\+Diag@{f\+J\+Diag}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Diag()}{fJDiag()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void f\+J\+Diag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{J\+Diag,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+diagonalized Jacobian (for preconditioning) 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em J\+Diag} & Vector to which the Jacobian diagonal will be written \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status flag indicating successful execution 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a6cf54c0a48ef223795655bdd44a339b7}{Model}}.
+
+
+
+Definition at line 116 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a58cf5aaa5fbcf6195407e7651f05c218_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a1a0549510cbe20e4d3c28bf77fc722ed}\label{classamici_1_1_model___d_a_e_a1a0549510cbe20e4d3c28bf77fc722ed}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+Jv@{f\+Jv}}
+\index{f\+Jv@{f\+Jv}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+Jv()}{fJv()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void f\+Jv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{xdot,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{v,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{n\+Jv,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Jacobian multiply function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+{\em xdot} & values of residual function (unused) \\
+\hline
+{\em v} & multiplication vector (unused) \\
+\hline
+{\em n\+Jv} & array to which result of multiplication will be written \\
+\hline
+{\em cj} & scaling factor (inverse of timestep, D\+AE only) \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_ae08b9d7a7d15898e4dd7c71ac057c6a5}{Model}}.
+
+
+
+Definition at line 49 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classamici_1_1_model___d_a_e_a1a0549510cbe20e4d3c28bf77fc722ed_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{classamici_1_1_model___d_a_e_a1a0549510cbe20e4d3c28bf77fc722ed_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a7a3565abc7cb0372df38aec43e764275}\label{classamici_1_1_model___d_a_e_a7a3565abc7cb0372df38aec43e764275}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+Jv@{f\+Jv}}
+\index{f\+Jv@{f\+Jv}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+Jv()}{fJv()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void f\+Jv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{v,  }\item[{N\+\_\+\+Vector}]{Jv,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj }\end{DoxyParamCaption})}
+
+Matrix vector product of J with a vector v (for iterative solvers) 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint ~\newline
+{\bfseries Type}\+: realtype \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em v} & Vector with which the Jacobian is multiplied \\
+\hline
+{\em Jv} & Vector to which the Jacobian vector product will be written \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 64 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a7a3565abc7cb0372df38aec43e764275_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a837e1b2b4f0e13b64180040a9cb8e6b2}\label{classamici_1_1_model___d_a_e_a837e1b2b4f0e13b64180040a9cb8e6b2}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+JvB@{f\+JvB}}
+\index{f\+JvB@{f\+JvB}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+Jv\+B()}{fJvB()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void f\+JvB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xB,  }\item[{N\+\_\+\+Vector}]{dxB,  }\item[{N\+\_\+\+Vector}]{vB,  }\item[{N\+\_\+\+Vector}]{JvB,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj }\end{DoxyParamCaption})}
+
+Matrix vector product of JB with a vector v (for iterative solvers) 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em vB} & Vector with which the Jacobian is multiplied \\
+\hline
+{\em JvB} & Vector to which the Jacobian vector product will be written \\
+\hline
+{\em cj} & scalar in Jacobian (inverse stepsize) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 204 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a837e1b2b4f0e13b64180040a9cb8e6b2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a94a623b51fd0ecd7a9a549eb7da2fc04}\label{classamici_1_1_model___d_a_e_a94a623b51fd0ecd7a9a549eb7da2fc04}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!froot@{froot}}
+\index{froot@{froot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{froot()}{froot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void froot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{root }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Root function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+{\em root} & array to which values of the root function will be written \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a9124751917d81611cc237c853d9cf6b6}{Model}}.
+
+
+
+Definition at line 73 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{classamici_1_1_model___d_a_e_a94a623b51fd0ecd7a9a549eb7da2fc04_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{classamici_1_1_model___d_a_e_a94a623b51fd0ecd7a9a549eb7da2fc04_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_ae6c3d021c2ba942652b6dbd4355e8968}\label{classamici_1_1_model___d_a_e_ae6c3d021c2ba942652b6dbd4355e8968}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!froot@{froot}}
+\index{froot@{froot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{froot()}{froot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void froot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{root }\end{DoxyParamCaption})}
+
+Event trigger function for events 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em root} & array with root function values \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 83 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_ae6c3d021c2ba942652b6dbd4355e8968_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a33461bc9bc047e838607d958eb29621a}\label{classamici_1_1_model___d_a_e_a33461bc9bc047e838607d958eb29621a}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fxdot@{fxdot}}
+\index{fxdot@{fxdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fxdot()}{fxdot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void fxdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{xdot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Residual function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+{\em xdot} & array to which values of the residual function will be written \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a30b9be6c722585f984c9406d8831703e}{Model}}.
+
+
+
+Definition at line 90 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classamici_1_1_model___d_a_e_a33461bc9bc047e838607d958eb29621a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=191pt]{classamici_1_1_model___d_a_e_a33461bc9bc047e838607d958eb29621a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a5c4a9276e3053be8f0ad12cb91761647}\label{classamici_1_1_model___d_a_e_a5c4a9276e3053be8f0ad12cb91761647}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fxdot@{fxdot}}
+\index{fxdot@{fxdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fxdot()}{fxdot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void fxdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xdot }\end{DoxyParamCaption})}
+
+residual function of the D\+AE 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xdot} & Vector with the right hand side \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 100 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a5c4a9276e3053be8f0ad12cb91761647_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_acc0b085abdde1955773d61f3e3bac21b}\label{classamici_1_1_model___d_a_e_acc0b085abdde1955773d61f3e3bac21b}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fx\+Bdot@{fx\+Bdot}}
+\index{fx\+Bdot@{fx\+Bdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fx\+Bdot()}{fxBdot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void fx\+Bdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xB,  }\item[{N\+\_\+\+Vector}]{dxB,  }\item[{N\+\_\+\+Vector}]{x\+Bdot }\end{DoxyParamCaption})}
+
+Right hand side of differential equation for adjoint state xB 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em x\+Bdot} & Vector with the adjoint right hand side \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 222 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_acc0b085abdde1955773d61f3e3bac21b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_ae3dc4629c9c56a4af01350b8c49f49a8}\label{classamici_1_1_model___d_a_e_ae3dc4629c9c56a4af01350b8c49f49a8}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fq\+Bdot@{fq\+Bdot}}
+\index{fq\+Bdot@{fq\+Bdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fq\+Bdot()}{fqBdot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void fq\+Bdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{N\+\_\+\+Vector}]{xB,  }\item[{N\+\_\+\+Vector}]{dxB,  }\item[{N\+\_\+\+Vector}]{q\+Bdot }\end{DoxyParamCaption})}
+
+Right hand side of integral equation for quadrature states qB 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em q\+Bdot} & Vector with the adjoint quadrature right hand side \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 240 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_ae3dc4629c9c56a4af01350b8c49f49a8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a551dfccd2fb1aa618c644a580639f5b8}\label{classamici_1_1_model___d_a_e_a551dfccd2fb1aa618c644a580639f5b8}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fdxdotdp@{fdxdotdp}}
+\index{fdxdotdp@{fdxdotdp}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fdxdotdp()}{fdxdotdp()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void fdxdotdp (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const N\+\_\+\+Vector}]{x,  }\item[{const N\+\_\+\+Vector}]{dx }\end{DoxyParamCaption})}
+
+Sensitivity of dx/dt wrt model parameters p 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+status flag indicating successful execution 
+\end{DoxyReturn}
+
+
+Definition at line 133 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a551dfccd2fb1aa618c644a580639f5b8_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{classamici_1_1_model___d_a_e_a551dfccd2fb1aa618c644a580639f5b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_afd60580b84c72713288796453f6da33a}\label{classamici_1_1_model___d_a_e_afd60580b84c72713288796453f6da33a}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fdxdotdp@{fdxdotdp}}
+\index{fdxdotdp@{fdxdotdp}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fdxdotdp()}{fdxdotdp()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily virtual void fdxdotdp (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+parameter derivative of residual function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+flag indicating successful evaluation 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a7ce1e14d4137c249bc44e18345b562b8}{Model}}.
+
+
+
+Definition at line 95 of file model\+\_\+dae.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_afd60580b84c72713288796453f6da33a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a01f84575fd8df46a04fd472bbbc9d821}\label{classamici_1_1_model___d_a_e_a01f84575fd8df46a04fd472bbbc9d821}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fsxdot@{fsxdot}}
+\index{fsxdot@{fsxdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fsxdot()}{fsxdot()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void fsxdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{x,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{dx,  }\item[{int}]{ip,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{sx,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{sdx,  }\item[{\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$}]{sxdot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Sensitivity Residual function 
+\begin{DoxyParams}{Parameters}
+{\em t} & time \\
+\hline
+{\em x} & state \\
+\hline
+{\em dx} & time derivative of state (D\+AE only) \\
+\hline
+{\em ip} & parameter index \\
+\hline
+{\em sx} & sensitivity state \\
+\hline
+{\em sdx} & time derivative of sensitivity state (D\+AE only) \\
+\hline
+{\em sxdot} & array to which values of the sensitivity residual function will be written \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_ac95e201045b3eda5d4684996311567c5}{Model}}.
+
+
+
+Definition at line 250 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classamici_1_1_model___d_a_e_a01f84575fd8df46a04fd472bbbc9d821_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classamici_1_1_model___d_a_e_a01f84575fd8df46a04fd472bbbc9d821_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a26e76f86f173a718466c9cc19d68550a}\label{classamici_1_1_model___d_a_e_a26e76f86f173a718466c9cc19d68550a}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fsxdot@{fsxdot}}
+\index{fsxdot@{fsxdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fsxdot()}{fsxdot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void fsxdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{N\+\_\+\+Vector}]{x,  }\item[{N\+\_\+\+Vector}]{dx,  }\item[{int}]{ip,  }\item[{N\+\_\+\+Vector}]{sx,  }\item[{N\+\_\+\+Vector}]{sdx,  }\item[{N\+\_\+\+Vector}]{sxdot }\end{DoxyParamCaption})}
+
+Right hand side of differential equation for state sensitivities sx 
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em ip} & parameter index \\
+\hline
+{\em sx} & Vector with the state sensitivities \\
+\hline
+{\em sdx} & Vector with the derivative state sensitivities \\
+\hline
+{\em sxdot} & Vector with the sensitivity right hand side \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 266 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a26e76f86f173a718466c9cc19d68550a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a82db0639f98056acc376569457c95ca4}\label{classamici_1_1_model___d_a_e_a82db0639f98056acc376569457c95ca4}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fM@{fM}}
+\index{fM@{fM}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+M()}{fM()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void fM (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const N\+\_\+\+Vector}]{x }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 147 of file model\+\_\+dae.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_model___d_a_e_a82db0639f98056acc376569457c95ca4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{classamici_1_1_model___d_a_e_a82db0639f98056acc376569457c95ca4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_aee7564098e889917627afd3c00772f81}\label{classamici_1_1_model___d_a_e_aee7564098e889917627afd3c00772f81}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!get\+Solver@{get\+Solver}}
+\index{get\+Solver@{get\+Solver}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{get\+Solver()}{getSolver()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $>$ get\+Solver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Retrieves the solver object \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{classamici_1_1_solver}{Solver}} instance 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classamici_1_1_model_a61d5b19b2e4d5ffcc73a014d59494344}{Model}}.
+
+
+
+Definition at line 153 of file model\+\_\+dae.\+cpp.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a81b48d60fb3d3d5cc8d27bf95311ac7d}\label{classamici_1_1_model___d_a_e_a81b48d60fb3d3d5cc8d27bf95311ac7d}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fJ@{fJ}}
+\index{fJ@{fJ}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J()}{fJ()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void fJ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{J,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+model specific implementation for fJ 
+\begin{DoxyParams}{Parameters}
+{\em J} & Matrix to which the Jacobian will be written \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a4d0e342e2590b84bd6c26f2365781e2d}\label{classamici_1_1_model___d_a_e_a4d0e342e2590b84bd6c26f2365781e2d}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+JB@{f\+JB}}
+\index{f\+JB@{f\+JB}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+B()}{fJB()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void f\+JB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{JB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{xB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for f\+JB 
+\begin{DoxyParams}{Parameters}
+{\em JB} & Matrix to which the Jacobian will be written \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 139 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a7f4418e086c3edbc8cda50b7afeadcb3}\label{classamici_1_1_model___d_a_e_a7f4418e086c3edbc8cda50b7afeadcb3}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+Sparse@{f\+J\+Sparse}}
+\index{f\+J\+Sparse@{f\+J\+Sparse}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Sparse()}{fJSparse()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void f\+J\+Sparse (\begin{DoxyParamCaption}\item[{Sls\+Mat}]{J\+Sparse,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+model specific implementation for f\+J\+Sparse 
+\begin{DoxyParams}{Parameters}
+{\em J\+Sparse} & Matrix to which the Jacobian will be written \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a3a45e006ce44b7472d382073ef7fdb09}\label{classamici_1_1_model___d_a_e_a3a45e006ce44b7472d382073ef7fdb09}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+SparseB@{f\+J\+SparseB}}
+\index{f\+J\+SparseB@{f\+J\+SparseB}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Sparse\+B()}{fJSparseB()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void f\+J\+SparseB (\begin{DoxyParamCaption}\item[{Sls\+Mat}]{J\+SparseB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{xB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for f\+J\+SparseB 
+\begin{DoxyParams}{Parameters}
+{\em J\+SparseB} & Matrix to which the Jacobian will be written \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 174 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_ac8f0d24e57e0fcd02578aef74e3dd437}\label{classamici_1_1_model___d_a_e_ac8f0d24e57e0fcd02578aef74e3dd437}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+J\+Diag@{f\+J\+Diag}}
+\index{f\+J\+Diag@{f\+J\+Diag}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+J\+Diag()}{fJDiag()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void f\+J\+Diag (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{J\+Diag,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{p,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for f\+J\+Diag 
+\begin{DoxyParams}{Parameters}
+{\em J\+Diag} & array to which the Jacobian diagonal will be written \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 192 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a3b6a27845f466b9ed268780d22fc277a}\label{classamici_1_1_model___d_a_e_a3b6a27845f466b9ed268780d22fc277a}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+Jv@{f\+Jv}}
+\index{f\+Jv@{f\+Jv}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+Jv()}{fJv()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void f\+Jv (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{Jv,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{v,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for f\+Jv 
+\begin{DoxyParams}{Parameters}
+{\em Jv} & Matrix vector product of J with a vector v \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em v} & Vector with which the Jacobian is multiplied \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 210 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a2d8d52c4f3e521d7af7a8a438d1c8c0c}\label{classamici_1_1_model___d_a_e_a2d8d52c4f3e521d7af7a8a438d1c8c0c}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!f\+JvB@{f\+JvB}}
+\index{f\+JvB@{f\+JvB}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+Jv\+B()}{fJvB()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void f\+JvB (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{JvB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{cj,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{xB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{vB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for f\+JvB 
+\begin{DoxyParams}{Parameters}
+{\em JvB} & Matrix vector product of JB with a vector v \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em cj} & scaling factor, inverse of the step size \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em vB} & Vector with which the Jacobian is multiplied \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 231 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_afd77f2a2ccc1c3907b102785a06ad198}\label{classamici_1_1_model___d_a_e_afd77f2a2ccc1c3907b102785a06ad198}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!froot@{froot}}
+\index{froot@{froot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{froot()}{froot()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void froot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{root,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for froot 
+\begin{DoxyParams}{Parameters}
+{\em root} & values of the trigger function \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 246 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a90827595be9066214f459f9dba9f660f}\label{classamici_1_1_model___d_a_e_a90827595be9066214f459f9dba9f660f}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fxdot@{fxdot}}
+\index{fxdot@{fxdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fxdot()}{fxdot()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void fxdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{xdot,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+model specific implementation for fxdot 
+\begin{DoxyParams}{Parameters}
+{\em xdot} & residual function \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a975fbfd04a76bf92eb10ab89ae8b1e60}\label{classamici_1_1_model___d_a_e_a975fbfd04a76bf92eb10ab89ae8b1e60}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fx\+Bdot@{fx\+Bdot}}
+\index{fx\+Bdot@{fx\+Bdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fx\+Bdot()}{fxBdot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void fx\+Bdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x\+Bdot,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{xB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for fx\+Bdot 
+\begin{DoxyParams}{Parameters}
+{\em x\+Bdot} & adjoint residual function \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 277 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_ab2dbd96ca65305b63f76b166a9a1c20a}\label{classamici_1_1_model___d_a_e_ab2dbd96ca65305b63f76b166a9a1c20a}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fq\+Bdot@{fq\+Bdot}}
+\index{fq\+Bdot@{fq\+Bdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fq\+Bdot()}{fqBdot()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void fq\+Bdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{q\+Bdot,  }\item[{const int}]{ip,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const double $\ast$}]{p,  }\item[{const double $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{xB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxB,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation for fq\+Bdot 
+\begin{DoxyParams}{Parameters}
+{\em q\+Bdot} & adjoint quadrature equation \\
+\hline
+{\em ip} & sensitivity index \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em xB} & Vector with the adjoint states \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em dxB} & Vector with the adjoint derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdp} & derivative of w wrt p \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 297 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_a772b6fc2bd362707fe547466f0462278}\label{classamici_1_1_model___d_a_e_a772b6fc2bd362707fe547466f0462278}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fdxdotdp@{fdxdotdp}}
+\index{fdxdotdp@{fdxdotdp}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fdxdotdp()}{fdxdotdp()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void fdxdotdp (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxdotdp,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{p,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const int}]{ip,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation of fdxdotdp 
+\begin{DoxyParams}{Parameters}
+{\em dxdotdp} & partial derivative xdot wrt p \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em ip} & parameter index \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdp} & derivative of w wrt p \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 315 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_abfb82a529095712d73907f96610f6694}\label{classamici_1_1_model___d_a_e_abfb82a529095712d73907f96610f6694}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fsxdot@{fsxdot}}
+\index{fsxdot@{fsxdot}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{fsxdot()}{fsxdot()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily virtual void fsxdot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{sxdot,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{p,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{k,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{h,  }\item[{const int}]{ip,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{sx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{sdx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{w,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dwdx,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{M,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{J,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{dxdotdp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation of fsxdot 
+\begin{DoxyParams}{Parameters}
+{\em sxdot} & sensitivity rhs \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+{\em h} & heavyside vector \\
+\hline
+{\em ip} & parameter index \\
+\hline
+{\em dx} & Vector with the derivative states \\
+\hline
+{\em sx} & Vector with the state sensitivities \\
+\hline
+{\em sdx} & Vector with the derivative state sensitivities \\
+\hline
+{\em w} & vector with helper variables \\
+\hline
+{\em dwdx} & derivative of w wrt x \\
+\hline
+{\em M} & mass matrix \\
+\hline
+{\em J} & jacobian \\
+\hline
+{\em dxdotdp} & parameter derivative of residual function \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 337 of file model\+\_\+dae.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_model___d_a_e_ae29c11385a5d319a8be2126432046046}\label{classamici_1_1_model___d_a_e_ae29c11385a5d319a8be2126432046046}} 
+\index{amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}!fM@{fM}}
+\index{fM@{fM}!amici\+::\+Model\+\_\+\+D\+AE@{amici\+::\+Model\+\_\+\+D\+AE}}
+\paragraph{\texorpdfstring{f\+M()}{fM()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual void fM (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{M,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}}]{t,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{x,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{p,  }\item[{const \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $\ast$}]{k }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+model specific implementation of fM 
+\begin{DoxyParams}{Parameters}
+{\em M} & mass matrix \\
+\hline
+{\em t} & timepoint \\
+\hline
+{\em x} & Vector with the states \\
+\hline
+{\em p} & parameter vector \\
+\hline
+{\em k} & constants vector \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 351 of file model\+\_\+dae.\+h.
+

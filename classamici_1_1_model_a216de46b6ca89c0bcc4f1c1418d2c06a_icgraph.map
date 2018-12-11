@@ -1,0 +1,5 @@
+<map id="hasParameterIds" name="hasParameterIds">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a4436bd89ae2cb032cbf13db478d99e15" title="Get value of first model parameter with the specified id. " alt="" coords="198,5,327,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a995357a19663980279249d4b89a88f7a" title="Set value of first model parameter with the specified id. " alt="" coords="199,56,327,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#ab66d6b754637ed68449af96f5887a0be" title="Set all values of model parameters with ids matching the specified regex. " alt="" coords="176,107,349,134"/>
+</map>

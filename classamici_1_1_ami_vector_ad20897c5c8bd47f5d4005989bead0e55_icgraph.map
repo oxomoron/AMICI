@@ -1,0 +1,9 @@
+<map id="reset" name="reset">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#aa9a9e12a414d9ac91249b63d01ab7bca" title="amici::Model::fx0" alt="" coords="139,14,260,42"/>
+<area shape="rect" id="node5" href="$classamici_1_1_newton_solver_iterative.html#a89a318e506339bc8a0d05aa01920f1ae" title="amici::NewtonSolverIterative\l::linsolveSPBCG" alt="" coords="104,69,295,112"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#a04ef010145a9a17746128e55d4e0a436" title="amici::Solver::setupAMIB" alt="" coords="114,136,285,163"/>
+<area shape="rect" id="node8" href="$classamici_1_1_steadystate_problem.html#a1c33ff72fd843a1a51cd93448e3e5a77" title="amici::SteadystateProblem\l::applyNewtonsMethod" alt="" coords="109,187,289,229"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a73d147a7108479e20833ba816cac0f6b" title="amici::Model::initialize\lStates" alt="" coords="362,5,513,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a4d8f308f15a126dde571f2e26787d3e8" title="amici::Model::initialize" alt="" coords="581,13,732,40"/>
+<area shape="rect" id="node6" href="$classamici_1_1_newton_solver_iterative.html#aced8bda2d8b3051a8632152cb1f7da4a" title="amici::NewtonSolverIterative\l::solveLinearSystem" alt="" coords="343,72,533,115"/>
+</map>

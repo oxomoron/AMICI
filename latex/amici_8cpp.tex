@@ -1,0 +1,43 @@
+\hypertarget{amici_8cpp}{}\subsection{amici.\+cpp File Reference}
+\label{amici_8cpp}\index{amici.\+cpp@{amici.\+cpp}}
+
+
+core routines for integration  
+
+
+{\ttfamily \#include \char`\"{}amici/amici.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}amici/backwardproblem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}amici/forwardproblem.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}amici/misc.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$sundials/sundials\+\_\+types.\+h$>$}\newline
+{\ttfamily \#include $<$cvodes/cvodes.\+h$>$}\newline
+{\ttfamily \#include $<$type\+\_\+traits$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$cstdarg$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+Include dependency graph for amici.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{amici_8cpp__incl}
+\end{center}
+\end{figure}
+\subsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceamici}{amici}}
+\begin{DoxyCompactList}\small\item\em The A\+M\+I\+CI Python module (in doxygen this will also contain documentation about the C++ library) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ Return\+Data $>$ \mbox{\hyperlink{namespaceamici_a46331a204e7511587acc2cc0b1ce7ed0}{run\+Amici\+Simulation}} (Solver \&solver, const Exp\+Data $\ast$edata, Model \&model)
+\item 
+void \mbox{\hyperlink{namespaceamici_ade28c6a7f1b5aee40bb2453fb61b4024}{print\+Err\+Msg\+Id\+And\+Txt}} (const char $\ast$identifier, const char $\ast$format,...)
+\item 
+void \mbox{\hyperlink{namespaceamici_a14122f73594a970df27bfcb8fa0db35d}{print\+Warn\+Msg\+Id\+And\+Txt}} (const char $\ast$identifier, const char $\ast$format,...)
+\item 
+std\+::vector$<$ std\+::unique\+\_\+ptr$<$ Return\+Data $>$ $>$ \mbox{\hyperlink{namespaceamici_a76e08fb9dd88a6b5352ae53d7afedc1e}{run\+Amici\+Simulations}} (Solver const \&solver, const std\+::vector$<$ Exp\+Data $\ast$$>$ \&edatas, Model const \&model, int num\+\_\+threads)
+\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="getFixedParameterNames" name="getFixedParameterNames">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a99cc00a08b2f2d87d3eac047d00a7c57" title="Get value of fixed parameter with the specified name, if multiple parameters have the same name..." alt="" coords="461,5,647,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#af1225439bd6deceb98b224e75a960800" title="Set value of first fixed parameter with the specified name,. " alt="" coords="462,123,647,150"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#a964e924a1fe271f88bac4cfa909e2879" title="Reports whether the model has fixed parameter names set. " alt="" coords="230,64,410,91"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a4802f7d56264e3b592c167da8166cb73" title="Set value of all fixed parameters with name matching the specified regex,. " alt="" coords="458,56,650,99"/>
+</map>

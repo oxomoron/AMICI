@@ -1,0 +1,6 @@
+<map id="minus" name="minus">
+<area shape="rect" id="node2" href="$classamici_1_1_newton_solver.html#a7b71b3735b6ca62570266f9d6fce33cb" title="amici::NewtonSolver\l::getStep" alt="" coords="134,5,277,48"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver_iterative.html#a89a318e506339bc8a0d05aa01920f1ae" title="amici::NewtonSolverIterative\l::linsolveSPBCG" alt="" coords="110,72,301,115"/>
+<area shape="rect" id="node3" href="$classamici_1_1_steadystate_problem.html#a1c33ff72fd843a1a51cd93448e3e5a77" title="amici::SteadystateProblem\l::applyNewtonsMethod" alt="" coords="354,5,534,48"/>
+<area shape="rect" id="node5" href="$classamici_1_1_newton_solver_iterative.html#aced8bda2d8b3051a8632152cb1f7da4a" title="amici::NewtonSolverIterative\l::solveLinearSystem" alt="" coords="349,72,539,115"/>
+</map>

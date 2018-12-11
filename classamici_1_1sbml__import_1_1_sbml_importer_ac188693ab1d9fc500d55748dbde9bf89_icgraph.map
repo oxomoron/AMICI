@@ -1,0 +1,4 @@
+<map id="processSBML" name="processSBML">
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae5cdd2444bac89e61e6f717f7736acb6" title="Generate AMICI C++ files for the model provided to the constructor. " alt="" coords="158,5,246,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a0dcfa882a6a14f2d4b83e11552aae318" title="Checks the error log in the current self.sbml_doc. " alt="" coords="294,5,440,33"/>
+</map>

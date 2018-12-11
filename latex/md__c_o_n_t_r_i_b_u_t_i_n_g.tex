@@ -1,0 +1,30 @@
+We are happy about contributions to A\+M\+I\+CI in any form (new functionality, documentation, bug reports, ...).
+
+\subsubsection*{Making code changes}
+
+When making code changes\+:
+
+
+\begin{DoxyItemize}
+\item Check if you agree to release your contribution under the conditions provided in {\ttfamily L\+I\+C\+E\+N\+SE}
+\item Start a new branch from {\ttfamily master}
+\item Implement your changes
+\item Submit a pull request
+\item Make sure your code is documented appropriately
+\begin{DoxyItemize}
+\item Run {\ttfamily mtoc/make\+Documentation.\+m} to check completeness of your documentation
+\end{DoxyItemize}
+\item Make sure your code is compatible with C++11, {\ttfamily gcc} and {\ttfamily clang}
+\item when adding new functionality, please also provide test cases (see {\ttfamily tests/cpputest/})
+\item Write meaningful commit messages
+\item Run all tests to ensure nothing got broken
+\begin{DoxyItemize}
+\item Run {\ttfamily tests/cpputest/wrap\+Test\+Models.\+m} followed by CI tests {\ttfamily scripts/build\+All.\+sh \&\& scripts/run-\/cpputest.\+sh}
+\item Run {\ttfamily tests/test\+Models.\+m}
+\end{DoxyItemize}
+\item When all tests are passing and you think your code is ready to merge, request a code review
+\end{DoxyItemize}
+
+\subsubsection*{Adding/\+Updating tests}
+
+To add new tests add a new corresponding python script (see, e.\+g., {\ttfamily tests/example\+\_\+dirac.\+py}) and add it to and run {\ttfamily tests/generate\+Test\+Configuration\+For\+Examples.\+sh} To update test results replace {\ttfamily tests/cpputest/expected\+Results.\+h5} by {\ttfamily tests/cpputest/write\+Results.\+h5.\+bak} \mbox{[}O\+N\+LY DO T\+H\+IS A\+F\+T\+ER T\+R\+I\+P\+LE C\+H\+E\+C\+K\+I\+NG C\+O\+R\+R\+E\+C\+T\+N\+E\+SS OF R\+E\+S\+U\+L\+TS\mbox{]} Before replacing the test results, confirm that only expected datasets have changed, e.\+g. using {\ttfamily h5diff -\/v -\/r 1e-\/8 tests/cpputest/expected\+Results.\+h5 tests/cpputest/write\+Results.\+h5.\+bak $\vert$ less} 

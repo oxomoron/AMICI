@@ -1,0 +1,279 @@
+\hypertarget{namespaceamici_1_1ode__export}{}\subsection{amici.\+ode\+\_\+export Namespace Reference}
+\label{namespaceamici_1_1ode__export}\index{amici.\+ode\+\_\+export@{amici.\+ode\+\_\+export}}
+
+
+The C++ O\+DE export module for python.  
+
+
+\subsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_constant}{Constant}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_constant}{Constant}} is a fixed variable in the model with respect to which sensitivites cannot be computed, abbreviated by {\ttfamily k} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_expression}{Expression}}
+\begin{DoxyCompactList}\small\item\em An Expressions is a recurring elements in symbolic formulas. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_log_likelihood}{Log\+Likelihood}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_log_likelihood}{Log\+Likelihood}} defines the distance between measurements and experiments for a particular observable. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}}
+\begin{DoxyCompactList}\small\item\em Base class for model components. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_observable}{Observable}}
+\begin{DoxyCompactList}\small\item\em An \mbox{\hyperlink{classamici_1_1ode__export_1_1_observable}{Observable}} links model simulations to experimental measurements, abbreviated by {\ttfamily y} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{O\+D\+E\+Exporter}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_exporter}{O\+D\+E\+Exporter}} class generates A\+M\+I\+CI C++ files for O\+DE model as defined in symbolic expressions. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}}
+\begin{DoxyCompactList}\small\item\em An \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} defines an Ordinay Differential Equation as set of Model\+Quantities. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_parameter}{Parameter}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_parameter}{Parameter}} is a free variable in the model with respect to which sensitivites may be computed, abbreviated by {\ttfamily p} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_sigma_y}{SigmaY}}
+\begin{DoxyCompactList}\small\item\em A Standard Deviation \mbox{\hyperlink{classamici_1_1ode__export_1_1_sigma_y}{SigmaY}} rescales the distance between simulations and measurements when computing residuals, abbreviated by {\ttfamily sigmay} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}}
+\begin{DoxyCompactList}\small\item\em A \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}} variable defines an entity that evolves with time according to the provided time derivative, abbreviated by {\ttfamily x} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classamici_1_1ode__export_1_1_template_amici}{Template\+Amici}}
+\begin{DoxyCompactList}\small\item\em Template format used in A\+M\+I\+CI (see string.\+template for more details). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16}{var\+\_\+in\+\_\+function\+\_\+signature}} (name, varname)
+\begin{DoxyCompactList}\small\item\em Checks if the values for a symbolic variable is passed in the signature of a function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559}{get\+Symbolic\+Diagonal}} (matrix)
+\begin{DoxyCompactList}\small\item\em Get symbolic matrix with diagonal of matrix {\ttfamily matrix}. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f}{apply\+Template}} (source\+File, target\+File, template\+Data)
+\begin{DoxyCompactList}\small\item\em Load source file, apply template substitution as provided in template\+Data and save as target\+File. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespaceamici_1_1ode__export_af0bfa7839b41792994b1add20b86cf8e}{sanitize\+\_\+basic\+\_\+sympy}} (basic)
+\begin{DoxyCompactList}\small\item\em Strips pysb info from the sympy.\+Basic object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ab2b7137f89298a92623c1c65239eaef2}\label{namespaceamici_1_1ode__export_ab2b7137f89298a92623c1c65239eaef2}} 
+\mbox{\hyperlink{namespaceamici_1_1ode__export_ab2b7137f89298a92623c1c65239eaef2}{pysb}} = None
+\begin{DoxyCompactList}\small\item\em pysb import dummy \end{DoxyCompactList}\item 
+dictionary \mbox{\hyperlink{namespaceamici_1_1ode__export_ac310aa598d85b31cc0acea80dcc3c083}{functions}}
+\begin{DoxyCompactList}\small\item\em prototype for generated C++ functions, keys are the names of functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_aa54a407fede674f20bf6ba67fe27177d}{sparse\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of sparse functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_aceecbd374d0134e5683a78e882c3977d}{sensi\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of sensitivity functions \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespaceamici_1_1ode__export_a8a1eabf284172d18098ca450147d94ca}{multiobs\+\_\+functions}}
+\begin{DoxyCompactList}\small\item\em list of multiobs functions \end{DoxyCompactList}\item 
+dictionary \mbox{\hyperlink{namespaceamici_1_1ode__export_a8faf4dadc2544b8b5dd81c443f66f958}{symbol\+\_\+to\+\_\+type}}
+\begin{DoxyCompactList}\small\item\em indicates which type some attributes in \mbox{\hyperlink{classamici_1_1ode__export_1_1_o_d_e_model}{O\+D\+E\+Model}} should have \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+!/usr/bin/env python3 
+
+\subsubsection{Function Documentation}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16}\label{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!var\+\_\+in\+\_\+function\+\_\+signature@{var\+\_\+in\+\_\+function\+\_\+signature}}
+\index{var\+\_\+in\+\_\+function\+\_\+signature@{var\+\_\+in\+\_\+function\+\_\+signature}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{var\+\_\+in\+\_\+function\+\_\+signature()}{var\_in\_function\_signature()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+var\+\_\+in\+\_\+function\+\_\+signature (\begin{DoxyParamCaption}\item[{}]{name,  }\item[{}]{varname }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the function ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em varname} & name of the symbolic variable ~\newline
+{\bfseries Type}\+: str\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 277 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_a365aaf8b78bb2db9c94b1a8087d60a16_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559}\label{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!get\+Symbolic\+Diagonal@{get\+Symbolic\+Diagonal}}
+\index{get\+Symbolic\+Diagonal@{get\+Symbolic\+Diagonal}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{get\+Symbolic\+Diagonal()}{getSymbolicDiagonal()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+get\+Symbolic\+Diagonal (\begin{DoxyParamCaption}\item[{}]{matrix }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Matrix from which to return the diagonal ~\newline
+{\bfseries Type}\+: symengine.\+Dense\+Matrix\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Symbolic matrix with the diagonal of {\ttfamily matrix}.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & The provided matrix was not square \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 2239 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_aed240175cce2aa528fe24d1486c52559_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f}\label{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!apply\+Template@{apply\+Template}}
+\index{apply\+Template@{apply\+Template}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{apply\+Template()}{applyTemplate()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+apply\+Template (\begin{DoxyParamCaption}\item[{}]{source\+File,  }\item[{}]{target\+File,  }\item[{}]{template\+Data }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em source\+File} & relative or absolute path to template file ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em target\+File} & relative or absolute path to output file ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em template\+Data} & template keywords to substitute (key is template variable without \mbox{\hyperlink{classamici_1_1ode__export_1_1_template_amici_aacf4e58be14eef37272a71c004bc3f58}{Template\+Amici.\+delimiter}}) ~\newline
+{\bfseries Type}\+: dict\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 2275 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_af4b013340d08cdef3247601d2bf0b62f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_af0bfa7839b41792994b1add20b86cf8e}\label{namespaceamici_1_1ode__export_af0bfa7839b41792994b1add20b86cf8e}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!sanitize\+\_\+basic\+\_\+sympy@{sanitize\+\_\+basic\+\_\+sympy}}
+\index{sanitize\+\_\+basic\+\_\+sympy@{sanitize\+\_\+basic\+\_\+sympy}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{sanitize\+\_\+basic\+\_\+sympy()}{sanitize\_basic\_sympy()}}
+{\footnotesize\ttfamily def amici.\+ode\+\_\+export.\+sanitize\+\_\+basic\+\_\+sympy (\begin{DoxyParamCaption}\item[{}]{basic }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em basic} & symbolic expression ~\newline
+{\bfseries Type}\+: sympy.\+Basic\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sanitized sympy.\+Basic 
+\end{DoxyReturn}
+
+
+Definition at line 2294 of file ode\+\_\+export.\+py.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceamici_1_1ode__export_af0bfa7839b41792994b1add20b86cf8e_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Variable Documentation}
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_ac310aa598d85b31cc0acea80dcc3c083}\label{namespaceamici_1_1ode__export_ac310aa598d85b31cc0acea80dcc3c083}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!functions@{functions}}
+\index{functions@{functions}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{functions}{functions}}
+{\footnotesize\ttfamily dictionary functions}
+
+signature\+: defines the argument part of the function signature, input variables should have a const flag
+
+assume\+\_\+pow\+\_\+positivity\+: identifies the functions on which assume\+\_\+pow\+\_\+positivity will have an effect when specified during model generation. generally these are functions that are used for solving the O\+DE, where negative values may negatively affect convergence of the integration algorithm
+
+sparse\+: specifies whether the result of this function will be stored in sparse format. sparse format means that the function will only return an array of nonzero values and not a full matrix. 
+
+Definition at line 40 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aa54a407fede674f20bf6ba67fe27177d}\label{namespaceamici_1_1ode__export_aa54a407fede674f20bf6ba67fe27177d}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!sparse\+\_\+functions@{sparse\+\_\+functions}}
+\index{sparse\+\_\+functions@{sparse\+\_\+functions}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{sparse\+\_\+functions}{sparse\_functions}}
+{\footnotesize\ttfamily list sparse\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions
+3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'sparse'} \textcolor{keywordflow}{in} functions[function]
+4     \textcolor{keywordflow}{and} functions[function][\textcolor{stringliteral}{'sparse'}]
+5 ]
+\end{DoxyCode}
+
+
+Definition at line 246 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_aceecbd374d0134e5683a78e882c3977d}\label{namespaceamici_1_1ode__export_aceecbd374d0134e5683a78e882c3977d}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!sensi\+\_\+functions@{sensi\+\_\+functions}}
+\index{sensi\+\_\+functions@{sensi\+\_\+functions}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{sensi\+\_\+functions}{sensi\_functions}}
+{\footnotesize\ttfamily list sensi\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions
+3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'const int ip'} \textcolor{keywordflow}{in} functions[function][\textcolor{stringliteral}{'signature'}]
+4     \textcolor{keywordflow}{and} function \textcolor{keywordflow}{is} \textcolor{keywordflow}{not} \textcolor{stringliteral}{'sxdot'}
+5 ]
+\end{DoxyCode}
+
+
+Definition at line 252 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a8a1eabf284172d18098ca450147d94ca}\label{namespaceamici_1_1ode__export_a8a1eabf284172d18098ca450147d94ca}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!multiobs\+\_\+functions@{multiobs\+\_\+functions}}
+\index{multiobs\+\_\+functions@{multiobs\+\_\+functions}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{multiobs\+\_\+functions}{multiobs\_functions}}
+{\footnotesize\ttfamily list multiobs\+\_\+functions}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  [
+2     function \textcolor{keywordflow}{for} function \textcolor{keywordflow}{in} functions
+3     \textcolor{keywordflow}{if} \textcolor{stringliteral}{'const int iy'} \textcolor{keywordflow}{in} functions[function][\textcolor{stringliteral}{'signature'}]
+4 ]
+\end{DoxyCode}
+
+
+Definition at line 258 of file ode\+\_\+export.\+py.
+
+\mbox{\Hypertarget{namespaceamici_1_1ode__export_a8faf4dadc2544b8b5dd81c443f66f958}\label{namespaceamici_1_1ode__export_a8faf4dadc2544b8b5dd81c443f66f958}} 
+\index{amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}!symbol\+\_\+to\+\_\+type@{symbol\+\_\+to\+\_\+type}}
+\index{symbol\+\_\+to\+\_\+type@{symbol\+\_\+to\+\_\+type}!amici\+::ode\+\_\+export@{amici\+::ode\+\_\+export}}
+\paragraph{\texorpdfstring{symbol\+\_\+to\+\_\+type}{symbol\_to\_type}}
+{\footnotesize\ttfamily dictionary symbol\+\_\+to\+\_\+type}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  \{
+2     \textcolor{stringliteral}{'species'}: State,
+3     \textcolor{stringliteral}{'parameter'}: Parameter,
+4     \textcolor{stringliteral}{'fixed\_parameter'}: Constant,
+5     \textcolor{stringliteral}{'observable'}: Observable,
+6     \textcolor{stringliteral}{'sigmay'}: SigmaY,
+7     \textcolor{stringliteral}{'llhy'}: LogLikelihood,
+8     \textcolor{stringliteral}{'expression'}: Expression,
+9 \}
+\end{DoxyCode}
+
+
+Definition at line 549 of file ode\+\_\+export.\+py.
+

@@ -1,0 +1,11 @@
+<map id="fdxdotdp" name="fdxdotdp">
+<area shape="rect" id="node2" href="$classamici_1_1_model___d_a_e.html#a551dfccd2fb1aa618c644a580639f5b8" title="fdxdotdp" alt="" coords="126,233,198,261"/>
+<area shape="rect" id="node6" href="$classamici_1_1_ami_vector.html#acf288b105b2fa4520d0d73f828687533" title="amici::AmiVector::getNVector" alt="" coords="487,5,681,33"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a711281d57e9710226face29151cc4641" title="Get timepoint for given index. " alt="" coords="729,233,836,261"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#a0c06c5326bb82ceedba30171c122cb8a" title="computes nonnegative state vector according to stateIsNonNegative if anyStateNonNegative is set to fa..." alt="" coords="246,81,439,109"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a7a8903313cd31dad4fa580c0e434bb1c" title="Recurring terms in xdot, parameter derivative. " alt="" coords="273,208,412,235"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a0f8e994055e37954d7746f3c1af27a5c" title="number of paramaeters wrt to which sensitivities are computed " alt="" coords="275,309,410,337"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="amici::AmiVector::getLength" alt="" coords="490,107,677,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#ae62cf934983479ccb255785bdf455a2c" title="amici::AmiVector::at" alt="" coords="514,56,653,83"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a7e63009c65fc1361cc5a6e1fc3d5ff1a" title="Recurring terms in xdot. " alt="" coords="525,157,642,185"/>
+</map>

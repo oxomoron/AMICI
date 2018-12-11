@@ -1,0 +1,51 @@
+<map id="getNVector" name="getNVector">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a0c06c5326bb82ceedba30171c122cb8a" title="computes nonnegative state vector according to stateIsNonNegative if anyStateNonNegative is set to fa..." alt="" coords="141,901,333,928"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model___d_a_e.html#a58cf5aaa5fbcf6195407e7651f05c218" title="amici::Model_DAE::fJDiag" alt="" coords="394,1281,570,1308"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model___d_a_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_DAE::fdxdotdp" alt="" coords="631,90,821,117"/>
+<area shape="rect" id="node25" href="$classamici_1_1_model___o_d_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_ODE::fdxdotdp" alt="" coords="631,1559,822,1587"/>
+<area shape="rect" id="node29" href="$classamici_1_1_model___o_d_e.html#a79269ef1a74e1ad9e313dce0e4220291" title="amici::Model_ODE::fJDiag" alt="" coords="637,647,815,675"/>
+<area shape="rect" id="node33" href="$classamici_1_1_model___d_a_e.html#a99337eaeac6c70528c3464affe13df2e" title="amici::Model_DAE::fJ" alt="" coords="163,375,311,403"/>
+<area shape="rect" id="node34" href="$classamici_1_1_model___d_a_e.html#a3147c7a327fead438efe714f04491c82" title="amici::Model_DAE::fJSparse" alt="" coords="141,166,332,193"/>
+<area shape="rect" id="node35" href="$classamici_1_1_model___d_a_e.html#a1a0549510cbe20e4d3c28bf77fc722ed" title="amici::Model_DAE::fJv" alt="" coords="159,539,315,567"/>
+<area shape="rect" id="node36" href="$classamici_1_1_model___d_a_e.html#a94a623b51fd0ecd7a9a549eb7da2fc04" title="amici::Model_DAE::froot" alt="" coords="154,818,319,845"/>
+<area shape="rect" id="node37" href="$classamici_1_1_model___d_a_e.html#a33461bc9bc047e838607d958eb29621a" title="amici::Model_DAE::fxdot" alt="" coords="153,1230,321,1257"/>
+<area shape="rect" id="node38" href="$classamici_1_1_model___d_a_e.html#a01f84575fd8df46a04fd472bbbc9d821" title="amici::Model_DAE::fsxdot" alt="" coords="150,90,324,117"/>
+<area shape="rect" id="node39" href="$classamici_1_1_model___o_d_e.html#a99337eaeac6c70528c3464affe13df2e" title="amici::Model_ODE::fJ" alt="" coords="162,1331,312,1359"/>
+<area shape="rect" id="node40" href="$classamici_1_1_model___o_d_e.html#a3147c7a327fead438efe714f04491c82" title="amici::Model_ODE::fJSparse" alt="" coords="141,1534,333,1561"/>
+<area shape="rect" id="node41" href="$classamici_1_1_model___o_d_e.html#a1a0549510cbe20e4d3c28bf77fc722ed" title="amici::Model_ODE::fJv" alt="" coords="158,1382,315,1409"/>
+<area shape="rect" id="node42" href="$classamici_1_1_model___o_d_e.html#a94a623b51fd0ecd7a9a549eb7da2fc04" title="amici::Model_ODE::froot" alt="" coords="154,1433,320,1460"/>
+<area shape="rect" id="node43" href="$classamici_1_1_model___o_d_e.html#a33461bc9bc047e838607d958eb29621a" title="amici::Model_ODE::fxdot" alt="" coords="152,1483,321,1511"/>
+<area shape="rect" id="node44" href="$classamici_1_1_model___o_d_e.html#a01f84575fd8df46a04fd472bbbc9d821" title="amici::Model_ODE::fsxdot" alt="" coords="149,1610,325,1637"/>
+<area shape="rect" id="node45" href="$classamici_1_1_newton_solver_iterative.html#a89a318e506339bc8a0d05aa01920f1ae" title="amici::NewtonSolverIterative\l::linsolveSPBCG" alt="" coords="142,1737,332,1780"/>
+<area shape="rect" id="node47" href="$classamici_1_1_steadystate_problem.html#afd3dce48510d1fce72b18049b40fff5a" title="amici::SteadystateProblem\l::getWrmsNorm" alt="" coords="147,1804,327,1846"/>
+<area shape="rect" id="node50" href="$classamici_1_1_steadystate_problem.html#a1c33ff72fd843a1a51cd93448e3e5a77" title="amici::SteadystateProblem\l::applyNewtonsMethod" alt="" coords="392,1870,572,1913"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___d_a_e.html#ae0cdcd849f238e5ca375253f802e497c" title="amici::Model_DAE::fJ" alt="" coords="407,318,556,345"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model___d_a_e.html#acb8703eaab2bd0da229453af1e6f71e3" title="amici::Model_DAE::fJSparse" alt="" coords="386,166,577,193"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model___d_a_e.html#a7a3565abc7cb0372df38aec43e764275" title="amici::Model_DAE::fJv" alt="" coords="404,369,560,396"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model___d_a_e.html#ae6c3d021c2ba942652b6dbd4355e8968" title="amici::Model_DAE::froot" alt="" coords="399,419,564,447"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model___d_a_e.html#a5c4a9276e3053be8f0ad12cb91761647" title="amici::Model_DAE::fxdot" alt="" coords="398,1230,566,1257"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model___d_a_e.html#a551dfccd2fb1aa618c644a580639f5b8" title="amici::Model_DAE::fdxdotdp" alt="" coords="387,217,577,244"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model___d_a_e.html#a26e76f86f173a718466c9cc19d68550a" title="amici::Model_DAE::fsxdot" alt="" coords="639,217,813,244"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model___d_a_e.html#a82db0639f98056acc376569457c95ca4" title="Mass matrix for DAE systems. " alt="" coords="405,571,558,599"/>
+<area shape="rect" id="node13" href="$classamici_1_1_model___d_a_e.html#a35c720b42879b9932ea16948053843cf" title="amici::Model_DAE::fJB" alt="" coords="403,774,561,801"/>
+<area shape="rect" id="node14" href="$classamici_1_1_model___d_a_e.html#a389bccc94cc77a18cc1948d592ca7fca" title="amici::Model_DAE::fJSparseB" alt="" coords="382,825,582,852"/>
+<area shape="rect" id="node15" href="$classamici_1_1_model___d_a_e.html#a837e1b2b4f0e13b64180040a9cb8e6b2" title="amici::Model_DAE::fJvB" alt="" coords="400,875,564,903"/>
+<area shape="rect" id="node16" href="$classamici_1_1_model___d_a_e.html#acc0b085abdde1955773d61f3e3bac21b" title="amici::Model_DAE::fxBdot" alt="" coords="394,926,570,953"/>
+<area shape="rect" id="node17" href="$classamici_1_1_model___d_a_e.html#ae3dc4629c9c56a4af01350b8c49f49a8" title="amici::Model_DAE::fqBdot" alt="" coords="393,977,570,1004"/>
+<area shape="rect" id="node18" href="$classamici_1_1_model___o_d_e.html#aa2c40d6808a333eee2a96e6737d85161" title="amici::Model_ODE::fJ" alt="" coords="407,1331,557,1359"/>
+<area shape="rect" id="node19" href="$classamici_1_1_model___o_d_e.html#a741ef44fe870908155c0e59bb1a6c059" title="amici::Model_ODE::fJSparse" alt="" coords="386,1534,578,1561"/>
+<area shape="rect" id="node20" href="$classamici_1_1_model___o_d_e.html#a01252ccb85bec7adbc88d12fce4fde05" title="amici::Model_ODE::fJv" alt="" coords="403,1382,560,1409"/>
+<area shape="rect" id="node21" href="$classamici_1_1_model___o_d_e.html#ab76d051378cedaaeffa04f18c00e79cb" title="amici::Model_ODE::froot" alt="" coords="399,1433,565,1460"/>
+<area shape="rect" id="node22" href="$classamici_1_1_model___o_d_e.html#aa08f195ec3f1e9ec3d208abfbf27b23a" title="amici::Model_ODE::fxdot" alt="" coords="397,1483,566,1511"/>
+<area shape="rect" id="node23" href="$classamici_1_1_model___o_d_e.html#a371aa66b99b1b3b20ed2e533d9b44870" title="amici::Model_ODE::fdxdotdp" alt="" coords="386,1179,577,1207"/>
+<area shape="rect" id="node24" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="amici::Model_ODE::fsxdot" alt="" coords="638,1382,814,1409"/>
+<area shape="rect" id="node26" href="$classamici_1_1_model___o_d_e.html#acab6095aacecc64e1a67e984af2475f8" title="amici::Model_ODE::fJB" alt="" coords="402,1129,561,1156"/>
+<area shape="rect" id="node27" href="$classamici_1_1_model___o_d_e.html#a0e8a82c9c78706dddbe191d2ed6540a3" title="amici::Model_ODE::fJSparseB" alt="" coords="381,521,583,548"/>
+<area shape="rect" id="node28" href="$classamici_1_1_model___o_d_e.html#a894cb7158f20a976348caa9d73520d40" title="amici::Model_ODE::fJDiag" alt="" coords="393,1027,571,1055"/>
+<area shape="rect" id="node30" href="$classamici_1_1_model___o_d_e.html#af9c1f29040dc3c6c8bca0703676843be" title="amici::Model_ODE::fJvB" alt="" coords="399,622,565,649"/>
+<area shape="rect" id="node31" href="$classamici_1_1_model___o_d_e.html#a433a0e1e4330ef433823a61f1fc45a5a" title="amici::Model_ODE::fxBdot" alt="" coords="393,673,571,700"/>
+<area shape="rect" id="node32" href="$classamici_1_1_model___o_d_e.html#a9d0e4612af8d7b3c418d000b5e9ba84f" title="amici::Model_ODE::fqBdot" alt="" coords="393,723,571,751"/>
+<area shape="rect" id="node46" href="$classamici_1_1_newton_solver_iterative.html#aced8bda2d8b3051a8632152cb1f7da4a" title="amici::NewtonSolverIterative\l::solveLinearSystem" alt="" coords="387,1737,577,1780"/>
+<area shape="rect" id="node48" href="$classamici_1_1_steadystate_problem.html#a06f944df556560112e76a23213bf3f51" title="amici::SteadystateProblem\l::checkConvergence" alt="" coords="392,1804,572,1846"/>
+<area shape="rect" id="node49" href="$classamici_1_1_steadystate_problem.html#a7567ea97f4d840e7df61340b5129f4cd" title="amici::SteadystateProblem\l::getSteadystateSimulation" alt="" coords="636,1804,816,1846"/>
+</map>

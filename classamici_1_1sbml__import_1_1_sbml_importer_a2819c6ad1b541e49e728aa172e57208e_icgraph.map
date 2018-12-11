@@ -1,0 +1,5 @@
+<map id="processTime" name="processTime">
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ac188693ab1d9fc500d55748dbde9bf89" title="Read parameters, species, reactions, and so on from SBML model. " alt="" coords="150,5,255,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae5cdd2444bac89e61e6f717f7736acb6" title="Generate AMICI C++ files for the model provided to the constructor. " alt="" coords="303,5,391,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a0dcfa882a6a14f2d4b83e11552aae318" title="Checks the error log in the current self.sbml_doc. " alt="" coords="439,5,585,33"/>
+</map>

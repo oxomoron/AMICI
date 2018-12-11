@@ -1,0 +1,5 @@
+<map id="checkFinite" name="checkFinite">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a4c38f5beea9e36aa20a089307edb5fed" title="Check if the given array has only finite elements. If not try to give hints by which other fields thi..." alt="" coords="142,31,313,58"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___d_a_e.html#a58cf5aaa5fbcf6195407e7651f05c218" title="amici::Model_DAE::fJDiag" alt="" coords="362,5,538,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model___o_d_e.html#a79269ef1a74e1ad9e313dce0e4220291" title="amici::Model_ODE::fJDiag" alt="" coords="361,56,539,83"/>
+</map>

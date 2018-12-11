@@ -1,0 +1,4 @@
+<map id="Model" name="Model">
+<area shape="rect" id="node2" href="$classamici_1_1_model___d_a_e.html" title="The Model class represents an AMICI DAE model. The model does not contain any data, but represents the state of the model at a specific time t. The states must not always be in sync, but may be updated asynchroneously. " alt="" coords="5,81,98,108"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___o_d_e.html" title="The Model class represents an AMICI ODE model. The model does not contain any data, but represents the state of the model at a specific time t. The states must not always be in sync, but may be updated asynchroneously. " alt="" coords="122,81,216,108"/>
+</map>

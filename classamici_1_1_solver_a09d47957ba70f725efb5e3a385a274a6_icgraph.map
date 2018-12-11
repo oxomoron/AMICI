@@ -1,0 +1,5 @@
+<map id="applyQuadTolerancesASA" name="applyQuadTolerancesASA">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a04ef010145a9a17746128e55d4e0a436" title="setupAMIB" alt="" coords="297,5,383,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a086428d30274f2b7e6f94e8e7593dd8b" title="sets the relative tolerance for the quadrature problem " alt="" coords="230,56,450,83"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object " alt="" coords="498,56,659,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="solveLinearSystem" name="solveLinearSystem">
+<area shape="rect" id="node2" href="$classamici_1_1_newton_solver.html#a7b71b3735b6ca62570266f9d6fce33cb" title="getStep" alt="" coords="233,13,300,40"/>
+<area shape="rect" id="node4" href="$classamici_1_1_newton_solver.html#a90d4823c7b8373d9aaccba80c930a7c7" title="computeNewtonSensis" alt="" coords="187,64,345,91"/>
+<area shape="rect" id="node3" href="$classamici_1_1_steadystate_problem.html#a1c33ff72fd843a1a51cd93448e3e5a77" title="amici::SteadystateProblem\l::applyNewtonsMethod" alt="" coords="393,5,573,48"/>
+</map>

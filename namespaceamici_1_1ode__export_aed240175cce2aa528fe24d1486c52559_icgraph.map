@@ -1,0 +1,4 @@
+<map id="getSymbolicDiagonal" name="getSymbolicDiagonal">
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#af3b774d51a546704413dc57f93dc427d" title="Generates the symbolic identifiers for all variables in ODEModel.variable_prototype. " alt="" coords="200,5,448,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a3a3ebfdaf0d1f08adf028afb10d5b5c1" title="Imports a model specification from a amici.SBMLImporter instance. " alt="" coords="496,5,729,48"/>
+</map>

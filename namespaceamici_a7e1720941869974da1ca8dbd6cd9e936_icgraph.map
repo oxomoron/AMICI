@@ -1,0 +1,11 @@
+<map id="getUnscaledParameter" name="getUnscaledParameter">
+<area shape="rect" id="node2" href="$namespaceamici.html#af7d0af67f181a659c78b7aa2bbaaf718" title="Remove parameter scaling according to the parameter scaling in pscale. " alt="" coords="211,165,347,193"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a431c1153fbdccf5ab726863030bc2701" title="Remove parameter scaling according to the parameter scaling in pscale. " alt="" coords="442,5,578,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model.html#af1e95f6479d442fcb4c63d16763d4acd" title="Sets the parameter vector. " alt="" coords="415,56,605,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model.html#a995357a19663980279249d4b89a88f7a" title="Set value of first model parameter with the specified id. " alt="" coords="405,107,615,134"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#ab66d6b754637ed68449af96f5887a0be" title="Set all values of model parameters with ids matching the specified regex. " alt="" coords="415,158,605,200"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a6c5ceb2ba684cf68a7f21ad865091200" title="Set value of first model parameter with the specified name. " alt="" coords="418,224,602,267"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a1307ed45ccda80e84174d6b495c85d8d" title="Set all values of all model parameters with names matching the specified regex. " alt="" coords="415,291,605,334"/>
+<area shape="rect" id="node9" href="$classamici_1_1_return_data.html#adce202dc864a1e65d8453f597de271f5" title="amici::ReturnData::\lapplyChainRuleFactorToSimulation\lResults" alt="" coords="395,358,625,416"/>
+<area shape="rect" id="node10" href="$namespaceamici.html#a46331a204e7511587acc2cc0b1ce7ed0" title="runAmiciSimulation" alt="" coords="673,373,808,401"/>
+</map>

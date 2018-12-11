@@ -1,0 +1,6 @@
+<map id="setAbsoluteTolerance" name="setAbsoluteTolerance">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#af4bbf9fea3348d86380be1c059e4b9f5" title="getMallocDone" alt="" coords="432,5,542,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a9819e5e5fa0d702721235eabd9e7c0e6" title="applyTolerances" alt="" coords="232,56,350,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a2d93ff630e5bb38f4bc6d8b47b46bd73" title="applySensitivityTolerances" alt="" coords="202,107,380,134"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a6a688afa51ec71eded6c8801faaafac3" title="setSStolerances" alt="" coords="428,56,546,83"/>
+</map>

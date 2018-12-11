@@ -1,0 +1,8 @@
+<map id="applySensitivityTolerances" name="applySensitivityTolerances">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a26129f061fdf7869be2d3e4aa22532b6" title="sets the sensitvity order " alt="" coords="256,5,389,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#afb5f0c48f24e4bc3efad8ef599adde56" title="sets the relative tolerances for the forward &amp; backward problem " alt="" coords="250,56,395,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#afe0fd2fad6ce110ad8421f5979945f90" title="sets the absolute tolerances for the forward &amp; backward problem " alt="" coords="248,107,397,134"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#a140b4219a601b17daf5f90f2255d1f22" title="sets the relative tolerances for the forward sensitivity problem " alt="" coords="233,157,411,185"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#a6f804c48badcbc0dc32da4379c7ff091" title="sets the absolute tolerances for the forward sensitivity problem " alt="" coords="231,208,413,235"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object " alt="" coords="461,56,623,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="setMaxNumSteps" name="setMaxNumSteps">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a5cffde567803181ec12c71117c74b47a" title="Initialises the ami memory object and applies specified options. " alt="" coords="202,16,256,43"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#ab321627a9f9d22013638e0eb9b14d2dc" title="sets the maximum number of solver steps for the forward problem " alt="" coords="180,68,278,95"/>
+<area shape="rect" id="node3" href="$classamici_1_1_forward_problem.html#a4ef001eef23bc48270159d6193036858" title="amici::ForwardProblem\l::workForwardProblem" alt="" coords="328,5,486,48"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object " alt="" coords="326,72,488,99"/>
+</map>

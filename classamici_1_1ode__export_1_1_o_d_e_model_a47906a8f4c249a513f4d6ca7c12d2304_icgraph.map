@@ -1,0 +1,10 @@
+<map id="sym" name="sym">
+<area shape="rect" id="node2" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a3a3ebfdaf0d1f08adf028afb10d5b5c1" title="Imports a model specification from a amici.SBMLImporter instance. " alt="" coords="308,183,493,210"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a43830bc0d4337068016ab3f290e3cdca" title="Number of states. " alt="" coords="160,5,199,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#ac3d9b681827ebea0e5bee18c9d7fc44d" title="Number of Observables. " alt="" coords="160,56,199,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a07767f24c77537a68972e99a79ef93aa" title="Number of Constants. " alt="" coords="160,157,199,185"/>
+<area shape="rect" id="node7" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a7278a09e012ba867faf10d809e13fb81" title="Number of Parameters. " alt="" coords="160,208,199,235"/>
+<area shape="rect" id="node8" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#af3b774d51a546704413dc57f93dc427d" title="Generates the symbolic identifiers for all variables in ODEModel.variable_prototype. " alt="" coords="99,259,260,286"/>
+<area shape="rect" id="node9" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2223bbe62f3234b8f40c5a566064a481" title="Returns a list of names of generated symbolic variables. " alt="" coords="136,309,224,337"/>
+<area shape="rect" id="node4" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#ae64f0875afe3067b97ba370b354b9213" title="Create a new ODEModel instance. " alt="" coords="366,31,434,58"/>
+</map>

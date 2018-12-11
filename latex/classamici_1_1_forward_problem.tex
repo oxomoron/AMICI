@@ -1,0 +1,365 @@
+\hypertarget{classamici_1_1_forward_problem}{}\subsection{Forward\+Problem Class Reference}
+\label{classamici_1_1_forward_problem}\index{Forward\+Problem@{Forward\+Problem}}
+
+
+The \mbox{\hyperlink{classamici_1_1_forward_problem}{Forward\+Problem}} class groups all functions for solving the backwards problem. Has only static members.  
+
+
+
+
+{\ttfamily \#include $<$forwardproblem.\+h$>$}
+
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1_forward_problem_a315030da8410dce7baa8eb1dd630994b}{Forward\+Problem}} (\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$\mbox{\hyperlink{classamici_1_1_forward_problem_a4c0807651f0594a186e8856f22e442cc}{rdata}}, const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$\mbox{\hyperlink{classamici_1_1_forward_problem_a9ec6aee8cd7c91d0e49aed6e3d0db4ce}{edata}}, \mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$\mbox{\hyperlink{classamici_1_1_forward_problem_a7b56c3ca57dde73bdbc8dbe9772bca19}{model}}, \mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$\mbox{\hyperlink{classamici_1_1_forward_problem_ae1ad25a4dd6b076c27672dc94d11dad0}{solver}})
+\item 
+void \mbox{\hyperlink{classamici_1_1_forward_problem_a4ef001eef23bc48270159d6193036858}{work\+Forward\+Problem}} ()
+\item 
+\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} \mbox{\hyperlink{classamici_1_1_forward_problem_a1bc77462943aa0bae032ffa5d6e887ee}{get\+Time}} () const
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_a3c364a12c650f9f247f664cedb6d81d3}{get\+State\+Sensitivity}} () const
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_ae983e618f5d4161e92b3a86f4abd1048}{get\+States\+At\+Discontinuities}} () const
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_aaf71ce300e66a3034148c77417294897}{get\+R\+H\+S\+At\+Discontinuities}} () const
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_a082b9f4f0d51fc8e2bf46f9f8e700d06}{get\+R\+H\+S\+Before\+Discontinuities}} () const
+\item 
+std\+::vector$<$ int $>$ const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_ac5b41527ea8caadc2484221795a9e94f}{get\+Number\+Of\+Roots}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_abe84b94f1305622d5b143081992d495b}{get\+Discontinuities}} () const
+\item 
+std\+::vector$<$ int $>$ const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_a81f0a7c547a343c3bcd179ba5439beb3}{get\+Root\+Indexes}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_afb4ec4e3a67624dddea0cd64fca29ae9}{get\+D\+Jydx}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} $>$ const  \& \mbox{\hyperlink{classamici_1_1_forward_problem_a3ea9fa40cc5f7ce1f4e1bd0a6db0f785}{get\+D\+Jzdx}} () const
+\item 
+int \mbox{\hyperlink{classamici_1_1_forward_problem_a9ba8c1d4ef2ba23e6f4faaaefd28aae9}{get\+Root\+Counter}} () const
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a0efbb7c64b718e9b8b8020acd59afb78}{get\+State\+Pointer}} ()
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a096d23f8405c903ca5d5d4efec5facc0}{get\+State\+Derivative\+Pointer}} ()
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a5ef9198bc0b08dc9e67efcd5dcf64ced}{get\+State\+Sensitivity\+Pointer}} ()
+\item 
+\mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a440eebbd8bf6a343ff7ee80ddc39b0a0}{get\+State\+Derivative\+Sensitivity\+Pointer}} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a7b56c3ca57dde73bdbc8dbe9772bca19}{model}}
+\item 
+\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a4c0807651f0594a186e8856f22e442cc}{rdata}}
+\item 
+\mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_ae1ad25a4dd6b076c27672dc94d11dad0}{solver}}
+\item 
+const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$ \mbox{\hyperlink{classamici_1_1_forward_problem_a9ec6aee8cd7c91d0e49aed6e3d0db4ce}{edata}}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+
+
+Definition at line 23 of file forwardproblem.\+h.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a315030da8410dce7baa8eb1dd630994b}\label{classamici_1_1_forward_problem_a315030da8410dce7baa8eb1dd630994b}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!Forward\+Problem@{Forward\+Problem}}
+\index{Forward\+Problem@{Forward\+Problem}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{Forward\+Problem()}{ForwardProblem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_forward_problem}{Forward\+Problem}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} $\ast$}]{rdata,  }\item[{const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} $\ast$}]{edata,  }\item[{\mbox{\hyperlink{classamici_1_1_model}{Model}} $\ast$}]{model,  }\item[{\mbox{\hyperlink{classamici_1_1_solver}{Solver}} $\ast$}]{solver }\end{DoxyParamCaption})}
+
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em rdata} & pointer to \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}} instance \\
+\hline
+{\em edata} & pointer to \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}} instance \\
+\hline
+{\em model} & pointer to \mbox{\hyperlink{classamici_1_1_model}{Model}} instance \\
+\hline
+{\em solver} & pointer to \mbox{\hyperlink{classamici_1_1_solver}{Solver}} instance \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 42 of file forwardproblem.\+cpp.
+
+
+
+\subsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a4ef001eef23bc48270159d6193036858}\label{classamici_1_1_forward_problem_a4ef001eef23bc48270159d6193036858}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!work\+Forward\+Problem@{work\+Forward\+Problem}}
+\index{work\+Forward\+Problem@{work\+Forward\+Problem}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{work\+Forward\+Problem()}{workForwardProblem()}}
+{\footnotesize\ttfamily void work\+Forward\+Problem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+work\+Forward\+Problem solves the forward problem. if forward sensitivities are enabled this will also compute sensitivies
+
+Definition at line 77 of file forwardproblem.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1_forward_problem_a4ef001eef23bc48270159d6193036858_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a1bc77462943aa0bae032ffa5d6e887ee}\label{classamici_1_1_forward_problem_a1bc77462943aa0bae032ffa5d6e887ee}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+Time@{get\+Time}}
+\index{get\+Time@{get\+Time}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+Time()}{getTime()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}} get\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for t \begin{DoxyReturn}{Returns}
+t 
+\end{DoxyReturn}
+
+
+Definition at line 37 of file forwardproblem.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{classamici_1_1_forward_problem_a1bc77462943aa0bae032ffa5d6e887ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a3c364a12c650f9f247f664cedb6d81d3}\label{classamici_1_1_forward_problem_a3c364a12c650f9f247f664cedb6d81d3}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+State\+Sensitivity@{get\+State\+Sensitivity}}
+\index{get\+State\+Sensitivity@{get\+State\+Sensitivity}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+State\+Sensitivity()}{getStateSensitivity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const\& get\+State\+Sensitivity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for sx \begin{DoxyReturn}{Returns}
+sx 
+\end{DoxyReturn}
+
+
+Definition at line 44 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_ae983e618f5d4161e92b3a86f4abd1048}\label{classamici_1_1_forward_problem_ae983e618f5d4161e92b3a86f4abd1048}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+States\+At\+Discontinuities@{get\+States\+At\+Discontinuities}}
+\index{get\+States\+At\+Discontinuities@{get\+States\+At\+Discontinuities}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+States\+At\+Discontinuities()}{getStatesAtDiscontinuities()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const\& get\+States\+At\+Discontinuities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for x\+\_\+disc \begin{DoxyReturn}{Returns}
+x\+\_\+disc 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_aaf71ce300e66a3034148c77417294897}\label{classamici_1_1_forward_problem_aaf71ce300e66a3034148c77417294897}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+R\+H\+S\+At\+Discontinuities@{get\+R\+H\+S\+At\+Discontinuities}}
+\index{get\+R\+H\+S\+At\+Discontinuities@{get\+R\+H\+S\+At\+Discontinuities}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+R\+H\+S\+At\+Discontinuities()}{getRHSAtDiscontinuities()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const\& get\+R\+H\+S\+At\+Discontinuities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for xdot\+\_\+disc \begin{DoxyReturn}{Returns}
+xdot\+\_\+disc 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a082b9f4f0d51fc8e2bf46f9f8e700d06}\label{classamici_1_1_forward_problem_a082b9f4f0d51fc8e2bf46f9f8e700d06}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+R\+H\+S\+Before\+Discontinuities@{get\+R\+H\+S\+Before\+Discontinuities}}
+\index{get\+R\+H\+S\+Before\+Discontinuities@{get\+R\+H\+S\+Before\+Discontinuities}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+R\+H\+S\+Before\+Discontinuities()}{getRHSBeforeDiscontinuities()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}} const\& get\+R\+H\+S\+Before\+Discontinuities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for xdot\+\_\+old\+\_\+disc \begin{DoxyReturn}{Returns}
+xdot\+\_\+old\+\_\+disc 
+\end{DoxyReturn}
+
+
+Definition at line 65 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_ac5b41527ea8caadc2484221795a9e94f}\label{classamici_1_1_forward_problem_ac5b41527ea8caadc2484221795a9e94f}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+Number\+Of\+Roots@{get\+Number\+Of\+Roots}}
+\index{get\+Number\+Of\+Roots@{get\+Number\+Of\+Roots}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+Number\+Of\+Roots()}{getNumberOfRoots()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ const\& get\+Number\+Of\+Roots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for nroots \begin{DoxyReturn}{Returns}
+nroots 
+\end{DoxyReturn}
+
+
+Definition at line 72 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_abe84b94f1305622d5b143081992d495b}\label{classamici_1_1_forward_problem_abe84b94f1305622d5b143081992d495b}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+Discontinuities@{get\+Discontinuities}}
+\index{get\+Discontinuities@{get\+Discontinuities}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+Discontinuities()}{getDiscontinuities()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ const\& get\+Discontinuities (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for discs \begin{DoxyReturn}{Returns}
+discs 
+\end{DoxyReturn}
+
+
+Definition at line 79 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a81f0a7c547a343c3bcd179ba5439beb3}\label{classamici_1_1_forward_problem_a81f0a7c547a343c3bcd179ba5439beb3}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+Root\+Indexes@{get\+Root\+Indexes}}
+\index{get\+Root\+Indexes@{get\+Root\+Indexes}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+Root\+Indexes()}{getRootIndexes()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ const\& get\+Root\+Indexes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for rootidx \begin{DoxyReturn}{Returns}
+rootidx 
+\end{DoxyReturn}
+
+
+Definition at line 86 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_afb4ec4e3a67624dddea0cd64fca29ae9}\label{classamici_1_1_forward_problem_afb4ec4e3a67624dddea0cd64fca29ae9}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+D\+Jydx@{get\+D\+Jydx}}
+\index{get\+D\+Jydx@{get\+D\+Jydx}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+D\+Jydx()}{getDJydx()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ const\& get\+D\+Jydx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for d\+Jydx \begin{DoxyReturn}{Returns}
+d\+Jydx 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a3ea9fa40cc5f7ce1f4e1bd0a6db0f785}\label{classamici_1_1_forward_problem_a3ea9fa40cc5f7ce1f4e1bd0a6db0f785}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+D\+Jzdx@{get\+D\+Jzdx}}
+\index{get\+D\+Jzdx@{get\+D\+Jzdx}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+D\+Jzdx()}{getDJzdx()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{namespaceamici_a1bdce28051d6a53868f7ccbf5f2c14a3}{realtype}}$>$ const\& get\+D\+Jzdx (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for d\+Jzdx \begin{DoxyReturn}{Returns}
+d\+Jzdx 
+\end{DoxyReturn}
+
+
+Definition at line 100 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a9ba8c1d4ef2ba23e6f4faaaefd28aae9}\label{classamici_1_1_forward_problem_a9ba8c1d4ef2ba23e6f4faaaefd28aae9}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+Root\+Counter@{get\+Root\+Counter}}
+\index{get\+Root\+Counter@{get\+Root\+Counter}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+Root\+Counter()}{getRootCounter()}}
+{\footnotesize\ttfamily int get\+Root\+Counter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+accessor for iroot \begin{DoxyReturn}{Returns}
+iroot 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file forwardproblem.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{classamici_1_1_forward_problem_a9ba8c1d4ef2ba23e6f4faaaefd28aae9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a0efbb7c64b718e9b8b8020acd59afb78}\label{classamici_1_1_forward_problem_a0efbb7c64b718e9b8b8020acd59afb78}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+State\+Pointer@{get\+State\+Pointer}}
+\index{get\+State\+Pointer@{get\+State\+Pointer}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+State\+Pointer()}{getStatePointer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}}$\ast$ get\+State\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+accessor for pointer to x \begin{DoxyReturn}{Returns}
+\&x 
+\end{DoxyReturn}
+
+
+Definition at line 114 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a096d23f8405c903ca5d5d4efec5facc0}\label{classamici_1_1_forward_problem_a096d23f8405c903ca5d5d4efec5facc0}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+State\+Derivative\+Pointer@{get\+State\+Derivative\+Pointer}}
+\index{get\+State\+Derivative\+Pointer@{get\+State\+Derivative\+Pointer}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+State\+Derivative\+Pointer()}{getStateDerivativePointer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector}{Ami\+Vector}}$\ast$ get\+State\+Derivative\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+accessor for pointer to dx \begin{DoxyReturn}{Returns}
+\&dx 
+\end{DoxyReturn}
+
+
+Definition at line 121 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a5ef9198bc0b08dc9e67efcd5dcf64ced}\label{classamici_1_1_forward_problem_a5ef9198bc0b08dc9e67efcd5dcf64ced}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+State\+Sensitivity\+Pointer@{get\+State\+Sensitivity\+Pointer}}
+\index{get\+State\+Sensitivity\+Pointer@{get\+State\+Sensitivity\+Pointer}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+State\+Sensitivity\+Pointer()}{getStateSensitivityPointer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}}$\ast$ get\+State\+Sensitivity\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+accessor for pointer to sx \begin{DoxyReturn}{Returns}
+\&sx 
+\end{DoxyReturn}
+
+
+Definition at line 128 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a440eebbd8bf6a343ff7ee80ddc39b0a0}\label{classamici_1_1_forward_problem_a440eebbd8bf6a343ff7ee80ddc39b0a0}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!get\+State\+Derivative\+Sensitivity\+Pointer@{get\+State\+Derivative\+Sensitivity\+Pointer}}
+\index{get\+State\+Derivative\+Sensitivity\+Pointer@{get\+State\+Derivative\+Sensitivity\+Pointer}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{get\+State\+Derivative\+Sensitivity\+Pointer()}{getStateDerivativeSensitivityPointer()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_ami_vector_array}{Ami\+Vector\+Array}}$\ast$ get\+State\+Derivative\+Sensitivity\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+accessor for pointer to sdx \begin{DoxyReturn}{Returns}
+\&sdx 
+\end{DoxyReturn}
+
+
+Definition at line 135 of file forwardproblem.\+h.
+
+
+
+\subsubsection{Member Data Documentation}
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a7b56c3ca57dde73bdbc8dbe9772bca19}\label{classamici_1_1_forward_problem_a7b56c3ca57dde73bdbc8dbe9772bca19}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!model@{model}}
+\index{model@{model}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{model}{model}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_model}{Model}}$\ast$ model}
+
+pointer to model instance 
+
+Definition at line 140 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a4c0807651f0594a186e8856f22e442cc}\label{classamici_1_1_forward_problem_a4c0807651f0594a186e8856f22e442cc}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!rdata@{rdata}}
+\index{rdata@{rdata}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{rdata}{rdata}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_return_data}{Return\+Data}}$\ast$ rdata}
+
+pointer to return data instance 
+
+Definition at line 142 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_ae1ad25a4dd6b076c27672dc94d11dad0}\label{classamici_1_1_forward_problem_ae1ad25a4dd6b076c27672dc94d11dad0}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!solver@{solver}}
+\index{solver@{solver}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{solver}{solver}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classamici_1_1_solver}{Solver}}$\ast$ solver}
+
+pointer to solver instance 
+
+Definition at line 144 of file forwardproblem.\+h.
+
+\mbox{\Hypertarget{classamici_1_1_forward_problem_a9ec6aee8cd7c91d0e49aed6e3d0db4ce}\label{classamici_1_1_forward_problem_a9ec6aee8cd7c91d0e49aed6e3d0db4ce}} 
+\index{amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}!edata@{edata}}
+\index{edata@{edata}!amici\+::\+Forward\+Problem@{amici\+::\+Forward\+Problem}}
+\paragraph{\texorpdfstring{edata}{edata}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classamici_1_1_exp_data}{Exp\+Data}}$\ast$ edata}
+
+pointer to experimental data instance 
+
+Definition at line 146 of file forwardproblem.\+h.
+

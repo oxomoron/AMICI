@@ -1,0 +1,5 @@
+<map id="setStabLimDetB" name="setStabLimDetB">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a04ef010145a9a17746128e55d4e0a436" title="setupAMIB" alt="" coords="198,5,284,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a618a94f1d84f9c71230d476f9a0205ce" title="set stability limit detection mode " alt="" coords="171,56,311,83"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object " alt="" coords="359,56,520,83"/>
+</map>

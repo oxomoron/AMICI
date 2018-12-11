@@ -1,0 +1,8 @@
+<map id="getAdjMallocDone" name="getAdjMallocDone">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#abdf8989d57153fde8988e73a98979297" title="applyTolerancesASA" alt="" coords="199,31,344,58"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#a09d47957ba70f725efb5e3a385a274a6" title="applyQuadTolerancesASA" alt="" coords="183,81,360,109"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a04ef010145a9a17746128e55d4e0a436" title="setupAMIB" alt="" coords="476,56,563,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#af425163c5d98c472d17e080da4ee3b78" title="sets the absolute tolerance for the quadrature problem " alt="" coords="408,5,631,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object " alt="" coords="679,56,840,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#a086428d30274f2b7e6f94e8e7593dd8b" title="sets the relative tolerance for the quadrature problem " alt="" coords="410,107,629,134"/>
+</map>

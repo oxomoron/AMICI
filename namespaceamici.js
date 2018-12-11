@@ -1,0 +1,27 @@
+var namespaceamici =
+[
+    [ "ode_export", "namespaceamici_1_1ode__export.html", "namespaceamici_1_1ode__export" ],
+    [ "sbml_import", "namespaceamici_1_1sbml__import.html", "namespaceamici_1_1sbml__import" ],
+    [ "AmiException", "classamici_1_1_ami_exception.html", "classamici_1_1_ami_exception" ],
+    [ "AmiVector", "classamici_1_1_ami_vector.html", "classamici_1_1_ami_vector" ],
+    [ "AmiVectorArray", "classamici_1_1_ami_vector_array.html", "classamici_1_1_ami_vector_array" ],
+    [ "BackwardProblem", "classamici_1_1_backward_problem.html", "classamici_1_1_backward_problem" ],
+    [ "CvodeException", "classamici_1_1_cvode_exception.html", "classamici_1_1_cvode_exception" ],
+    [ "ExpData", "classamici_1_1_exp_data.html", "classamici_1_1_exp_data" ],
+    [ "ForwardProblem", "classamici_1_1_forward_problem.html", "classamici_1_1_forward_problem" ],
+    [ "IDAException", "classamici_1_1_i_d_a_exception.html", "classamici_1_1_i_d_a_exception" ],
+    [ "IntegrationFailure", "classamici_1_1_integration_failure.html", "classamici_1_1_integration_failure" ],
+    [ "IntegrationFailureB", "classamici_1_1_integration_failure_b.html", "classamici_1_1_integration_failure_b" ],
+    [ "Model", "classamici_1_1_model.html", "classamici_1_1_model" ],
+    [ "Model_DAE", "classamici_1_1_model___d_a_e.html", "classamici_1_1_model___d_a_e" ],
+    [ "Model_ODE", "classamici_1_1_model___o_d_e.html", "classamici_1_1_model___o_d_e" ],
+    [ "NewtonFailure", "classamici_1_1_newton_failure.html", "classamici_1_1_newton_failure" ],
+    [ "NewtonSolver", "classamici_1_1_newton_solver.html", "classamici_1_1_newton_solver" ],
+    [ "NewtonSolverDense", "classamici_1_1_newton_solver_dense.html", "classamici_1_1_newton_solver_dense" ],
+    [ "NewtonSolverIterative", "classamici_1_1_newton_solver_iterative.html", "classamici_1_1_newton_solver_iterative" ],
+    [ "NewtonSolverSparse", "classamici_1_1_newton_solver_sparse.html", "classamici_1_1_newton_solver_sparse" ],
+    [ "ReturnData", "classamici_1_1_return_data.html", "classamici_1_1_return_data" ],
+    [ "SetupFailure", "classamici_1_1_setup_failure.html", "classamici_1_1_setup_failure" ],
+    [ "Solver", "classamici_1_1_solver.html", "classamici_1_1_solver" ],
+    [ "SteadystateProblem", "classamici_1_1_steadystate_problem.html", "classamici_1_1_steadystate_problem" ]
+];

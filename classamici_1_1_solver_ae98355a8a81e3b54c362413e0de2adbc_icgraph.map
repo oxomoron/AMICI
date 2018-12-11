@@ -1,0 +1,5 @@
+<map id="dense" name="dense">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a6f41389f3a02d0b1ed9bfebcc080d3e1" title="initializeLinearSolver" alt="" coords="111,13,255,40"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a5cffde567803181ec12c71117c74b47a" title="Initialises the ami memory object and applies specified options. " alt="" coords="303,13,357,40"/>
+<area shape="rect" id="node4" href="$classamici_1_1_forward_problem.html#a4ef001eef23bc48270159d6193036858" title="amici::ForwardProblem\l::workForwardProblem" alt="" coords="405,5,563,48"/>
+</map>

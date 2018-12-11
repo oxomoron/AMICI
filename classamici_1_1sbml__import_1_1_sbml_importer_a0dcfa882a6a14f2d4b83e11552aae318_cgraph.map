@@ -1,0 +1,18 @@
+<map id="checkLibSBMLErrors" name="checkLibSBMLErrors">
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae5cdd2444bac89e61e6f717f7736acb6" title="Generate AMICI C++ files for the model provided to the constructor. " alt="" coords="200,259,288,286"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a17147ce5084526fa003563813c1be230" title="Reset the symbols attribute to default values. " alt="" coords="354,208,461,235"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ac188693ab1d9fc500d55748dbde9bf89" title="Read parameters, species, reactions, and so on from SBML model. " alt="" coords="355,259,460,286"/>
+<area shape="rect" id="node15" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a903b87aa6c483832424fa2cc76adc4d5" title="Perform symbolic computations required for objective function evaluation. " alt="" coords="336,520,479,547"/>
+<area shape="rect" id="node5" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae9585f937c02f0618abeb06dd48bcd54" title="Check whether all required SBML features are supported. " alt="" coords="565,5,668,33"/>
+<area shape="rect" id="node6" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a26d072114efe1fec695cc4030c64e1ea" title="Get parameter information from SBML model. " alt="" coords="548,56,685,83"/>
+<area shape="rect" id="node7" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a4912a89bf86ec8e0c1d9758b8090e327" title="Get species information from SBML model. " alt="" coords="559,107,674,134"/>
+<area shape="rect" id="node8" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#adbdd8e9af99679633109829d94b3fd3e" title="Get reactions from SBML model. " alt="" coords="553,157,680,185"/>
+<area shape="rect" id="node9" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a526afc71a857e7fdefb4754fc2f93882" title="Get compartment information, stoichiometric matrix and fluxes from SBML model. " alt="" coords="539,208,694,235"/>
+<area shape="rect" id="node10" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a7df6b4ae4e3e757bc8de5e0cc54fe16b" title="Process Rules defined in the SBML model. " alt="" coords="566,259,668,286"/>
+<area shape="rect" id="node11" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#af2a2cbf8550d30fc0e95a875758b8262" title="Convert equations from amount to volume. " alt="" coords="527,309,707,337"/>
+<area shape="rect" id="node12" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a2819c6ad1b541e49e728aa172e57208e" title="Convert time_symbol into cpp variable. " alt="" coords="568,360,665,387"/>
+<area shape="rect" id="node13" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a122b9921e2fb5bd0fc75310c47413dd1" title="Remove all reserved symbols from self.symbols. " alt="" coords="536,411,697,438"/>
+<area shape="rect" id="node14" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a5348e7b5041334f8c54b45c5c928dea0" title="Replace all special constants by their respective SBML csymbol definition. " alt="" coords="532,461,701,489"/>
+<area shape="rect" id="node16" href="$namespaceamici_1_1sbml__import.html#a178c633ce1bc7f2af378ce56bd404541" title="Replace log(a, b) in the given string by ln(b)/ln(a) " alt="" coords="529,512,705,555"/>
+<area shape="rect" id="node17" href="$namespaceamici_1_1sbml__import.html#a6bff3fedaa877c35e5ea7bc112ec4adf" title="transforms an list into list of strings " alt="" coords="542,579,691,606"/>
+</map>

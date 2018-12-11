@@ -1,0 +1,8 @@
+<map id="checkConvergence" name="checkConvergence">
+<area shape="rect" id="node2" href="$classamici_1_1_steadystate_problem.html#afd3dce48510d1fce72b18049b40fff5a" title="getWrmsNorm" alt="" coords="227,5,334,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#adbb1549f9762649455bde39c29d47a03" title="returns the absolute tolerance for the steady state problem " alt="" coords="193,56,368,99"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#ae598de1a48d3c4af1d08b8436d481e11" title="returns the relative tolerance for the steady state problem " alt="" coords="195,123,366,166"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#affde3089fec2a1cca40d6cc0c4c2cf1d" title="returns the sensitvity order " alt="" coords="189,190,372,232"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#acf288b105b2fa4520d0d73f828687533" title="amici::AmiVector::getNVector" alt="" coords="420,5,614,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#a7452657cd5f8d541f9e823df5e82c516" title="amici::isNaN" alt="" coords="469,97,565,125"/>
+</map>

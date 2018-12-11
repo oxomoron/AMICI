@@ -1,0 +1,11 @@
+<map id="fdwdp" name="fdwdp">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a884ccb083130cb1af7ebe93f7a6d361a" title="fdydp" alt="" coords="179,5,233,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model___d_a_e.html#a551dfccd2fb1aa618c644a580639f5b8" title="amici::Model_DAE::fdxdotdp" alt="" coords="111,56,301,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model___d_a_e.html#ae3dc4629c9c56a4af01350b8c49f49a8" title="amici::Model_DAE::fqBdot" alt="" coords="117,107,294,134"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model___o_d_e.html#a371aa66b99b1b3b20ed2e533d9b44870" title="amici::Model_ODE::fdxdotdp" alt="" coords="110,157,301,185"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model___o_d_e.html#a9d0e4612af8d7b3c418d000b5e9ba84f" title="amici::Model_ODE::fqBdot" alt="" coords="117,208,295,235"/>
+<area shape="rect" id="node4" href="$classamici_1_1_model___d_a_e.html#a26e76f86f173a718466c9cc19d68550a" title="amici::Model_DAE::fsxdot" alt="" coords="358,31,532,58"/>
+<area shape="rect" id="node5" href="$classamici_1_1_model___d_a_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_DAE::fdxdotdp" alt="" coords="350,81,540,109"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model___o_d_e.html#a786f028681b0928eb431cd44e9bd254a" title="amici::Model_ODE::fsxdot" alt="" coords="357,157,533,185"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model___o_d_e.html#afd60580b84c72713288796453f6da33a" title="amici::Model_ODE::fdxdotdp" alt="" coords="349,208,540,235"/>
+</map>

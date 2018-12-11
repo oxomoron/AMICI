@@ -1,0 +1,25 @@
+<map id="setupAMIB" name="setupAMIB">
+<area shape="rect" id="node2" href="$classamici_1_1_backward_problem.html#aaa2f33176422b55808979bfc7ceb2573" title="amici::BackwardProblem\l::getdJydx" alt="" coords="144,5,312,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1_backward_problem.html#afd910c853cb52a19b17ff8b65832fe2e" title="amici::BackwardProblem\l::getxBptr" alt="" coords="144,72,312,115"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#ad20897c5c8bd47f5d4005989bead0e55" title="amici::AmiVector::reset" alt="" coords="150,138,307,166"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#ae62cf934983479ccb255785bdf455a2c" title="amici::AmiVector::at" alt="" coords="159,189,298,216"/>
+<area shape="rect" id="node6" href="$classamici_1_1_backward_problem.html#ab1f652d5ffaf80adab677b0a8393b48a" title="amici::BackwardProblem\l::getdxBptr" alt="" coords="144,240,312,283"/>
+<area shape="rect" id="node7" href="$classamici_1_1_backward_problem.html#a6b43b17396089785a111a5bc1fd27112" title="amici::BackwardProblem\l::getxQBptr" alt="" coords="144,307,312,349"/>
+<area shape="rect" id="node8" href="$classamici_1_1_solver.html#adb86fe4b29dd9c370bccee609b8deba3" title="allocateSolverB" alt="" coords="171,373,285,400"/>
+<area shape="rect" id="node9" href="$classamici_1_1_backward_problem.html#a209a0d59a5a5eebfba1e6db5cb209132" title="amici::BackwardProblem\l::getwhichptr" alt="" coords="144,424,312,467"/>
+<area shape="rect" id="node10" href="$classamici_1_1_solver.html#a14a9fe177339143801b38baeb800317a" title="binit" alt="" coords="205,490,251,518"/>
+<area shape="rect" id="node11" href="$classamici_1_1_backward_problem.html#ac337bf2284c1febeb302019b06c54c3e" title="amici::BackwardProblem\l::getwhich" alt="" coords="144,541,312,584"/>
+<area shape="rect" id="node12" href="$classamici_1_1_backward_problem.html#a1582a658df3f51a8c88b6f22b4205b3f" title="amici::BackwardProblem\l::gett" alt="" coords="144,608,312,651"/>
+<area shape="rect" id="node13" href="$classamici_1_1_solver.html#ac5c347a985fa73861a88e76c7b9904f8" title="setUserDataB" alt="" coords="176,674,281,702"/>
+<area shape="rect" id="node14" href="$classamici_1_1_solver.html#a1163fddb222195354bdcf306fc52a1d0" title="setMaxNumStepsB" alt="" coords="161,725,296,752"/>
+<area shape="rect" id="node15" href="$classamici_1_1_solver.html#a4f596731d15be6e9e76a2147aa1cce34" title="initializeLinearSolverB" alt="" coords="152,776,305,803"/>
+<area shape="rect" id="node20" href="$classamici_1_1_solver.html#a57c1900d556ab878f5fad94b4fcd1abd" title="qbinit" alt="" coords="202,826,255,854"/>
+<area shape="rect" id="node21" href="$classamici_1_1_solver.html#abdf8989d57153fde8988e73a98979297" title="applyTolerancesASA" alt="" coords="156,877,301,904"/>
+<area shape="rect" id="node23" href="$classamici_1_1_solver.html#a09d47957ba70f725efb5e3a385a274a6" title="applyQuadTolerancesASA" alt="" coords="140,928,317,955"/>
+<area shape="rect" id="node24" href="$classamici_1_1_solver.html#acb7f8ad7671faf5fa7e5fa7851e662ec" title="setStabLimDetB" alt="" coords="170,978,287,1006"/>
+<area shape="rect" id="node16" href="$classamici_1_1_solver.html#aaa1ecd357b3facae2f2d12784563ad25" title="denseB" alt="" coords="396,688,463,715"/>
+<area shape="rect" id="node17" href="$classamici_1_1_solver.html#a1081b1ac835a2bf9221552a07d04ef4d" title="setDenseJacFnB" alt="" coords="368,738,491,766"/>
+<area shape="rect" id="node18" href="$classamici_1_1_solver.html#a635908e6d209f02160e791f3ee9d0660" title="bandB" alt="" coords="400,789,460,816"/>
+<area shape="rect" id="node19" href="$classamici_1_1_solver.html#a1040308561e87b1e2d24c3ab9581e14d" title="setBandJacFnB" alt="" coords="372,840,487,867"/>
+<area shape="rect" id="node22" href="$classamici_1_1_solver.html#a9673b3bc9248c4b7a156da9632b91436" title="getAdjMallocDone" alt="" coords="365,902,494,930"/>
+</map>

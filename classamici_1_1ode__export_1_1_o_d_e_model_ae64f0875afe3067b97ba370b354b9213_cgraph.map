@@ -1,0 +1,7 @@
+<map id="__init__" name="__init__">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a86a18c4e461de76881b6af72e4feb8d9" title="amici::Solver::nx" alt="" coords="121,5,241,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a43830bc0d4337068016ab3f290e3cdca" title="Number of states. " alt="" coords="162,56,200,83"/>
+<area shape="rect" id="node6" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#ac3d9b681827ebea0e5bee18c9d7fc44d" title="Number of Observables. " alt="" coords="162,107,200,134"/>
+<area shape="rect" id="node4" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a47906a8f4c249a513f4d6ca7c12d2304" title="Returns (and constructs if necessary) the identifiers for a symbolic entity. " alt="" coords="289,81,334,109"/>
+<area shape="rect" id="node5" href="$classamici_1_1ode__export_1_1_o_d_e_model.html#a2abe6260f663dfbcd7e984e0e690ef58" title="Generates the symbolic identifiers for a symbolic variable. " alt="" coords="382,81,508,109"/>
+</map>

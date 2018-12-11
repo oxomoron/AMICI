@@ -1,0 +1,87 @@
+\hypertarget{classamici_1_1ode__export_1_1_model_quantity}{}\subsection{Model\+Quantity Class Reference}
+\label{classamici_1_1ode__export_1_1_model_quantity}\index{Model\+Quantity@{Model\+Quantity}}
+
+
+Base class for model components.  
+
+
+
+
+Inheritance diagram for Model\+Quantity\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classamici_1_1ode__export_1_1_model_quantity__inherit__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, identifier, name, value)
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}} instance. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity_a9a47563093dfc5ba12274b66e368920c}{\+\_\+\+\_\+repr\+\_\+\+\_\+}} (self)
+\begin{DoxyCompactList}\small\item\em Representation of the \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+
+
+Definition at line 289 of file ode\+\_\+export.\+py.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64}\label{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64}} 
+\index{amici\+::ode\+\_\+export\+::\+Model\+Quantity@{amici\+::ode\+\_\+export\+::\+Model\+Quantity}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!amici\+::ode\+\_\+export\+::\+Model\+Quantity@{amici\+::ode\+\_\+export\+::\+Model\+Quantity}}
+\paragraph{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{identifier,  }\item[{}]{name,  }\item[{}]{value }\end{DoxyParamCaption})}
+
+This function sanitizes input from pysb to make sure we are operating on flat symby.\+Symbol and sympy.\+Basic and not respective derived pysb classes
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & unique identifier of the quantity ~\newline
+{\bfseries Type}\+: sympy.\+Symbol\\
+\hline
+{\em name} & individual name of the quantity (does not need to be unique) ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em value} & either formula, numeric value or initial value\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}} instance
+\end{DoxyReturn}
+\begin{DoxyParagraph}{Type\+Error}
+is thrown if input types do not match documented types 
+\end{DoxyParagraph}
+
+
+Definition at line 309 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_model_quantity_a9a47563093dfc5ba12274b66e368920c}\label{classamici_1_1ode__export_1_1_model_quantity_a9a47563093dfc5ba12274b66e368920c}} 
+\index{amici\+::ode\+\_\+export\+::\+Model\+Quantity@{amici\+::ode\+\_\+export\+::\+Model\+Quantity}!\+\_\+\+\_\+repr\+\_\+\+\_\+@{\+\_\+\+\_\+repr\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+repr\+\_\+\+\_\+@{\+\_\+\+\_\+repr\+\_\+\+\_\+}!amici\+::ode\+\_\+export\+::\+Model\+Quantity@{amici\+::ode\+\_\+export\+::\+Model\+Quantity}}
+\paragraph{\texorpdfstring{\+\_\+\+\_\+repr\+\_\+\+\_\+()}{\_\_repr\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+repr\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+string representation of the \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}} 
+\end{DoxyReturn}
+
+
+Definition at line 348 of file ode\+\_\+export.\+py.
+

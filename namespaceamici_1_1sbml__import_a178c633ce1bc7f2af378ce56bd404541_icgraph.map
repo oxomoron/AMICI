@@ -1,0 +1,5 @@
+<map id="replaceLogAB" name="replaceLogAB">
+<area shape="rect" id="node2" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a903b87aa6c483832424fa2cc76adc4d5" title="Perform symbolic computations required for objective function evaluation. " alt="" coords="158,5,421,48"/>
+<area shape="rect" id="node3" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#ae5cdd2444bac89e61e6f717f7736acb6" title="Generate AMICI C++ files for the model provided to the constructor. " alt="" coords="469,13,751,40"/>
+<area shape="rect" id="node4" href="$classamici_1_1sbml__import_1_1_sbml_importer.html#a0dcfa882a6a14f2d4b83e11552aae318" title="Checks the error log in the current self.sbml_doc. " alt="" coords="799,5,1049,48"/>
+</map>

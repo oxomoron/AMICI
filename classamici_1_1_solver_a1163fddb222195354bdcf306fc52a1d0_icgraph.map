@@ -1,0 +1,5 @@
+<map id="setMaxNumStepsB" name="setMaxNumStepsB">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a04ef010145a9a17746128e55d4e0a436" title="setupAMIB" alt="" coords="249,5,335,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#aa1d39cd744f489c17c3497c98acb7f59" title="sets the maximum number of solver steps for the backward problem " alt="" coords="189,56,395,83"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#aab6be0027d918715e2ba50828088110b" title="setSolverOptions solver options from the matlab call to a solver object " alt="" coords="443,56,605,83"/>
+</map>

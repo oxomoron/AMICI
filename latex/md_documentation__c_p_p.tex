@@ -1,0 +1,33 @@
+The \mbox{\hyperlink{python_interface}{Python Interface}} and \mbox{\hyperlink{matlab_interface}{M\+A\+T\+L\+AB Interface}} can translate the model definition into C++ code, which is then compiled into a .mex file or a python module. Advanced users can also use this code within stand-\/alone C/\+C++ application for use in other environments (e.\+g. on high performance computing systems). This section will give a short overview over the generated files and provide a brief introduction of how this code can be included in other applications.
+
+\subsubsection*{Generated model files}
+
+{\ttfamily \mbox{\hyperlink{amiwrap_8m}{amiwrap.\+m}}} and {\ttfamily \mbox{\hyperlink{classamici_1_1sbml__import_1_1_sbml_importer_ae5cdd2444bac89e61e6f717f7736acb6}{amici.\+Sbml\+Importer.\+sbml2amici}}} write the model source files to \$\{A\+M\+I\+C\+I\+\_\+\+R\+O\+O\+T\+\_\+\+D\+IR\}/models/\$\{M\+O\+D\+E\+L\+\_\+\+N\+A\+ME\} by default. The content of a model source directory might look something like this (given {\ttfamily M\+O\+D\+E\+L\+\_\+\+N\+A\+ME=model\+\_\+steadystate})\+:
+
+
+\begin{DoxyCode}
+CMakeLists.txt
+hashes.mat 
+main.cpp 
+model\_steadystate\_deltaqB.cpp 
+model\_steadystate\_deltaqB.h 
+[... many more files model\_steadystate\_*.(cpp|h|md5|o) ]
+wrapfunctions.cpp 
+wrapfunctions.h 
+model\_steadystate.h 
+\end{DoxyCode}
+
+
+\subsubsection*{Running a simulation}
+
+The entry function for running an A\+M\+I\+CI simulation is {\ttfamily run\+Amici\+Simulation(...)}, declared in \mbox{\hyperlink{amici_8h_source}{amici.\+h}}. This function requires (i) a {\ttfamily Model} instance. For the example {\ttfamily model\+\_\+steadystate} the respective class is provided as {\ttfamily Model\+\_\+model\+\_\+steadystate} in {\ttfamily model\+\_\+steadystate.\+h}. For convenience, the header {\ttfamily wrapfunctions.\+h} defines a function {\ttfamily get\+Model()}, that returns an instance of that class. (ii) a {\ttfamily Solver} instance. This solver instance needs to match the requirements of the model and can be generated using {\ttfamily model-\/$>$get\+Solver()}. (iii) optionally an {\ttfamily Exp\+Data} instance, which contains any experimental data.
+
+A scaffold for a standalone simulation program is generated in {\ttfamily main.\+cpp} in the model source directory. This programm shows how to initialize the above-\/mentioned structs and how to obtain the simulation results.
+
+\subsubsection*{Compiling and linking}
+
+The complete A\+M\+I\+CI A\+PI is available through {\ttfamily \mbox{\hyperlink{amici_8h_source}{amici.\+h}}}; this is the only header file that needs to be included. {\ttfamily \mbox{\hyperlink{hdf5_8h_source}{hdf5.\+h}}} provides some functions for reading and writing \href{https://support.hdfgroup.org/}{\tt H\+D\+F5} files).
+
+You need to compile and link {\ttfamily \$\{A\+M\+I\+C\+I\+\_\+\+R\+O\+O\+T\+\_\+\+D\+IR\}/models/\$\{M\+O\+D\+E\+L\+\_\+\+N\+A\+ME\}/$\ast$.cpp}, {\ttfamily \$\{A\+M\+I\+C\+I\+\_\+\+R\+O\+O\+T\+\_\+\+D\+IR\}/src/$\ast$.cpp}, the S\+U\+N\+D\+I\+A\+LS and the S\+U\+I\+T\+E\+S\+P\+A\+R\+SE library, or use the C\+Make package configuration from the build directory which tells C\+Make about all A\+M\+I\+CI dependencies.
+
+Along with {\ttfamily main.\+cpp}, a \href{https://cmake.org/}{\tt C\+Make} file ({\ttfamily C\+Make\+Lists.\+txt}) will be generated automatically. The C\+Make file shows the abovementioned library dependencies. These files provide a scaffold for a standalone simulation program. The required numerical libraries are shipped with A\+M\+I\+CI. To compile them, run {\ttfamily \$\{A\+M\+I\+C\+I\+\_\+\+R\+O\+O\+T\+\_\+\+D\+IR\}/scripts/run-\/tests.sh} once. H\+D\+F5 libraries and header files need to be installed separately. More information on how to run the compiled program is provided in {\ttfamily main.\+cpp}. 

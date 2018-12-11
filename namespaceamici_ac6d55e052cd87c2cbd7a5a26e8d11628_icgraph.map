@@ -1,0 +1,8 @@
+<map id="reorder" name="reorder">
+<area shape="rect" id="node2" href="$namespaceamici.html#a0a2748c0e1bf95de52a2e2cf3450584e" title="writeMatlabField2" alt="" coords="118,31,243,58"/>
+<area shape="rect" id="node6" href="$namespaceamici.html#ae2abb9d1f5b8350ced2799fc10f83ec7" title="writeMatlabField3" alt="" coords="118,81,243,109"/>
+<area shape="rect" id="node7" href="$namespaceamici.html#a234b1006ff3799742ade304a46ed4965" title="writeMatlabField4" alt="" coords="118,132,243,159"/>
+<area shape="rect" id="node3" href="$namespaceamici.html#a7449834fca1e0bde53d5f73ae0d2b929" title="initMatlabReturnFields" alt="" coords="301,5,455,33"/>
+<area shape="rect" id="node5" href="$namespaceamici.html#aa12d4917fed647a1edeaaa26a261c770" title="initMatlabDiagnosisFields" alt="" coords="291,56,464,83"/>
+<area shape="rect" id="node4" href="$namespaceamici.html#a698409f4b9ce06055bcebcee39f81a91" title="getReturnDataMatlabFromAmiciCall" alt="" coords="512,5,747,33"/>
+</map>

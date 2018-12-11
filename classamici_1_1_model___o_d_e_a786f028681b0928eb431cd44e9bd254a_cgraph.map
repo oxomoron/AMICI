@@ -1,0 +1,13 @@
+<map id="fsxdot" name="fsxdot">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a0c06c5326bb82ceedba30171c122cb8a" title="computes nonnegative state vector according to stateIsNonNegative if anyStateNonNegative is set to fa..." alt="" coords="231,157,423,185"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model___o_d_e.html#a371aa66b99b1b3b20ed2e533d9b44870" title="fdxdotdp" alt="" coords="110,284,183,311"/>
+<area shape="rect" id="node9" href="$classamici_1_1_model.html#a711281d57e9710226face29151cc4641" title="Get timepoint for given index. " alt="" coords="713,259,821,286"/>
+<area shape="rect" id="node11" href="$classamici_1_1_model___o_d_e.html#a3147c7a327fead438efe714f04491c82" title="fJSparse" alt="" coords="290,44,364,71"/>
+<area shape="rect" id="node12" href="$classamici_1_1_model___o_d_e.html#a01f84575fd8df46a04fd472bbbc9d821" title="fsxdot" alt="" coords="299,95,355,122"/>
+<area shape="rect" id="node3" href="$classamici_1_1_ami_vector.html#a5f00d4dc3e7866d193ce926f35542801" title="amici::AmiVector::getLength" alt="" coords="475,132,662,159"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#ae62cf934983479ccb255785bdf455a2c" title="amici::AmiVector::at" alt="" coords="499,183,638,210"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#acf288b105b2fa4520d0d73f828687533" title="amici::AmiVector::getNVector" alt="" coords="471,81,665,109"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#a7a8903313cd31dad4fa580c0e434bb1c" title="Recurring terms in xdot, parameter derivative. " alt="" coords="257,284,397,311"/>
+<area shape="rect" id="node10" href="$classamici_1_1_model.html#a0f8e994055e37954d7746f3c1af27a5c" title="number of paramaeters wrt to which sensitivities are computed " alt="" coords="260,335,394,362"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a7e63009c65fc1361cc5a6e1fc3d5ff1a" title="Recurring terms in xdot. " alt="" coords="510,335,627,362"/>
+</map>

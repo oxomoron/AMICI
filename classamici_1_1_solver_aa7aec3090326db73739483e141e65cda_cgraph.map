@@ -1,0 +1,6 @@
+<map id="getDiagnosisB" name="getDiagnosisB">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#ac72a1a31217465d0f016b38382e487fa" title="getNumSteps" alt="" coords="205,5,307,33"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#aaf8d4b1375cfa9e517ef0ec54e33d4d8" title="getNumRhsEvals" alt="" coords="194,56,318,83"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a605fc85e2d8183dca4ebe24f9d810516" title="getNumErrTestFails" alt="" coords="187,107,325,134"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a34f79927b47e70db74f77943936e18b0" title="getNumNonlinSolvConvFails" alt="" coords="161,157,352,185"/>
+</map>

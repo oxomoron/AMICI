@@ -1,0 +1,23 @@
+<map id="workForwardProblem" name="workForwardProblem">
+<area shape="rect" id="node2" href="$classamici_1_1_solver.html#a5cffde567803181ec12c71117c74b47a" title="Initialises the ami memory object and applies specified options. " alt="" coords="225,208,362,235"/>
+<area shape="rect" id="node18" href="$classamici_1_1_return_data.html#a014198f2b584ac5b1a2b8a5dea13e411" title="initializeObjectiveFunction " alt="" coords="206,259,381,302"/>
+<area shape="rect" id="node19" href="$classamici_1_1_solver.html#a75aabe2e004edaba96db48b0abd3fc6f" title="getNewtonPreequilibration " alt="" coords="209,326,378,368"/>
+<area shape="rect" id="node20" href="$classamici_1_1_ami_vector.html#a5f73cf1c7b6769c44dfb51b048ec4d63" title="amici::AmiVector::getVector" alt="" coords="201,392,386,419"/>
+<area shape="rect" id="node21" href="$classamici_1_1_solver.html#a888cb7142e103c84bdeeb99566aba65a" title="amici::Solver::getSensitivity\lMethod" alt="" coords="202,443,385,486"/>
+<area shape="rect" id="node22" href="$classamici_1_1_solver.html#affde3089fec2a1cca40d6cc0c4c2cf1d" title="returns the sensitvity order " alt="" coords="202,510,385,552"/>
+<area shape="rect" id="node3" href="$classamici_1_1_solver.html#a0ae4930d2f6fa37ebcc55e334012fd6d" title="amici::Solver::allocateSolver" alt="" coords="441,5,630,33"/>
+<area shape="rect" id="node4" href="$classamici_1_1_solver.html#a566d267fa2815fe0dd3c29d44f68209b" title="amici::Solver::init" alt="" coords="474,56,596,83"/>
+<area shape="rect" id="node5" href="$classamici_1_1_solver.html#a9819e5e5fa0d702721235eabd9e7c0e6" title="amici::Solver::applyTolerances" alt="" coords="434,107,636,134"/>
+<area shape="rect" id="node8" href="$classamici_1_1_solver.html#ab5e90e0ad8f195cd6ca2ce477cc734b7" title="amici::Solver::setErrHandlerFn" alt="" coords="434,157,637,185"/>
+<area shape="rect" id="node9" href="$classamici_1_1_solver.html#ac1ca4675503688acf946f6530fb12c10" title="amici::Solver::setUserData" alt="" coords="446,208,625,235"/>
+<area shape="rect" id="node10" href="$classamici_1_1_solver.html#a29f208ce304b01c8fe294ab9143a98e5" title="amici::Solver::setMaxNum\lSteps" alt="" coords="447,259,623,302"/>
+<area shape="rect" id="node11" href="$classamici_1_1_solver.html#a040fb365c47a8e8ccc1f32021b38bfcb" title="amici::Solver::setStabLimDet" alt="" coords="439,325,631,353"/>
+<area shape="rect" id="node12" href="$classamici_1_1_solver.html#a0bb31b3b358751d4447199e2732db932" title="amici::Solver::rootInit" alt="" coords="462,376,608,403"/>
+<area shape="rect" id="node13" href="$classamici_1_1_solver.html#a6f41389f3a02d0b1ed9bfebcc080d3e1" title="amici::Solver::initialize\lLinearSolver" alt="" coords="459,427,611,470"/>
+<area shape="rect" id="node6" href="$classamici_1_1_solver.html#af4bbf9fea3348d86380be1c059e4b9f5" title="amici::Solver::getMallocDone" alt="" coords="689,81,883,109"/>
+<area shape="rect" id="node7" href="$classamici_1_1_solver.html#a6a688afa51ec71eded6c8801faaafac3" title="amici::Solver::setSStolerances" alt="" coords="685,132,887,159"/>
+<area shape="rect" id="node14" href="$classamici_1_1_solver.html#ae98355a8a81e3b54c362413e0de2adbc" title="amici::Solver::dense" alt="" coords="715,359,856,386"/>
+<area shape="rect" id="node15" href="$classamici_1_1_solver.html#abb3355b298fb576e7bcd3f333d14b5af" title="amici::Solver::setDenseJacFn" alt="" coords="687,409,885,437"/>
+<area shape="rect" id="node16" href="$classamici_1_1_solver.html#a00863fd76b453dae4e883a6dd5512df3" title="amici::Solver::band" alt="" coords="718,460,853,487"/>
+<area shape="rect" id="node17" href="$classamici_1_1_solver.html#a1ac4c2c1cf9df3c478ade2b1d5e728c6" title="amici::Solver::setBandJacFn" alt="" coords="691,511,881,538"/>
+</map>

@@ -1,0 +1,73 @@
+\hypertarget{classamici_1_1ode__export_1_1_state}{}\subsection{State Class Reference}
+\label{classamici_1_1ode__export_1_1_state}\index{State@{State}}
+
+
+A \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}} variable defines an entity that evolves with time according to the provided time derivative, abbreviated by {\ttfamily x}  
+
+
+
+
+Inheritance diagram for State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classamici_1_1ode__export_1_1_state__inherit__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, identifier, name, value, dt)
+\begin{DoxyCompactList}\small\item\em Create a new \mbox{\hyperlink{classamici_1_1ode__export_1_1_state}{State}} instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+
+
+Definition at line 356 of file ode\+\_\+export.\+py.
+
+
+
+\subsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464}\label{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464}} 
+\index{amici\+::ode\+\_\+export\+::\+State@{amici\+::ode\+\_\+export\+::\+State}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!amici\+::ode\+\_\+export\+::\+State@{amici\+::ode\+\_\+export\+::\+State}}
+\paragraph{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def \+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{identifier,  }\item[{}]{name,  }\item[{}]{value,  }\item[{}]{dt }\end{DoxyParamCaption})}
+
+Extends \mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity_a258843a3afab00b576ccf386e8673a64}{Model\+Quantity.\+\_\+\+\_\+init\+\_\+\+\_\+}} by dt
+
+
+\begin{DoxyParams}{Parameters}
+{\em identifier} & unique identifier of the state ~\newline
+{\bfseries Type}\+: sympy.\+Symbol\\
+\hline
+{\em name} & individual name of the state (does not need to be unique) ~\newline
+{\bfseries Type}\+: str\\
+\hline
+{\em value} & initial value ~\newline
+{\bfseries Type}\+: symengine.\+Basic\\
+\hline
+{\em dt} & time derivative ~\newline
+{\bfseries Type}\+: symengine.\+Basic\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classamici_1_1ode__export_1_1_model_quantity}{Model\+Quantity}} instance
+\end{DoxyReturn}
+\begin{DoxyParagraph}{Type\+Error}
+is thrown if input types do not match documented types 
+\end{DoxyParagraph}
+
+
+Definition at line 377 of file ode\+\_\+export.\+py.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{classamici_1_1ode__export_1_1_state_a6d1dffcaf03a86ff057810e5eed3b464_cgraph}
+\end{center}
+\end{figure}

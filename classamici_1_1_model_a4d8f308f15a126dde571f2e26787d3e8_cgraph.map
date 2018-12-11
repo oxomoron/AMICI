@@ -1,0 +1,9 @@
+<map id="initialize" name="initialize">
+<area shape="rect" id="node2" href="$classamici_1_1_model.html#a73d147a7108479e20833ba816cac0f6b" title="initializeStates" alt="" coords="122,31,229,58"/>
+<area shape="rect" id="node6" href="$classamici_1_1_model.html#a8c3a1647a75581d9e2fc5de106d87a0d" title="fdx0" alt="" coords="152,81,199,109"/>
+<area shape="rect" id="node7" href="$classamici_1_1_model.html#afc1c1ffc33f397ed131f85c8321dd677" title="initHeaviside" alt="" coords="127,132,224,159"/>
+<area shape="rect" id="node3" href="$classamici_1_1_model.html#aa9a9e12a414d9ac91249b63d01ab7bca" title="fx0" alt="" coords="281,31,320,58"/>
+<area shape="rect" id="node4" href="$classamici_1_1_ami_vector.html#ad20897c5c8bd47f5d4005989bead0e55" title="amici::AmiVector::reset" alt="" coords="373,5,530,33"/>
+<area shape="rect" id="node5" href="$classamici_1_1_ami_vector.html#aee17a5447b8e03180f89a2a8acbd572f" title="amici::AmiVector::data" alt="" coords="375,56,528,83"/>
+<area shape="rect" id="node8" href="$classamici_1_1_model.html#a9124751917d81611cc237c853d9cf6b6" title="froot" alt="" coords="277,132,325,159"/>
+</map>
