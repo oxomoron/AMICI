@@ -13,8 +13,16 @@ function makeSyms( this )
 if(~isfield(this.sym,'xdot'))
     if(isfield(this.sym,'f'))
         try
-            this.sym.xdot = betterSym(this.sym.f(:));
+%             this.sym.xdot = betterSym(this.sym.f(:));
+%             this.sym = rmfield(this.sym,'f');
+            
+            if(~isa(this.sym.f(:),'sym'))
+                this.sym.xdot = betterSym(this.sym.f(:));
+            else
+                this.sym.xdot = this.sym.f(:);
+            end
             this.sym = rmfield(this.sym,'f');
+            
         catch
             error('Could not transform model.sym.f into a symbolic variable, please check the definition!')
         end

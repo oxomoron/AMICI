@@ -107,7 +107,7 @@ SUITESPARSE_VERSION = 4.5.3
     # instead of $(CC), $(CXX), and $(F77).  To disable this feature and
     # use the $(CC), $(CXX), and $(F77) compilers, use 'make AUTOCC=no'
 
-    AUTOCC ?= yes
+    AUTOCC ?= no
 
     ifneq ($(AUTOCC),no)
         ifneq ($(shell which icc 2>/dev/null),)

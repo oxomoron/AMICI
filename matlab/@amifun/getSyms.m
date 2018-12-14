@@ -200,7 +200,7 @@ function [this,model] = getSyms(this,model)
             
         case 'w'
             optimize = getoptimized(optsym(model.fun.xdot.sym));
-            tmpxdot = sym(char(optimize(end)));
+            %tmpxdot = sym(char(optimize(end)));
             nw = (length(optimize)-1);
             model.nw = nw;
             if(nw>0)
@@ -215,9 +215,10 @@ function [this,model] = getSyms(this,model)
             end
 %             model.nw = 0;
 %             nw = 0;
-%             this.sym = sym(zeros(0,1));          
+%             this.sym = sym(zeros(0,1));        
             
-
+            tmpxdot = optimize(end);
+            tmpxdot = sym(tmpxdot(1));       
             
             ws = cell(nw,1);
             ts = cell(nw,1);

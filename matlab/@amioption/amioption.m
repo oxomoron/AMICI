@@ -67,6 +67,7 @@ classdef amioption < matlab.mixin.CustomDisplay
         % unscaled parameters p.
         % Use [] for default as specified in the model (fallback: 'lin').
         pscale = [];
+        qpositivex = [];
     end
     
     methods
