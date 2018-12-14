@@ -11,11 +11,6 @@ function amiwrap( varargin )
     % Return values:
     %  void
     
-    matVer = ver('MATLAB');
-    if(str2double(matVer.Version) >= 9.4)
-        error('MATLAB R2018a or higher is currently not supported (see https://github.com/ICB-DCM/AMICI/issues/307)')
-    end
-    
     %% 
     % check for MSVS
     if(~isempty(strfind(mex.getCompilerConfigurations('c++').Name,'Microsoft Windows')) || ~isempty(strfind(mex.getCompilerConfigurations('c++').Name,'Microsoft Visual')))
