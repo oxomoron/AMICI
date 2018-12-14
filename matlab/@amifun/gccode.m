@@ -9,22 +9,23 @@ function this = gccode(this,model,fid)
     % Return values:
     %  this: function definition object @type amifun
     
-    
     if(any(any(any(this.sym~=0))))
         
         % replace unknown partial derivatives
         if(model.maxflag)
-            this.sym = subs(this.sym,sym('D([1], am_max)'),sym('D1max'));
-            this.sym = subs(this.sym,sym('D([2], am_max)'),sym('D2max'));
+            this.sym = subs(this.sym,betterSym('D([1], am_max)'),sym('D1max'));
+            this.sym = subs(this.sym,betterSym('D([2], am_max)'),sym('D2max'));
             this.sym = subs(this.sym,sym('am_max'),sym('max'));
         end
         
         % If we have spline, we need to parse them to get derivatives
         if (model.splineflag)
             symstr = char(this.sym);
-            if (strfind(symstr, 'spline'))
+            if (contains(symstr, 'spline'))
                 tokens = regexp(symstr, 't\,\s(\w+\.\w+)\,', 'tokens');
-                nNodes = round(str2double(tokens{1}));
+                % Take maximum number of nodes to account for multiple
+                % splines of different number of nodes
+                nNodes = round(max(cellfun(@str2double,tokens)));
             end
             if (regexp(symstr, 'D\(\[(\w+|\w+\,\w+)\]\,.spline'))
                 isDSpline = true;
@@ -38,12 +39,12 @@ function this = gccode(this,model,fid)
                     for iNode = 1 : nNodes
                         if (model.o2flag)
                             for jNode = 1:nNodes
-                                this.sym(:,iCol) = subs(this.sym(:,iCol),sym(['D([' num2str(iNode*2+2) ', ' num2str(jNode*2+2) '], spline_pos)']),sym(['D' num2str(iNode*2+2) 'D' num2str(jNode*2+2) 'spline_pos']));
-                                this.sym(:,iCol) = subs(this.sym(:,iCol),sym(['D([' num2str(iNode*2+2) ', ' num2str(jNode*2+2) '], spline)']),sym(['D' num2str(iNode*2+2) 'D' num2str(jNode*2+2) 'spline']));
+                                this.sym(:,iCol) = subs(this.sym(:,iCol),betterSym(['D([' num2str(iNode*2+2) ', ' num2str(jNode*2+2) '], spline_pos)']),sym(['D' num2str(iNode*2+2) 'D' num2str(jNode*2+2) 'spline_pos']));
+                                this.sym(:,iCol) = subs(this.sym(:,iCol),betterSym(['D([' num2str(iNode*2+2) ', ' num2str(jNode*2+2) '], spline)']),sym(['D' num2str(iNode*2+2) 'D' num2str(jNode*2+2) 'spline']));
                             end
                         end
-                        this.sym(:,iCol) = subs(this.sym(:,iCol),sym(['D([' num2str(iNode*2+2) '], spline_pos)']),sym(['D' num2str(iNode*2+2) 'spline_pos']));
-                        this.sym(:,iCol) = subs(this.sym(:,iCol),sym(['D([' num2str(iNode*2+2) '], spline)']),sym(['D' num2str(iNode*2+2) 'spline']));
+                        this.sym(:,iCol) = subs(this.sym(:,iCol),betterSym(['D([' num2str(iNode*2+2) '], spline_pos)']),sym(['D' num2str(iNode*2+2) 'spline_pos']));
+                        this.sym(:,iCol) = subs(this.sym(:,iCol),betterSym(['D([' num2str(iNode*2+2) '], spline)']),sym(['D' num2str(iNode*2+2) 'spline']));                          
                     end
                 end
             end
@@ -162,5 +163,14 @@ function this = gccode(this,model,fid)
         %%
         % print to file
         fprintf(fid,[cstr '\n']);
+    end
+end
+
+function csym = betterSym(str)
+    matVer = ver('MATLAB');
+    if(str2double(matVer.Version)>=9.4)
+        csym = evalin(symengine,str);
+    else
+        csym = sym(str);
     end
 end

@@ -12,10 +12,7 @@ function makeSyms( this )
 % check whether sym is properly defined
 if(~isfield(this.sym,'xdot'))
     if(isfield(this.sym,'f'))
-        try
-%             this.sym.xdot = betterSym(this.sym.f(:));
-%             this.sym = rmfield(this.sym,'f');
-            
+        try           
             if(~isa(this.sym.f(:),'sym'))
                 this.sym.xdot = betterSym(this.sym.f(:));
             else
